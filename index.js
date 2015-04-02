@@ -14,9 +14,10 @@
           templateUrl: 'views/users.html',
           title: 'Users'
         },
-        'school': {
-          url: '/school/{schoolid}?schoolname&role',
-          templateUrl: 'modules/iframes/views/schools/school_manage.html'
+        'articles': {
+          url: '/articles',
+          templateUrl: 'views/reading/articles.html',
+          title: 'Articles'
         }
       };
 

@@ -1,58 +1,24 @@
 <div class="container" ng-controller="CtrlUsers" ng-init="initialization();">
-  <div class="row">
-    <div class="col-sm-4">
-      <div class="list-group">
-        <a href="#" class="list-group-item active">
-          America
-        </a>
-        <a href="#" class="list-group-item">
-          China
-        </a>
-        <a href="#" class="list-group-item">Morbi leo risus</a>
-        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-        <a href="#" class="list-group-item">Vestibulum at eros</a>
-      </div>
+  <div class="panel panel-default" ng-repeat="user in users">
+    <div class="panel-heading">
+      <h3 class="panel-title"><a ng-href="{{user.site}}" target="_blank">{{user.name}}</a></h3>
     </div>
-    <div class="col-sm-8">
-      <!--<div class="media" ng-repeat="user in users">-->
-        <!--<div class="media-left">-->
-          <!--<a ng-href="{{user.site}}" target="_blank">-->
-            <!--<img class="media-object" style="width: 64px;height: 64px;" ng-src="/websites/img/avatar/{{user.avatar}}" alt="{{user.name}}">-->
-          <!--</a>-->
-        <!--</div>-->
-        <!--<div class="media-body">-->
-          <!--<h4 class="media-heading">-->
-            <!--<a target="_blank" ng-href="{{user.site}}">{{user.name}}</a>-->
-          <!--</h4>-->
-          <!--{{user.description}}-->
-        <!--</div>-->
-      <!--</div>-->
-
-      <div class="panel panel-default" ng-repeat="user in users">
-        <div class="panel-heading">
-          <h3 class="panel-title">{{user.name}}</h3>
-        </div>
-        <div class="panel-body">
-          <div class="media">
-            <div class="media-left">
-              <a ng-href="{{user.site}}" target="_blank">
-                <img class="media-object" style="width: 64px;height: 64px;" ng-src="/websites/img/avatar/{{user.avatar}}" alt="{{user.name}}">
-              </a>
-            </div>
-            <div class="media-body">
-              <!--<h4 class="media-heading">-->
-                <!--<a target="_blank" ng-href="{{user.site}}">{{user.name}}</a>-->
-              <!--</h4>-->
-              {{user.description}}
-            </div>
-          </div>
-        </div>
-        <div class="panel-footer">
-          <a ng-href="{{user.github}}" target="_blank">
-            <i class="fa fa-github-alt"></i>
+    <div class="panel-body">
+      <div class="media">
+        <div class="media-left">
+          <a ng-href="{{user.site}}" target="_blank">
+            <img class="media-object" style="width: 64px;height: 64px;" ng-src="/websites/img/avatar/{{user.avatar}}" alt="{{user.name}}">
           </a>
         </div>
+        <div class="media-body">
+          {{user.description}}
+        </div>
       </div>
+    </div>
+    <div class="panel-footer">
+      <a ng-href="{{user.github}}" target="_blank">
+        <i class="fa fa-github-alt"></i>
+      </a>
     </div>
   </div>
 </div>

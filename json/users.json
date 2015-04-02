@@ -1,5 +1,12 @@
 [
   {
+    "name" : "Ruan YiFeng",
+    "site" : "http://www.ruanyifeng.com/",
+    "avatar" : "ruanyifeng.com.jpeg",
+    "github": "https://github.com/ruanyf",
+    "description": "阮一峰，70后，英文名Frank。他原是上海财经大学世界经济博士研究生。主要研究宏观金融、货币政策与美国经济。于2008年6月获得博士学位。目前在上海一所当地大学（上海金融学院 国际经贸学院）任教。他本人也是一名IT技术人员，主要关注网站制作，并且对免费软件有着坚定不移的信念。除了写博客以外，他还有三个网站：微趣、Italo Calvino in China和读书公园。"
+  },
+  {
     "name" : "Yehuda Katz",
     "site" : "http://yehudakatz.com/",
     "avatar" : "yehudakatz.com.jpeg",
