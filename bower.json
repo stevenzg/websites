@@ -1,0 +1,26 @@
+{
+  "name": "websites",
+  "version": "0.0.0",
+  "homepage": "http://gyf1.github.io/websites",
+  "authors": [
+    "GYF1 <guoyinfeng@live.com>"
+  ],
+  "description": "Collection of web sites that web developers should know",
+  "keywords": [
+    "Web",
+    "Sites"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4",
+    "jQuery": "~2.1.3",
+    "angular": "~1.3.15"
+  }
+}
