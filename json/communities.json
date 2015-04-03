@@ -1,7 +1,12 @@
 [
   {
     "name": "GitHub",
-    "logo": "github",
+    "logo": "github.png",
     "link": "http://github.com/"
+  },
+  {
+    "name": "Stack Overflow",
+    "logo": "stackoverflow.png",
+    "link": "http://stackoverflow.com/"
   }
 ]

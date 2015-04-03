@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-inverse navbar-static-top">
+<nav class="navbar navbar-default navbar-inverse navbar-static-top" ng-controller="CtrlNavbar">
   <div class="container container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -10,11 +10,12 @@
       <a class="navbar-brand" href="#">Websites</a>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#/users">User</a></li>
+        <li ng-class="{'active': isActive('')}">
+          <a href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li ng-class="{'active': isActive('/users')}"><a href="#/users">User</a></li>
         <li><a href="#/communities">Community</a></li>
         <li><a href="#/tools">Tool</a></li>
         <li><a href="#/frameworks">Frameworks</a></li>
@@ -44,6 +45,6 @@
           </ul>
         </li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+  </div>
 </nav>

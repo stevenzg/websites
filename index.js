@@ -18,6 +18,11 @@
           url: '/articles',
           templateUrl: 'views/reading/articles.html',
           title: 'Articles'
+        },
+        'communities': {
+          url: '/communities',
+          templateUrl: 'views/communities.html',
+          title: 'Communities'
         }
       };
 
