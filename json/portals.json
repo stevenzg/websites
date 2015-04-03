@@ -1,0 +1,20 @@
+[
+  {
+    "link": "https://css-tricks.com/",
+    "logo": "css-tricks.png",
+    "title": "CSS-Tricks",
+    "description": "Tips, Tricks, and Techniques on using Cascading Style Sheets."
+  },
+  {
+    "link": "http://tympanus.net/codrops/",
+    "logo": "codrops.png",
+    "title": "Codrops | Useful resources and inspiration for creative minds",
+    "description": "Codrops is a web design and development blog that publishes articles and tutorials about the latest web trends, techniques and new possibilities."
+  },
+  {
+    "link": "http://www.smashingmagazine.com/",
+    "logo": "smashingmagazine.png",
+    "title": "Smashing Magazine",
+    "description": "Smashing Magazine is an online magazine for professional Web designers and developers, with a focus on useful techniques, best practices and valuable resources."
+  }
+]

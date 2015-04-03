@@ -1,0 +1,9 @@
+<div ng-controller="CtrlFrameworks" ng-init="initialization();" class="container">
+  <table class="table table-hover">
+    <tr ng-repeat="framework in frameworks">
+      <td>
+        <a target="_blank" ng-href="{{framework.link}}">{{framework.name}}</a>
+      </td>
+    </tr>
+  </table>
+</div>

@@ -1,0 +1,16 @@
+<div ng-controller="CtrlPortals" ng-init="initialization();" class="container">
+  <div class="media" ng-repeat="portal in portals"
+       style="box-shadow: 0 0 1em #eee;padding:20px 30px 20px 30px;">
+    <div class="media-left">
+      <a ng-href="{{portal.link}}" target="_blank">
+        <img style="width:160px;height: auto;max-height: 100px;" class="media-object" ng-src="/websites/img/logo/{{portal.logo}}" alt="{{portal.name}}">
+      </a>
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading">
+        <a ng-href="{{portal.link}}" target="_blank">{{portal.title}}</a>
+      </h4>
+      {{portal.description}}
+    </div>
+  </div>
+</div>

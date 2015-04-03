@@ -23,6 +23,21 @@
           url: '/communities',
           templateUrl: 'views/communities.html',
           title: 'Communities'
+        },
+        'portals': {
+          url: '/portals',
+          templateUrl: 'views/portals.html',
+          title: 'Portals'
+        },
+        'tools': {
+          url: '/tools',
+          templateUrl: 'views/tools.html',
+          title: 'Tools'
+        },
+        'frameworks': {
+          url: '/frameworks',
+          templateUrl: 'views/frameworks.html',
+          title: 'Frameworks'
         }
       };
 

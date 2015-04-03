@@ -1,7 +1,7 @@
 <div ng-controller="CtrlCommunities" ng-init="initialization();" class="container">
   <div class="row">
-    <a target="_blank" ng-href="{{community.link}}" class="col-sm-3" ng-repeat="community in communities">
-      <img style="max-width:100%;" class="thumbnail" ng-src="/websites/img/logo/{{community.logo}}" alt="{{community.name}}">
+    <a target="_blank" ng-href="{{community.link}}" class="col-sm-2" ng-repeat="community in communities">
+      <img style="max-width:100%;" ng-src="/websites/img/logo/{{community.logo}}" alt="{{community.name}}">
     </a>
   </div>
 </div>
