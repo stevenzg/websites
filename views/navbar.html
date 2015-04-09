@@ -30,7 +30,7 @@
         <li ng-class="{'active': isActive('/frameworks')}">
           <a href="#/frameworks">Frameworks</a>
         </li>
-        <li class="dropdown">
+        <li ng-class="{'active': isReading()}" class="dropdown">
           <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Reading <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
             <li><a href="#/articles">Articles</a></li>
