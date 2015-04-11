@@ -1,0 +1,32 @@
+[
+  {
+    "name": "一早一晚",
+    "description": "远程工作者社区",
+    "link": "http://yizaoyiwan.com"
+  },
+  {
+    "name": "One Work- 远程工作者社区",
+    "description": "Apcow | 远程工作者社区 | 远程工作 |远程办公|One Work||Apcow-远程工作者社区",
+    "link": "http://apcow.com/"
+  },
+  {
+    "name": "Freelancer",
+    "description": "Hire freelance programmers, web developers, designers, writers, data entry &amp; more at a fraction of the cost on the World&#039;s Largest Outsourcing Marketplace.",
+    "link": "https://www.freelancer.com/"
+  },
+  {
+    "name": "oDesk",
+    "description": "Find freelancers and freelance jobs on oDesk - the world's largest online workplace where savvy businesses and professional freelancers go to work!",
+    "link": "https://www.odesk.com/"
+  },
+  {
+    "name": "Elance",
+    "description": "Access over 2 million skilled freelancers from around the world. Find rated web developers, mobile programmers, designers, writers, translators, marketing pros, virtual assistants and more.",
+    "link": "https://www.elance.com"
+  },
+  {
+    "name": "远程工作资料",
+    "description": "收集整理远程工作相关的资料",
+    "link": "https://github.com/greatghoul/remote-working"
+  }
+]

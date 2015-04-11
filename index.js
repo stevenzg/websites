@@ -38,6 +38,11 @@
           url: '/frameworks',
           templateUrl: 'views/frameworks.html',
           title: 'Frameworks'
+        },
+        'work': {
+          url: '/jobs',
+          templateUrl: 'views/jobs.html',
+          title: 'Jobs'
         }
       };
 
