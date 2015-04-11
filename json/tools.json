@@ -3,5 +3,11 @@
     "name": "WebStorm",
     "link": "https://www.jetbrains.com/webstorm/",
     "type": "IDE"
+  },
+  {
+    "name": "CSS3Gen",
+    "description": "CSS3Gen is a CSS3 Generator that allows you to generate CSS3 snippets for Box Shadow, Text Shadow, Border Radius and more.",
+    "link": "http://css3gen.com/",
+    "type": "Generator"
   }
 ]
