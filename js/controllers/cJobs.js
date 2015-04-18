@@ -9,6 +9,16 @@
         .error(function (data, status, headers, config) {
         });
     };
+
+    $scope.readInformationTechnology = function () {
+      $http.get('json/IT.json')
+        .success(function (data, status, headers, config) {
+          $scope.ITs = data;
+        })
+        .error(function (data, status, headers, config) {
+        });
+    };
+
   }
 
   angular.module('websites').controller('CtrlWork', ['$scope', '$http', ctrlWork]);

@@ -28,5 +28,10 @@
     "name": "远程工作资料",
     "description": "收集整理远程工作相关的资料",
     "link": "https://github.com/greatghoul/remote-working"
+  },
+  {
+    "name": "oDesk and Elance Tests",
+    "description": "Tests with answers",
+    "link": "http://odesk-tests.com/"
   }
 ]

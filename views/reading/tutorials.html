@@ -1,0 +1,7 @@
+<div class="container" ng-controller="CtrlTutorials" ng-init="initialization();">
+  <ul>
+    <li ng-repeat="article in articles">
+      <a ng-href="{{article.link}}" target="_blank">{{article.title}}</a>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,8 @@
+<div ng-controller="CtrlSelfBookMarks" ng-init="initialization();" class="container">
+  <table class="table table-hover">
+    <tr ng-repeat="bookmark in bookmarks">
+      <td><a ng-href="{{bookmark.link}}">{{bookmark.title}}</a></td>
+      <td><span class="label label-info">{{bookmark.type}}</span></td>
+    </tr>
+  </table>
+</div>

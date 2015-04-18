@@ -1,0 +1,10 @@
+<div ng-controller="CtrlWork"
+     ng-init="readInformationTechnology();"
+     class="container">
+  <div class="bs-callout bs-callout-default" ng-repeat="job in ITs">
+    <h4>
+      <a ng-href="{{job.link}}" target="_blank">{{job.title}}</a>
+    </h4>
+    <p style="text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);">{{job.description}}</p>
+  </div>
+</div>

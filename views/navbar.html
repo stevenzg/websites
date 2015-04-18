@@ -1,5 +1,5 @@
 <nav class="navbar navbar-default navbar-inverse navbar-static-top" ng-controller="CtrlNavbar">
-  <div class="container container-fluid">
+  <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
@@ -7,14 +7,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Websites</a>
+      <a ng-class="{'active': isActive('')}" class="navbar-brand" href="#">Websites</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li ng-class="{'active': isActive('')}">
-          <a href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
+        <!--<li ng-class="{'active': isActive('')}">-->
+          <!--<a href="#">Home <span class="sr-only">(current)</span></a>-->
+        <!--</li>-->
         <li ng-class="{'active': isActive('/users')}">
           <a href="#/users">Users</a>
         </li>
@@ -42,12 +42,24 @@
             <!--<li><a href="#">One more separated link</a></li>-->
           </ul>
         </li>
-        <li ng-class="{'active': isActive('/jobs')}">
-          <a href="#/jobs">Jobs</a>
-        </li>
+
+
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="https://github.com/GYF1/websites" target="_blank">GitHub</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Other<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li ng-class="{'active': isActive('/jobs')}">
+              <a href="#/jobs">Jobs</a>
+            </li>
+            <li ng-class="{'active': isActive('/IT')}">
+              <a href="#/IT">IT</a>
+            </li>
+            <li class="divider"></li>
+            <li><a href="#/selfbookmarks">SelfBookMarks</a></li>
+            <li><a href="https://github.com/GYF1/websites" target="_blank">GitHub</a></li>
+          </ul>
+        </li>
       </ul>
     </div>
   </div>

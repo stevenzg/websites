@@ -1,10 +1,31 @@
 [
   {
+    "name" : "Douglas Crockford",
+    "site" : "http://www.crockford.com/",
+    "avatar" : "douglascrockford.jpg",
+    "github": "https://github.com/douglascrockford",
+    "description": "When you get bored, click something. If that doesn't help, then turn off your computer immediately."
+  },
+  {
+    "name" : "Addy Osmani",
+    "site" : "http://addyosmani.com/blog/",
+    "avatar" : "addyosmani.jpg",
+    "github": "http://www.addyosmani.com",
+    "description": "When you get bored, click something. If that doesn't help, then turn off your computer immediately."
+  },
+  {
     "name" : "Nicholas C. Zakas",
     "site" : "http://www.nczonline.net/",
     "avatar" : "nczonline.net.jpg",
     "github": "https://github.com/nzakas/",
     "description": "Nicholas C. Zakas is a front-end engineer, author, and speaker. He currently works at Box making the web application awesome. Prior to that, he worked at Yahoo! for almost five years, where he was front-end tech lead for the Yahoo! homepage and a contributor to the YUI library."
+  },
+  {
+    "name" : "Christophe Coenraets",
+    "site" : "http://coenraets.org/blog/",
+    "avatar" : "christophe_coenraets.jpg",
+    "github": "https://github.com/ccoenraets",
+    "description": ""
   },
   {
     "name" : "Ruan YiFeng",

@@ -22,5 +22,11 @@
     "logo": "tutsplus.jpg",
     "title": "Tuts+",
     "description": "Tuts+ teaches creative and technical skills across many topics to millions of people worldwide. We offer tutorials, articles, news and insights that help you take your knowledge to the next level."
+  },
+  {
+    "link": "http://www.css88.com/",
+    "logo": "website.jpg",
+    "title": "WEB前端开发",
+    "description": "专注前端开发，关注用户体验"
   }
 ]

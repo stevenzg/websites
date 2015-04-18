@@ -19,6 +19,11 @@
           templateUrl: 'views/reading/articles.html',
           title: 'Articles'
         },
+        'tutorials': {
+          url: '/tutorials',
+          templateUrl: 'views/reading/tutorials.html',
+          title: 'Tutorials'
+        },
         'communities': {
           url: '/communities',
           templateUrl: 'views/communities.html',
@@ -39,10 +44,20 @@
           templateUrl: 'views/frameworks.html',
           title: 'Frameworks'
         },
-        'work': {
+        'jobs': {
           url: '/jobs',
           templateUrl: 'views/jobs.html',
           title: 'Jobs'
+        },
+        'IT': {
+          url: '/IT',
+          templateUrl: 'views/IT.html',
+          title: 'Information Technology'
+        },
+        'selfbookmarks': {
+          url: '/selfbookmarks',
+          templateUrl: 'views/selfbookmarks.html',
+          title: 'My Bookmarks'
         }
       };
 
