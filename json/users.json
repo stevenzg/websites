@@ -28,6 +28,13 @@
     "description": ""
   },
   {
+    "name" : "sofish",
+    "site" : "https://github.com/sofish",
+    "avatar" : "sofish.png",
+    "github": "https://github.com/sofish",
+    "description": ""
+  },
+  {
     "name" : "Christophe Coenraets",
     "site" : "http://coenraets.org/blog/",
     "avatar" : "christophe_coenraets.jpg",
