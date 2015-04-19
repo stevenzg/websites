@@ -1,12 +1,4 @@
 <style type="text/css">
-  section[role="main"] p a, li a {
-    color: #7E3200;
-  }
-
-  section[role="main"] p a:hover, li a:hover {
-    color: #461C00;
-  }
-
   div#sidebarAd.cleanslate {
     background: rgba(255, 255, 255, 0.25);
   }
@@ -23,12 +15,6 @@
     margin-bottom: 1em;
   }
 
-  @media screen and (max-width: 767px) {
-    .polaroids li:nth-child(n+5) {
-      display: none;
-    }
-  }
-
   ul.polaroids li {
     display: inline;
   }
@@ -37,7 +23,7 @@
     background: #fff;
     display: inline;
     float: left;
-    margin: 0 0 27px 30px;
+    margin: 30px 0 27px 30px;
     width: auto;
     padding: 10px 10px 15px;
     text-align: center;
@@ -54,12 +40,6 @@
 
   ul.polaroids li {
     padding-left: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    ul.polaroids li a {
-      margin-left: 0;
-    }
   }
 
   ul.polaroids img {
@@ -118,7 +98,10 @@
     z-index: 5;
   }
 </style>
-<div class="" ng-controller="CtrlUsers" ng-init="initialization();" style="background: url(http://gyf1.com/websites/img/wood-bg.jpg) repeat">
+<!--style="background: url(http://gyf1.com/websites/img/wood-bg.jpg) repeat-->
+<div class=""
+     ng-controller="CtrlUsers" ng-init="initialization();"
+     style="position:absolute;top:50px;bottom:0;">
   <!--<div class="panel panel-default" ng-repeat="user in users">-->
     <!--<div class="panel-heading">-->
       <!--<h3 class="panel-title"><a ng-href="{{user.site}}" target="_blank">{{user.name}}</a></h3>-->
@@ -141,9 +124,9 @@
       <!--</a>-->
     <!--</div>-->
   <!--</div>-->
-  <div class="row">
-    <div class="" style="overflow: visible">
-      <ul class="polaroids large-block-grid-4 small-block-grid-2">
+  <div class="" style="height:100%;overflow: auto;background: url(http://gyf1.com/websites/img/wood-bg.jpg) repeat">
+    <div class="" style="">
+      <ul class="polaroids">
         <li ng-repeat="user in users">
           <a ng-href="{{user.site}}" title="{{user.name}}" target="_blank">
             <img alt="{{user.name}}" ng-src="/websites/img/avatar/{{user.avatar}}">

@@ -21,10 +21,24 @@
     "description": "Nicholas C. Zakas is a front-end engineer, author, and speaker. He currently works at Box making the web application awesome. Prior to that, he worked at Yahoo! for almost five years, where he was front-end tech lead for the Yahoo! homepage and a contributor to the YUI library."
   },
   {
+    "name" : "Yu Bo(玉伯)",
+    "site" : "http://lifesinger.github.com/",
+    "avatar" : "yubo.jpg",
+    "github": "https://github.com/lifesinger",
+    "description": ""
+  },
+  {
     "name" : "Christophe Coenraets",
     "site" : "http://coenraets.org/blog/",
     "avatar" : "christophe_coenraets.jpg",
     "github": "https://github.com/ccoenraets",
+    "description": ""
+  },
+  {
+    "name" : "Jinks Zhao(勾三股四)",
+    "site" : "http://jiongks.name/",
+    "avatar" : "jinjiang.jpg",
+    "github": "https://github.com/jinjiang/",
     "description": ""
   },
   {
@@ -40,5 +54,26 @@
     "avatar" : "yehudakatz.com.jpeg",
     "github": "https://github.com/wycats",
     "description": "Yehuda Katz is a member of the Ember.js, Ruby on Rails and jQuery Core Teams; his 9-to-5 home is at the startup he founded, Tilde Inc.. There he works on Skylight, the smart profiler for Rails, and does Ember.js consulting﻿. He is best known for his open source work, which also includes Thor and Handlebars. He travels the world doing open source evangelism and web standards work."
+  },
+  {
+    "name" : "Paul Irish",
+    "site" : "http://www.paulirish.com/",
+    "avatar" : "paulirish.jpg",
+    "github": "https://github.com/paulirish",
+    "description": ""
+  },
+  {
+    "name" : "Dave Herman",
+    "site" : "http://calculist.org/",
+    "avatar" : "dherman.jpg",
+    "github": "https://github.com/dherman",
+    "description": ""
+  },
+  {
+    "name" : "Rick Waldron",
+    "site" : "https://github.com/rwaldron",
+    "avatar" : "rwaldron.jpg",
+    "github": "https://github.com/rwaldron",
+    "description": ""
   }
 ]
