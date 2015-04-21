@@ -1,5 +1,5 @@
 # websites
-Collection of web sites that web developer should know
+Collection of web sites that web developer should know. [Click Me](http://gyf1.com/websites)
 
 # background
 There are already existed some awesome collections, like [js-the-right-way](http://jstherightway.org/) and so on.

@@ -7,6 +7,13 @@
     "description": "When you get bored, click something. If that doesn't help, then turn off your computer immediately."
   },
   {
+    "name" : "Sindre Sorhus",
+    "site" : "https://github.com/sindresorhus",
+    "avatar" : "sindresorhus.png",
+    "github": "https://github.com/sindresorhus",
+    "description": ""
+  },
+  {
     "name" : "Addy Osmani",
     "site" : "http://addyosmani.com/blog/",
     "avatar" : "addyosmani.jpg",

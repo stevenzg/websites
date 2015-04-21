@@ -1,0 +1,26 @@
+[
+  {
+    "title": "JS: The Right Way",
+    "link": "http://jstherightway.org/",
+    "description": " This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices."
+  },
+  {
+    "title": "HTML CSS: The Right Way",
+    "link": "http://htmlcsstherightway.org/",
+    "description": "There’s a lot of obsolete information about HTML and CSS and how to do websites, many are outdated, whereas other more current are either too deep into technicalities or just in need to be found."
+  },
+  {
+    "title": "Frontend development bookmarks",
+    "link": "https://github.com/dypsilon/frontend-dev-bookmarks",
+    "description": "A huge list of frontend development resources I collected over time. Sorted from general knowledge at the top to concrete problems at the bottom. "
+  },
+  {
+    "title": "Bento",
+    "link": "https://www.bento.io/",
+    "description": "a collection of guides for web development."
+  },
+  {
+    "title": "",
+    "link": ""
+  }
+]

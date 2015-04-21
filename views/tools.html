@@ -1,7 +1,7 @@
 <div ng-controller="CtrlTools" ng-init="initialization();" class="container">
   <table class="table table-hover">
     <tr ng-repeat="tool in tools">
-      <td><a ng-href="{{tool.link}}">{{tool.name}}</a></td>
+      <td><a target="_blank" ng-href="{{tool.link}}">{{tool.name}}</a></td>
       <td><span class="label label-info">{{tool.type}}</span></td>
     </tr>
   </table>

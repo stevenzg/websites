@@ -1,0 +1,26 @@
+<style>
+  .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #101010;
+    border-color: #101010;
+  }
+</style>
+<div class="row" style="margin: 0 10px;" ng-controller="CtrlReading">
+  <div class="col-sm-3">
+    <div class="list-group">
+      <a ui-sref="reading.guides" class="list-group-item" ng-class="{'active': isActive('/reading/guides')}">
+        Guides
+      </a>
+      <a ui-sref="reading.articles" class="list-group-item" ng-class="{'active': isActive('/reading/articles')}">
+        Articles
+      </a>
+      <a ui-sref="reading.tutorials" class="list-group-item" ng-class="{'active': isActive('/reading/tutorials')}">
+        Tutorials
+      </a>
+    </div>
+  </div>
+  <div class="col-sm-9">
+    <div ui-view></div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<div ng-controller="CtrlReadingGuides" ng-init="initialization();">
+  <div class="media" ng-repeat="guide in guides">
+    <div class="media-body">
+      <h4 class="media-heading"><a ng-href="{{guide.link}}" target="_blank">{{guide.title}}</a></h4>
+      {{guide.description}}
+    </div>
+  </div>
+</div>

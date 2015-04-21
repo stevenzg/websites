@@ -14,12 +14,22 @@
           templateUrl: 'views/users.html',
           title: 'Users'
         },
-        'articles': {
+        'reading': {
+          url: '/reading',
+          templateUrl: 'views/reading.html',
+          title: 'Reading'
+        },
+        'reading.guides': {
+          url: '/guides',
+          templateUrl: 'views/reading/guides.html',
+          title: 'Guides'
+        },
+        'reading.articles': {
           url: '/articles',
           templateUrl: 'views/reading/articles.html',
           title: 'Articles'
         },
-        'tutorials': {
+        'reading.tutorials': {
           url: '/tutorials',
           templateUrl: 'views/reading/tutorials.html',
           title: 'Tutorials'
