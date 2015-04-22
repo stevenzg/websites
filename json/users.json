@@ -7,6 +7,13 @@
     "description": "When you get bored, click something. If that doesn't help, then turn off your computer immediately."
   },
   {
+    "name" : "Eric A. Meyer",
+    "site" : "http://meyerweb.com/",
+    "avatar" : "eric-meyer.jpg",
+    "github": "https://github.com/meyerweb",
+    "description": ""
+  },
+  {
     "name" : "Sindre Sorhus",
     "site" : "https://github.com/sindresorhus",
     "avatar" : "sindresorhus.png",
