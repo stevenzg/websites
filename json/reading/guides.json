@@ -1,5 +1,10 @@
 [
   {
+    "title": "JavaScript Guide - JavaScript | MDN",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "description": "The JavaScript Guide shows you how to use JavaScript and gives an overview of the language."
+  },
+  {
     "title": "JS: The Right Way",
     "link": "http://jstherightway.org/",
     "description": " This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices."
@@ -8,6 +13,11 @@
     "title": "HTML CSS: The Right Way",
     "link": "http://htmlcsstherightway.org/",
     "description": "There’s a lot of obsolete information about HTML and CSS and how to do websites, many are outdated, whereas other more current are either too deep into technicalities or just in need to be found."
+  },
+  {
+    "title": "JavaScript Garden",
+    "link": "https://github.com/BonsaiDen/JavaScript-Garden",
+    "description": "A collection of documentation about the most quirky parts of the JavaScript language."
   },
   {
     "title": "Frontend development bookmarks",

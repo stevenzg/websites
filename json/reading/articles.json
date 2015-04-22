@@ -1,6 +1,82 @@
 [
   {
+    "title": "Introduction to Object-Oriented JavaScript",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript"
+  },
+  {
+    "title": "Javascript anonymous functions",
+    "link": "http://helephant.com/2008/08/23/javascript-anonymous-functions/"
+  },
+  {
+    "title": "Functions are first class objects in javascript",
+    "link": "http://helephant.com/2008/08/19/functions-are-first-class-objects-in-javascript/"
+  },
+  {
+    "title": "Understanding Loose Typing in JavaScript",
+    "link": "http://blog.jeremymartin.name/2008/03/understanding-loose-typing-in.html"
+  },
+  {
+    "title": "JavaScript Scoping and Hoisting",
+    "link": "http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html"
+  },
+  {
+    "title": "Understanding JavaScript’s Function.prototype.bind",
+    "link": "http://www.smashingmagazine.com/2014/01/23/understanding-javascript-function-prototype-bind/"
+  },
+  {
+    "title": "MDN - Closures",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures"
+  },
+  {
+    "title": "MDN - Strict mode",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode"
+  },
+  {
+    "title": "Immediately-Invoked Function Expression (IIFE)",
+    "link": "http://benalman.com/news/2010/11/immediately-invoked-function-expression/"
+  },
+  {
+    "title": "Understanding JavaScript OOP",
+    "link": "http://robotlolita.me/2011/10/09/understanding-javascript-oop.html"
+  },
+  {
+    "title": "Understanding “Prototypes” in JavaScript",
+    "link": "http://yehudakatz.com/2011/08/12/understanding-prototypes-in-JavaScript/"
+  },
+  {
+    "title": "Prototypes and Inheritance in JavaScript",
+    "link": "https://msdn.microsoft.com/en-us/magazine/ff852808.aspx"
+  },
+  {
     "title": "Understanding JavaScript Function Invocation and “this”",
     "link": "http://yehudakatz.com/2011/08/11/understanding-javascript-function-invocation-and-this/"
+  },
+  {
+    "title": "Partial Application in JavaScript",
+    "link": "http://benalman.com/news/2012/09/partial-application-in-javascript/"
+  },
+  {
+    "title": "Getting Over jQuery",
+    "link": "http://ponyfoo.com/articles/getting-over-jquery"
+  },
+  {
+    "title": "A Dive Into Plain JavaScript",
+    "link": "http://blog.adtile.me/2014/01/16/a-dive-into-plain-javascript/"
+  },
+  {
+    "title": "A Deeper Look at Objects in JavaScript",
+    "link": "http://www.kirupa.com/html5/a_deeper_look_at_objects_in_javascript.htm"
+  },
+  {
+    "title": "Closures in JavaScript",
+    "link": "http://www.kirupa.com/html5/closures_in_javascript.htm"
+  },
+  {
+    "title": "Introduction to Easing in JavaScript",
+    "link": "http://www.kirupa.com/html5/introduction_to_easing_in_javascript.htm"
+  },
+  {
+    "title": "How to Learn JavaScript Properly",
+    "link": "http://javascriptissexy.com/how-to-learn-javascript-properly/"
   }
 ]
