@@ -89,7 +89,7 @@
     });
   }
 
-  angular.module('websites', ['ui.router'])
+  angular.module('websites', ['ngMaterial', 'ui.router'])
     .config(['$stateProvider', '$urlRouterProvider', funcAppRouters])
     .run(['$rootScope', '$state', funcInitRun]);
 

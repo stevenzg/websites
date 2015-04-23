@@ -13,5 +13,10 @@
     "name": "World Wide Web Consortium (W3C)",
     "logo": "w3c.png",
     "link": "http://www.w3.org"
+  },
+  {
+    "name": "CSSDeck",
+    "logo": "cssdeck.jpeg",
+    "link": "http://cssdeck.com/"
   }
 ]

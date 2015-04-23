@@ -1,8 +1,34 @@
-<div ng-controller="CtrlTools" ng-init="initialization();" class="container">
-  <table class="table table-hover">
-    <tr ng-repeat="tool in tools">
-      <td><a target="_blank" ng-href="{{tool.link}}">{{tool.name}}</a></td>
-      <td><span class="label label-info">{{tool.type}}</span></td>
-    </tr>
-  </table>
-</div>
+<!--<div ng-controller="CtrlTools" ng-init="initialization();" class="container">-->
+  <!--<table class="table table-hover">-->
+    <!--<tr ng-repeat="tool in tools">-->
+      <!--<td><a target="_blank" ng-href="{{tool.link}}">{{tool.name}}</a></td>-->
+      <!--<td><span class="label label-info">{{tool.type}}</span></td>-->
+    <!--</tr>-->
+  <!--</table>-->
+<!--</div>-->
+
+
+<nav class="side-nav l-pinned-left l-layer-4 l-offset-nav"  ng-controller="CtrlReading">
+  <ul ng-class="showDocsNav ? 'is-visible' : ''" class="side-nav-primary"><!-- PRIMARY NAVIGATION-->
+    <li ng-class="{'is-selected': isActive('/reading/guides')}" class=""><a class="md-button md-default-theme" ng-transclude="" href="#/reading/guides"
+                                                                            md-button=""><span class="side-nav-icon icon-home ng-scope"></span><span
+      class="ng-scope"> Guides</span>
+
+      <div class="md-ripple-container"></div>
+    </a></li>
+    <!-- SECONDARY NAVIGATION--><!-- PRIMARY NAVIGATION-->
+    <li ng-class="{'is-selected': isActive('/reading/articles')}">
+      <a class="md-button md-default-theme" ng-transclude="" href="#/reading/articles" md-button="">
+        <span
+          class="side-nav-icon icon-query-builder ng-scope"></span>
+        <span class="ng-scope"> Articles</span>
+      </a>
+    </li>
+    <!-- SECONDARY NAVIGATION--><!-- PRIMARY NAVIGATION-->
+    <li ng-class="{'is-selected': isActive('/reading/tutorials')}"><a class="md-button md-default-theme" ng-transclude="" href="#/reading/tutorials" md-button=""><span
+      class="side-nav-icon icon-list ng-scope"></span><span class="ng-scope"> Tutorials</span></a></li>
+    <!-- SECONDARY NAVIGATION--></ul>
+</nav>
+<div style="margin-left:252px;" ui-view></div>
+
+

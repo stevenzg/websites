@@ -6,10 +6,22 @@
     "description": "Tips, Tricks, and Techniques on using Cascading Style Sheets."
   },
   {
+    "link": "http://www.cssflow.com/",
+    "logo": "cssflow.png",
+    "title": "CSSFlow",
+    "description": "Download a wide variety of free web UI elements and complete UI kits coded with HTML5, CSS3, and Sass/SCSS."
+  },
+  {
     "link": "http://tympanus.net/codrops/",
     "logo": "codrops.png",
     "title": "Codrops | Useful resources and inspiration for creative minds",
     "description": "Codrops is a web design and development blog that publishes articles and tutorials about the latest web trends, techniques and new possibilities."
+  },
+  {
+    "link": "http://cssdeck.com/",
+    "logo": "cssdeck.jpeg",
+    "title": "CSSDeck",
+    "description": "Collection of Awesome CSS and JS Creations to help out frontend developers and designers."
   },
   {
     "link": "http://www.smashingmagazine.com/",

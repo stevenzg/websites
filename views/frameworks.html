@@ -1,9 +1,10 @@
 <div ng-controller="CtrlFrameworks" ng-init="initialization();" class="container">
-  <table class="table table-hover">
-    <tr ng-repeat="framework in frameworks">
-      <td>
-        <a target="_blank" ng-href="{{framework.link}}">{{framework.name}}</a>
-      </td>
-    </tr>
-  </table>
+  <md-content>
+    <md-card ng-repeat="framework in frameworks">
+      <!--<img src="img/washedout.png" class="md-card-image" alt="Washed Out">-->
+      <md-card-content>
+        <h2 class="md-title"><a target="_blank" ng-href="{{framework.link}}">{{framework.name}}</a></h2>
+      </md-card-content>
+    </md-card>
+  </md-content>
 </div>

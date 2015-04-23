@@ -35,7 +35,7 @@
     "description": "Nicholas C. Zakas is a front-end engineer, author, and speaker. He currently works at Box making the web application awesome. Prior to that, he worked at Yahoo! for almost five years, where he was front-end tech lead for the Yahoo! homepage and a contributor to the YUI library."
   },
   {
-    "name" : "Yu Bo(玉伯)",
+    "name" : "Yu Bo",
     "site" : "http://lifesinger.github.com/",
     "avatar" : "yubo.jpg",
     "github": "https://github.com/lifesinger",
@@ -56,7 +56,7 @@
     "description": ""
   },
   {
-    "name" : "Jinks Zhao(勾三股四)",
+    "name" : "Jinks Zhao",
     "site" : "http://jiongks.name/",
     "avatar" : "jinjiang.jpg",
     "github": "https://github.com/jinjiang/",
@@ -95,6 +95,13 @@
     "site" : "https://github.com/rwaldron",
     "avatar" : "rwaldron.jpg",
     "github": "https://github.com/rwaldron",
+    "description": ""
+  },
+  {
+    "name" : "Tim Berners-Lee",
+    "site" : "https://twitter.com/timberners_lee",
+    "avatar" : "timberners_lee.jpg",
+    "github": "https://twitter.com/timberners_lee",
     "description": ""
   }
 ]

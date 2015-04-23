@@ -1,26 +1,80 @@
-<style>
-  .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
-    z-index: 2;
-    color: #fff;
-    background-color: #222;
-    border-color: #080808;
-  }
-</style>
-<div class="row" style="margin: 0 10px;" ng-controller="CtrlReading">
-  <div class="col-sm-3">
-    <div class="list-group">
-      <a ui-sref="reading.guides" class="list-group-item" ng-class="{'active': isActive('/reading/guides')}">
-        Guides
-      </a>
-      <a ui-sref="reading.articles" class="list-group-item" ng-class="{'active': isActive('/reading/articles')}">
-        Articles
-      </a>
-      <a ui-sref="reading.tutorials" class="list-group-item" ng-class="{'active': isActive('/reading/tutorials')}">
-        Tutorials
-      </a>
-    </div>
-  </div>
-  <div class="col-sm-9">
-    <div ui-view></div>
-  </div>
+<!--<style>-->
+<!--.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {-->
+<!--z-index: 2;-->
+<!--color: #fff;-->
+<!--background-color: #222;-->
+<!--border-color: #080808;-->
+<!--}-->
+<!--</style>-->
+<!--<div class="l-offset-side-nav row" style="margin: 0 10px;" ng-controller="CtrlReading">-->
+<!--<div class="col-sm-3">-->
+<!--<div class="list-group">-->
+<!--<a ui-sref="reading.guides" class="list-group-item" ng-class="{'active': isActive('/reading/guides')}">-->
+<!--Guides-->
+<!--</a>-->
+<!--<a ui-sref="reading.articles" class="list-group-item" ng-class="{'active': isActive('/reading/articles')}">-->
+<!--Articles-->
+<!--</a>-->
+<!--<a ui-sref="reading.tutorials" class="list-group-item" ng-class="{'active': isActive('/reading/tutorials')}">-->
+<!--Tutorials-->
+<!--</a>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="col-sm-9">-->
+<!--<div ui-view></div>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<div layout="l-offset-side-nav row" ng-controller="CtrlReading">-->
+
+<!--<div layout="row" flex>-->
+<!--<md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left"-->
+<!--md-is-locked-open="$mdMedia('gt-sm')">-->
+
+<!--</md-sidenav>-->
+<!--<div layout="column" flex id="content">-->
+<!--<md-content layout="column" flex class="md-padding">-->
+
+<!--</md-content>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<div layout="row" flex>-->
+<!--<md-sidenav layout="column" class="md-sidenav-left md-whiteframe-z2" md-component-id="left"-->
+<!--md-is-locked-open="$mdMedia('gt-sm')">-->
+
+<!--</md-sidenav>-->
+<!--<div layout="column" flex id="content">-->
+<!--<md-content layout="column" flex class="md-padding">-->
+
+<!--</md-content>-->
+<!--</div>-->
+<!--</div>-->
+
+
+
+<div ng-controller="CtrlReading">
+  <md-content class="md-padding">
+    <md-tabs md-dynamic-height md-border-bottom>
+      <md-tab label="Guides">
+        <md-content class="md-padding">
+          <div data-ng-include="'views/reading/guides.html'"></div>
+        </md-content>
+      </md-tab>
+      <md-tab label="Articles">
+        <md-content class="md-padding">
+          <div data-ng-include="'views/reading/articles.html'"></div>
+        </md-content>
+      </md-tab>
+      <md-tab label="Tutorials">
+        <md-content class="md-padding">
+          <div data-ng-include="'views/reading/tutorials.html'"></div>
+        </md-content>
+      </md-tab>
+    </md-tabs>
+    <!--<md-content class="md-padding">-->
+      <!--<div ui-view></div>-->
+    <!--</md-content>-->
+  </md-content>
 </div>

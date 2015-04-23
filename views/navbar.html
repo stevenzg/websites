@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-inverse navbar-static-top" ng-controller="CtrlNavbar">
+<nav class="navbar navbar-default navbar-inverse navbar-static-top" ng-controller="CtrlNavbar" style="display: none;">
   <div class="container-fluid">
     <div class="navbar-header">
       <button style="float: left;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -18,11 +18,11 @@
         <li ng-class="{'active': isActive('/users')}">
           <a href="#/users">Users</a>
         </li>
-        <li ng-class="{'active': isActive('/communities')}">
-          <a href="#/communities">Communities</a>
-        </li>
         <li ng-class="{'active': isActive('/portals')}">
           <a href="#/portals">Portals</a>
+        </li>
+        <li ng-class="{'active': isActive('/communities')}">
+          <a href="#/communities">Communities</a>
         </li>
         <li ng-class="{'active': isActive('/tools')}">
           <a href="#/tools">Tools</a>
@@ -55,3 +55,29 @@
     </div>
   </div>
 </nav>
+
+<md-toolbar class="main-nav background-regal l-pinned-top l-layer-5 md-default-theme">
+  <nav><h1><a class="md-button md-default-theme" ng-transclude="" href="#" md-button=""><span
+    class="ng-scope">WebSites </span><sup class="ng-scope">by Google</sup></a></h1>
+    <button class="main-nav-button main-nav-mobile-trigger l-right md-button md-default-theme" ng-transclude=""
+            aria-label="View Menu" ng-click="toggleMainMenu($event)" md-button="md-button" tabindex="0"><span
+      class="ng-scope">Site Menu </span><span class="icon icon-arrow-drop-down ng-scope"></span></button>
+    <ul ng-class="showMainNav ? 'is-visible' : ''">
+      <li class="l-left"><a class="main-nav-button md-button md-default-theme" ng-transclude="" href="#/users"
+                            md-button=""><span class="ng-scope">Users</span></a></li>
+      <li class="l-left"><a class="main-nav-button md-button md-default-theme" ng-transclude="" href="#/portals"
+                            md-button=""><span class="ng-scope">Portals</span></a></li>
+      <li class="l-left"><a class="main-nav-button md-button md-default-theme" ng-transclude="" href="#/communities"
+                            md-button=""><span class="ng-scope">Communities</span></a></li>
+      <li class="l-left"><a class="main-nav-button md-button md-default-theme" ng-transclude="" href="#/tools"
+                            md-button=""><span class="ng-scope">Tools</span></a></li>
+      <li class="l-left"><a class="main-nav-button md-button md-default-theme" ng-transclude="" href="#/frameworks"
+                            md-button=""><span class="ng-scope">Frameworks</span></a></li>
+      <li class="l-left"><a class="main-nav-button md-button md-default-theme" ng-transclude="" href="#/reading/guides"
+                            md-button=""><span class="ng-scope">Reading</span></a></li>
+      <li class="l-right"><a class="main-nav-button has-icon md-button md-default-theme" ng-transclude=""
+                             href="https://github.com/GYF1/websites" md-button=""> <span
+        class="icon icon-cloud-download ng-scope"></span><span class="ng-scope"> GitHub</span></a></li>
+    </ul>
+  </nav>
+</md-toolbar>

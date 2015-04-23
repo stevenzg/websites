@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  function ctrlTools ($scope, $http) {
+  function ctrlTools($scope, $http) {
     $scope.initialization = function () {
       $http.get('json/tools.json')
         .success(function (data, status, headers, config) {
@@ -8,7 +8,7 @@
           console.log('$scope.tools', $scope.tools);
         })
         .error(function (data, status, headers, config) {
-      });
+        });
     };
   }
 

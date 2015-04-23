@@ -1,7 +1,5 @@
 <div class="container" ng-controller="CtrlArticles" ng-init="initialization();">
-  <ul>
-    <li ng-repeat="article in articles">
-      <h4><a ng-href="{{article.link}}" target="_blank">{{article.title}}</a></h4>
-    </li>
-  </ul>
+  <div ng-repeat="article in articles">
+    <h3 class="md-display-2"><a style="color: #445A64;" ng-href="{{article.link}}" target="_blank">{{article.title}}</a></h3>
+  </div>
 </div>

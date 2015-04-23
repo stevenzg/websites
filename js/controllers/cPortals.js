@@ -1,6 +1,7 @@
 (function () {
   'use strict';
   function ctrlPortals ($scope, $http) {
+
     $scope.initialization = function () {
       $http.get('json/portals.json')
         .success(function (data, status, headers, config) {
