@@ -14,6 +14,27 @@
     "description": ""
   },
   {
+    "name" : "Miško Hevery",
+    "site" : "http://misko.hevery.com",
+    "avatar" : "mhevery.jpeg",
+    "github": "https://github.com/mhevery",
+    "description": ""
+  },
+  {
+    "name" : "John Resig",
+    "site" : "http://ejohn.org/",
+    "avatar" : "jeresig.jpg",
+    "github": "https://github.com/jeresig",
+    "description": ""
+  },
+  {
+    "name" : "Jeremy Ashkenas",
+    "site" : "http://www.ashkenas.com/",
+    "avatar" : "jashkenas.png",
+    "github": "https://github.com/jashkenas",
+    "description": ""
+  },
+  {
     "name" : "Sindre Sorhus",
     "site" : "https://github.com/sindresorhus",
     "avatar" : "sindresorhus.png",
@@ -35,17 +56,17 @@
     "description": "Nicholas C. Zakas is a front-end engineer, author, and speaker. He currently works at Box making the web application awesome. Prior to that, he worked at Yahoo! for almost five years, where he was front-end tech lead for the Yahoo! homepage and a contributor to the YUI library."
   },
   {
+    "name" : "sofish",
+    "site" : "https://github.com/sofish",
+    "avatar" : "sofish.jpg",
+    "github": "https://github.com/sofish",
+    "description": ""
+  },
+  {
     "name" : "Yu Bo",
     "site" : "http://lifesinger.github.com/",
     "avatar" : "yubo.jpg",
     "github": "https://github.com/lifesinger",
-    "description": ""
-  },
-  {
-    "name" : "sofish",
-    "site" : "https://github.com/sofish",
-    "avatar" : "sofish.png",
-    "github": "https://github.com/sofish",
     "description": ""
   },
   {
@@ -95,6 +116,13 @@
     "site" : "https://github.com/rwaldron",
     "avatar" : "rwaldron.jpg",
     "github": "https://github.com/rwaldron",
+    "description": ""
+  },
+  {
+    "name" : "Brendan Eich",
+    "site" : "https://brendaneich.com/",
+    "avatar" : "BrendanEich.jpg",
+    "github": "https://github.com/BrendanEich",
     "description": ""
   },
   {
