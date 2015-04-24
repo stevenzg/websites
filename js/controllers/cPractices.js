@@ -1,6 +1,10 @@
 (function () {
   'use strict';
-  function ctrlPractices($scope, $http) {
+  function ctrlPractices($scope, $http, $location) {
+
+    $scope.isActive = function (viewLocation) {
+      return viewLocation === $location.path();
+    };
 
     $scope.showDocsNav = false;
 
@@ -19,5 +23,5 @@
     };
   }
 
-  angular.module('websites').controller('CtrlPractices', ['$scope', '$http', ctrlPractices]);
+  angular.module('websites').controller('CtrlPractices', ['$scope', '$http', '$location', ctrlPractices]);
 }());

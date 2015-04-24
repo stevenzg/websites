@@ -1,11 +1,17 @@
-<div ng-controller="CtrlPortals" ng-init="initialization();" style="text-align: center;"
-     id="portal-container" class="whiteframedemoBasicUsage" layout="row" layout-align="center center" layout-wrap style="padding-bottom: 32px;">
-  <md-card ng-repeat="portal in portals | orderBy : 'title'" flex="20" flex-sm="75" flex-md="33">
-    <md-card-content  class="portal-item" ng-click="gotoPortals(portal.link)">
-      <h2 class="md-title">{{portal.title}}</h2>
-      <!--<p style="text-align: left;height: 75px;overflow: hidden;text-overflow: ellipsis;">-->
-        <!--{{portal.description}}-->
-      <!--</p>-->
-    </md-card-content>
-  </md-card>
+<!--<div ng-controller="CtrlPortals" ng-init="initialization();" style="text-align: center;display: none;"-->
+     <!--id="portal-container" class="whiteframedemoBasicUsage" layout="row" layout-align="center center" layout-wrap style="padding-bottom: 32px;">-->
+  <!--<md-card ng-repeat="portal in portals | orderBy : 'title'" flex="20" flex-sm="75" flex-md="33">-->
+    <!--<md-card-content  class="portal-item" ng-click="gotoPortals(portal.link)">-->
+      <!--<h2 class="md-title">{{portal.title}}</h2>-->
+    <!--</md-card-content>-->
+  <!--</md-card>-->
+<!--</div>-->
+
+<div ng-controller="CtrlPortals" ng-init="initialization();" style="margin: 0 30px;">
+  <div ng-repeat="portal in portals | orderBy : 'title'">
+
+    <h3 class="md-display-2"><a style="color: #445A64;" ng-href="{{portal.link}}" target="_blank">{{portal.title}}</a></h3>
+    <p>{{portal.description}}</p>
+
+  </div>
 </div>

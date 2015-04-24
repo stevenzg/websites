@@ -1,10 +1,5 @@
-<div ng-controller="CtrlFrameworks" ng-init="initialization();" class="container">
-  <md-content>
-    <md-card ng-repeat="framework in frameworks">
-      <!--<img src="img/washedout.png" class="md-card-image" alt="Washed Out">-->
-      <md-card-content>
-        <h2 class="md-title"><a target="_blank" ng-href="{{framework.link}}">{{framework.name}}</a></h2>
-      </md-card-content>
-    </md-card>
-  </md-content>
+<div ng-controller="CtrlFrameworks" ng-init="initialization();" class="container" style="margin: 0 60px;">
+  <div ng-repeat="framework in frameworks">
+    <h3 class="md-display-2"><a style="color: #445A64;" ng-href="{{framework.link}}" target="_blank">{{framework.name}}</a></h3>
+  </div>
 </div>
