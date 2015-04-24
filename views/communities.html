@@ -1,7 +1,22 @@
-<div ng-controller="CtrlCommunities" ng-init="initialization();" class="container">
-  <div class="row">
-    <a target="_blank" ng-href="{{community.link}}" class="col-sm-2" ng-repeat="community in communities">
-      <img style="max-width:100%;" ng-src="/websites/img/logo/{{community.logo}}" alt="{{community.name}}">
-    </a>
-  </div>
+<!--<div ng-controller="CtrlCommunities" ng-init="initialization();" class="container">-->
+  <!--<div class="row">-->
+    <!--<a target="_blank" ng-href="{{community.link}}" class="col-sm-2" ng-repeat="community in communities">-->
+      <!--<img style="max-width:100%;" ng-src="/websites/img/logo/{{community.logo}}" alt="{{community.name}}">-->
+    <!--</a>-->
+  <!--</div>-->
+<!--</div>-->
+<div ng-controller="CtrlCommunities" ng-init="initialization();">
+  <md-content layout-padding>
+    <md-grid-list
+      md-cols-gt-md="12" md-cols-sm="3" md-cols-md="8"
+      md-row-height-gt-md="1:1" md-row-height="4:3"
+      md-gutter-gt-md="16px" md-gutter-gt-sm="8px" md-gutter="4px">
+      <md-grid-tile
+        ng-repeat="community in communities"
+        md-colspan-gt-sm="{{community.colspan}}"
+        md-rowspan-gt-sm="{{community.rowspan}}">
+        <img style="max-width:100%;" ng-src="/websites/img/logo/{{community.logo}}" alt="{{community.name}}">
+      </md-grid-tile>
+    </md-grid-list>
+  </md-content>
 </div>

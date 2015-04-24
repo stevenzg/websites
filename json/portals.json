@@ -1,5 +1,17 @@
 [
   {
+    "link": "http://www.html5rocks.com/",
+    "logo": "",
+    "title": "HTML5 Rocks",
+    "description": "A resource for developers looking to put HTML5 to use today, including information on specific features and when to use them in your apps."
+  },
+  {
+    "link": "http://www.w3fools.com/",
+    "logo": "",
+    "title": "W3Fools",
+    "description": ""
+  },
+  {
     "link": "https://css-tricks.com/",
     "logo": "css-tricks.png",
     "title": "CSS-Tricks",
@@ -14,7 +26,7 @@
   {
     "link": "http://tympanus.net/codrops/",
     "logo": "codrops.png",
-    "title": "Codrops | Useful resources and inspiration for creative minds",
+    "title": "Codrops",
     "description": "Codrops is a web design and development blog that publishes articles and tutorials about the latest web trends, techniques and new possibilities."
   },
   {
@@ -34,6 +46,12 @@
     "logo": "tutsplus.jpg",
     "title": "Tuts+",
     "description": "Tuts+ teaches creative and technical skills across many topics to millions of people worldwide. We offer tutorials, articles, news and insights that help you take your knowledge to the next level."
+  },
+  {
+    "link": "https://scotch.io/",
+    "logo": "tutsplus.jpg",
+    "title": "Scotch",
+    "description": "Scotch is a web development blog discussing all things programming, development, web and life."
   },
   {
     "link": "http://www.css88.com/",

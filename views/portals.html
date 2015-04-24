@@ -1,28 +1,11 @@
-<div ng-controller="CtrlPortals" ng-init="initialization();" class="container">
-  <div class="media" ng-repeat="portal in portals"
-       style="box-shadow: 0 0 1em #eee;padding:20px 30px 20px 30px;">
-    <div class="media-left">
-      <a ng-href="{{portal.link}}" target="_blank">
-        <img style="width:160px;height: auto;max-height: 100px;" class="media-object" ng-src="/websites/img/logo/{{portal.logo}}" alt="{{portal.name}}">
-      </a>
-    </div>
-    <div class="media-body">
-      <h4 class="media-heading">
-        <a ng-href="{{portal.link}}" target="_blank">{{portal.title}}</a>
-      </h4>
-      {{portal.description}}
-    </div>
-  </div>
-
-  <!--<md-content>-->
-    <!--<md-card ng-repeat="portal in portals">-->
-      <!--<img ng-src="/websites/img/logo/{{portal.logo}}" class="md-card-image" alt="{{portal.name}}">-->
-      <!--<md-card-content>-->
-        <!--<h2 class="md-title">{{portal.title}}</h2>-->
-        <!--<p>-->
-          <!--{{portal.description}}-->
-        <!--</p>-->
-      <!--</md-card-content>-->
-    <!--</md-card>-->
-  <!--</md-content>-->
+<div ng-controller="CtrlPortals" ng-init="initialization();" style="text-align: center;"
+     id="portal-container" class="whiteframedemoBasicUsage" layout="row" layout-align="center center" layout-wrap style="padding-bottom: 32px;">
+  <md-card ng-repeat="portal in portals | orderBy : 'title'" flex="20" flex-sm="75" flex-md="33">
+    <md-card-content  class="portal-item" ng-click="gotoPortals(portal.link)">
+      <h2 class="md-title">{{portal.title}}</h2>
+      <!--<p style="text-align: left;height: 75px;overflow: hidden;text-overflow: ellipsis;">-->
+        <!--{{portal.description}}-->
+      <!--</p>-->
+    </md-card-content>
+  </md-card>
 </div>
