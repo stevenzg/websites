@@ -1,6 +1,7 @@
 (function () {
   'use strict';
   function ctrlNavbar ($scope, $location) {
+    $scope.showMainNav = false;
     $scope.isActive = function (viewLocation) {
       return viewLocation === $location.path();
     };
@@ -16,6 +17,11 @@
 
     $scope.initialization = function () {
 
+    };
+
+    $scope.toggleMainMenu = function () {
+      console.log('@@@!!!toggleMainMenu???');
+      $scope.showMainNav = !$scope.showMainNav;
     };
   }
 

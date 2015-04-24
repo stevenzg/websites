@@ -1,5 +1,12 @@
 [
   {
+    "name" : "Nicholas C. Zakas",
+    "site" : "http://www.nczonline.net/",
+    "avatar" : "nczonline.net.jpg",
+    "github": "https://github.com/nzakas/",
+    "description": "Nicholas C. Zakas is a front-end engineer, author, and speaker. He currently works at Box making the web application awesome. Prior to that, he worked at Yahoo! for almost five years, where he was front-end tech lead for the Yahoo! homepage and a contributor to the YUI library."
+  },
+  {
     "name" : "Douglas Crockford",
     "site" : "http://www.crockford.com/",
     "avatar" : "douglascrockford.jpg",
@@ -49,13 +56,6 @@
     "description": "When you get bored, click something. If that doesn't help, then turn off your computer immediately."
   },
   {
-    "name" : "Nicholas C. Zakas",
-    "site" : "http://www.nczonline.net/",
-    "avatar" : "nczonline.net.jpg",
-    "github": "https://github.com/nzakas/",
-    "description": "Nicholas C. Zakas is a front-end engineer, author, and speaker. He currently works at Box making the web application awesome. Prior to that, he worked at Yahoo! for almost five years, where he was front-end tech lead for the Yahoo! homepage and a contributor to the YUI library."
-  },
-  {
     "name" : "sofish",
     "site" : "https://github.com/sofish",
     "avatar" : "sofish.jpg",
@@ -84,6 +84,20 @@
     "description": ""
   },
   {
+    "name" : "Evan You",
+    "site" : "http://evanyou.me/",
+    "avatar" : "yyx990803.jpg",
+    "github": "https://github.com/yyx990803",
+    "description": ""
+  },
+  {
+    "name" : "xinyu198736",
+    "site" : "http://www.html-js.com",
+    "avatar" : "xinyu198736.jpg",
+    "github": "https://github.com/yyx990803",
+    "description": ""
+  },
+  {
     "name" : "Ruan YiFeng",
     "site" : "http://www.ruanyifeng.com/",
     "avatar" : "ruanyifeng.com.jpeg",
@@ -102,6 +116,20 @@
     "site" : "http://www.paulirish.com/",
     "avatar" : "paulirish.jpg",
     "github": "https://github.com/paulirish",
+    "description": ""
+  },
+  {
+    "name" : "Sara Soueidan",
+    "site" : "http://sarasoueidan.com",
+    "avatar" : "SaraSoueidan.png",
+    "github": "https://github.com/SaraSoueidan",
+    "description": ""
+  },
+  {
+    "name" : "Manoela Ilic",
+    "site" : "http://tympanus.net",
+    "avatar" : "crnacura.jpg",
+    "github": "https://github.com/crnacura",
     "description": ""
   },
   {

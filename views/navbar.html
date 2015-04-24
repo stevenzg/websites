@@ -1,7 +1,8 @@
 <nav class="navbar navbar-default navbar-inverse navbar-static-top" ng-controller="CtrlNavbar" style="display: none;">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button style="float: left;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button style="float: left;" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -13,7 +14,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <!--<li ng-class="{'active': isActive('')}">-->
-          <!--<a href="#">Home <span class="sr-only">(current)</span></a>-->
+        <!--<a href="#">Home <span class="sr-only">(current)</span></a>-->
         <!--</li>-->
         <li ng-class="{'active': isActive('/users')}">
           <a href="#/users">Users</a>
@@ -37,47 +38,72 @@
 
       </ul>
       <!--<ul class="nav navbar-nav navbar-right">-->
-        <!--<li class="dropdown">-->
-          <!--<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Other<span class="caret"></span></a>-->
-          <!--<ul class="dropdown-menu" role="menu">-->
-            <!--<li ng-class="{'active': isActive('/jobs')}">-->
-              <!--<a href="#/jobs">Jobs</a>-->
-            <!--</li>-->
-            <!--<li ng-class="{'active': isActive('/IT')}">-->
-              <!--<a href="#/IT">IT</a>-->
-            <!--</li>-->
-            <!--<li class="divider"></li>-->
-            <!--<li><a href="#/selfbookmarks">SelfBookMarks</a></li>-->
-            <!--<li><a href="https://github.com/GYF1/websites" target="_blank">GitHub</a></li>-->
-          <!--</ul>-->
-        <!--</li>-->
+      <!--<li class="dropdown">-->
+      <!--<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Other<span class="caret"></span></a>-->
+      <!--<ul class="dropdown-menu" role="menu">-->
+      <!--<li ng-class="{'active': isActive('/jobs')}">-->
+      <!--<a href="#/jobs">Jobs</a>-->
+      <!--</li>-->
+      <!--<li ng-class="{'active': isActive('/IT')}">-->
+      <!--<a href="#/IT">IT</a>-->
+      <!--</li>-->
+      <!--<li class="divider"></li>-->
+      <!--<li><a href="#/selfbookmarks">SelfBookMarks</a></li>-->
+      <!--<li><a href="https://github.com/GYF1/websites" target="_blank">GitHub</a></li>-->
+      <!--</ul>-->
+      <!--</li>-->
       <!--</ul>-->
     </div>
   </div>
 </nav>
 
-<md-toolbar class="main-nav background-regal l-pinned-top l-layer-5 md-default-theme">
+<md-toolbar class="main-nav background-regal l-pinned-top l-layer-5 md-default-theme" ng-controller="CtrlNavbar">
   <nav><h1><a class="md-button md-default-theme" ng-transclude="" href="#" md-button=""><span
     class="ng-scope">WebSites </span><sup class="ng-scope">by Google</sup></a></h1>
     <button class="main-nav-button main-nav-mobile-trigger l-right md-button md-default-theme" ng-transclude=""
-            aria-label="View Menu" ng-click="toggleMainMenu($event)" md-button="md-button" tabindex="0"><span
-      class="ng-scope">Site Menu </span><span class="icon icon-arrow-drop-down ng-scope"></span></button>
+            aria-label="View Menu" ng-click="toggleMainMenu($event)" md-button="md-button" tabindex="0">
+      <span class="ng-scope">Site Menu </span>
+      <span style="  position: absolute;top: -3px;right: 15px;"><i class="fa fa-sort-desc"></i></span>
+      <!--<span class="icon icon-arrow-drop-down ng-scope"><i class="fa fa-sort-desc"></i></span>-->
+    </button>
     <ul ng-class="showMainNav ? 'is-visible' : ''">
-      <li class="l-left"><a class="main-nav-button md-button md-default-theme" ng-transclude="" href="#/users"
-                            md-button=""><span class="ng-scope">Users</span></a></li>
-      <li class="l-left"><a class="main-nav-button md-button md-default-theme" ng-transclude="" href="#/portals"
-                            md-button=""><span class="ng-scope">Portals</span></a></li>
-      <li class="l-left"><a class="main-nav-button md-button md-default-theme" ng-transclude="" href="#/communities"
-                            md-button=""><span class="ng-scope">Communities</span></a></li>
-      <li class="l-left"><a class="main-nav-button md-button md-default-theme" ng-transclude="" href="#/tools"
-                            md-button=""><span class="ng-scope">Tools</span></a></li>
-      <li class="l-left"><a class="main-nav-button md-button md-default-theme" ng-transclude="" href="#/frameworks"
-                            md-button=""><span class="ng-scope">Frameworks</span></a></li>
-      <li class="l-left"><a class="main-nav-button md-button md-default-theme" ng-transclude="" href="#/reading/guides"
-                            md-button=""><span class="ng-scope">Reading</span></a></li>
-      <li class="l-right"><a class="main-nav-button has-icon md-button md-default-theme" ng-transclude=""
-                             href="https://github.com/GYF1/websites" md-button=""> <span
-        class="icon icon-cloud-download ng-scope"></span><span class="ng-scope"> GitHub</span></a></li>
+      <li class="l-left">
+        <a class="main-nav-button md-button md-default-theme" ng-transclude="" ng-click="toggleMainMenu($event)" href="#/users" md-button="">
+          <span class="ng-scope">Users</span>
+        </a>
+      </li>
+      <li class="l-left">
+        <a class="main-nav-button md-button md-default-theme" ng-transclude="" ng-click="toggleMainMenu($event)" href="#/portals" md-button="">
+          <span class="ng-scope">Portals</span>
+        </a>
+      </li>
+      <li class="l-left">
+        <a class="main-nav-button md-button md-default-theme" ng-transclude="" ng-click="toggleMainMenu($event)" href="#/communities" md-button="">
+          <span class="ng-scope">Communities</span>
+        </a>
+      </li>
+      <li class="l-left">
+        <a class="main-nav-button md-button md-default-theme" ng-transclude="" ng-click="toggleMainMenu($event)" href="#/practices" md-button="">
+          <span class="ng-scope">Practices</span>
+        </a>
+      </li>
+      <!--<li class="l-left">-->
+        <!--<a class="main-nav-button md-button md-default-theme" ng-transclude="" href="#/frameworks" md-button="">-->
+          <!--<span class="ng-scope">Frameworks</span>-->
+        <!--</a>-->
+      <!--</li>-->
+      <li class="l-left">
+        <a class="main-nav-button md-button md-default-theme" ng-transclude="" ng-click="toggleMainMenu($event)" href="#/reading/guides" md-button="">
+          <span class="ng-scope">Reading</span>
+        </a>
+      </li>
+      <li class="l-right">
+        <a class="main-nav-button has-icon md-button md-default-theme" ng-transclude=""
+           href="https://github.com/GYF1/websites" md-button="">
+          <span class="icon icon-cloud-download ng-scope"></span>
+          <span class="ng-scope"> GitHub</span>
+        </a>
+      </li>
     </ul>
   </nav>
 </md-toolbar>

@@ -20,6 +20,7 @@
   ],
   "dependencies": {
     "angular-material": "~0.8.3",
-    "angular-ui-router": "~0.2.13"
+    "angular-ui-router": "~0.2.13",
+    "font-awesome": "~4.3.0"
   }
 }

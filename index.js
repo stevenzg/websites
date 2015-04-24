@@ -44,15 +44,30 @@
           templateUrl: 'views/portals.html',
           title: 'Portals'
         },
-        'tools': {
-          url: '/tools',
-          templateUrl: 'views/tools.html',
-          title: 'Tools'
+        'practices': {
+          url: '/practices',
+          templateUrl: 'views/practices.html',
+          title: 'Practices'
         },
-        'frameworks': {
+        'practices.frameworks': {
           url: '/frameworks',
-          templateUrl: 'views/frameworks.html',
+          templateUrl: 'views/practices/frameworks.html',
           title: 'Frameworks'
+        },
+        'practices.coding': {
+          url: '/coding',
+          templateUrl: 'views/reading/coding.html',
+          title: 'Coding'
+        },
+        'practices.service': {
+          url: '/service',
+          templateUrl: 'views/reading/service.html',
+          title: 'Service'
+        },
+        'practices.cloud': {
+          url: '/cloud',
+          templateUrl: 'views/reading/cloud.html',
+          title: 'Cloud'
         },
         'jobs': {
           url: '/jobs',
