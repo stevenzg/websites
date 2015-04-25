@@ -56,17 +56,32 @@
         },
         'practices.coding': {
           url: '/coding',
-          templateUrl: 'views/reading/coding.html',
+          templateUrl: 'views/practices/coding.html',
           title: 'Coding'
         },
-        'practices.service': {
-          url: '/service',
-          templateUrl: 'views/reading/service.html',
+        'practices.services': {
+          url: '/services',
+          templateUrl: 'views/practices/services.html',
           title: 'Service'
+        },
+        'practices.themes': {
+          url: '/themes',
+          templateUrl: 'views/practices/themes.html',
+          title: 'Themes'
+        },
+        'practices.platforms': {
+          url: '/platforms',
+          templateUrl: 'views/practices/platforms.html',
+          title: 'Platforms'
+        },
+        'practices.jobs': {
+          url: '/jobs',
+          templateUrl: 'views/practices/jobs.html',
+          title: 'Jobs'
         },
         'practices.cloud': {
           url: '/cloud',
-          templateUrl: 'views/reading/cloud.html',
+          templateUrl: 'views/practices/cloud.html',
           title: 'Cloud'
         },
         'jobs': {

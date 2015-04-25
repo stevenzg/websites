@@ -1,0 +1,32 @@
+[
+  {
+    "name": "AngularJS 2",
+    "link": "https://angular.io/",
+    "description": "Angular is a development platform for building mobile and desktop web applications. "
+  },
+  {
+    "name": "AngularJS",
+    "link": "https://angularjs.org/",
+    "description": "Superheroic JavaScript MVW Framework. AngularJS is what HTML would have been, had it been designed for building web-apps. Declarative templates with data-binding, MVW, MVVM, MVC, dependency injection and great testability story all implemented with pure client-side JavaScript!"
+  },
+  {
+    "name": "Bootstrap",
+    "link": "http://getbootstrap.com/",
+    "description": "The world's most popular mobile-first and responsive front-end framework. Bootstrap, a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development."
+  },
+  {
+    "name": "Node.js",
+    "link": "https://nodejs.org/",
+    "description": "Node.js® is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices."
+  },
+  {
+    "name": "Meteor",
+    "link": "https://www.meteor.com/",
+    "description": "Meteor is a complete platform for building web and mobile apps in pure JavaScript."
+  },
+  {
+    "name": "Pure.css",
+    "link": "http://purecss.io/",
+    "description": "A set of small, responsive CSS modules that you can use in every web project."
+  }
+]

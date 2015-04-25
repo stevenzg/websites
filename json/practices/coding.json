@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Dash",
+    "link": "https://kapeli.com/dash",
+    "type": "Coding",
+    "description": "API Documentation Browser, Snippet Manager. Dash is an API Documentation Browser and Code Snippet Manager. Dash searches offline documentation of 150+ APIs and stores snippets of code. You can also generate your own documentation sets."
+  },
+  {
+    "name": "Gulp",
+    "link": "http://gulpjs.com/",
+    "type": "Coding",
+    "description": "the streaming build system. Automate and enhance your workflow."
+  },
+  {
+    "name": "JSHint",
+    "description": "JSHint, a JavaScript Code Quality Tool",
+    "link": "http://jshint.com/",
+    "type": "Coding"
+  },
+  {
+    "name": "CSS3Gen",
+    "description": "CSS3Gen is a CSS3 Generator that allows you to generate CSS3 snippets for Box Shadow, Text Shadow, Border Radius and more.",
+    "link": "http://css3gen.com/",
+    "type": "Generator"
+  }
+]

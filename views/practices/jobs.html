@@ -1,0 +1,23 @@
+<!--<div ng-controller="CtrlWork"-->
+     <!--ng-init="initialization();"-->
+     <!--class="container">-->
+  <!--<div class="bs-callout bs-callout-default" ng-repeat="job in jobs">-->
+    <!--<h4>-->
+      <!--<a ng-href="{{job.link}}" target="_blank">{{job.name}}</a>-->
+    <!--</h4>-->
+    <!--<p style="text-shadow: 4px 4px 5px rgba(150, 150, 150, 1);">{{job.description}}</p>-->
+  <!--</div>-->
+<!--</div>-->
+
+
+<div ng-controller="CtrlWork" ng-init="initialization();" class="container" style="margin: 0 30px;">
+  <div ng-repeat="job in jobs | orderBy : 'name'" style="margin-bottom: 30px;">
+    <h3 class="md-display-2">
+      <a style="color: #445A64;" ng-href="{{job.link}}" target="_blank">{{job.name}}</a>
+    </h3>
+
+    <p>{{job.description}}</p>
+
+    <md-divider ng-if="!$last"></md-divider>
+  </div>
+</div>

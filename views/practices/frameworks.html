@@ -1,5 +1,11 @@
-<div ng-controller="CtrlFrameworks" ng-init="initialization();" class="container" style="margin: 0 60px;">
-  <div ng-repeat="framework in frameworks">
-    <h3 class="md-display-2"><a style="color: #445A64;" ng-href="{{framework.link}}" target="_blank">{{framework.name}}</a></h3>
+<div ng-controller="CtrlFrameworks" ng-init="initialization();" class="container" style="margin: 0 30px;">
+  <div ng-repeat="framework in frameworks | orderBy : 'name'" style="margin-bottom: 30px;">
+    <h3 class="md-display-2">
+      <a style="color: #445A64;" ng-href="{{framework.link}}" target="_blank">{{framework.name}}</a>
+    </h3>
+
+    <p>{{framework.description}}</p>
+
+    <md-divider ng-if="!$last"></md-divider>
   </div>
 </div>

@@ -2,21 +2,21 @@
   {
     "name": "GitHub",
     "logo": "github.png",
-    "link": "http://github.com/"
+    "icon": "fa-github",
+    "link": "http://github.com/",
+    "description": "Build software better, together. GitHub is the best place to build software together. Over 4 million people use GitHub to share code."
   },
   {
     "name": "Stack Overflow",
     "logo": "stackoverflow.png",
-    "link": "http://stackoverflow.com/"
+    "icon": "fa-stack-overflow",
+    "link": "http://stackoverflow.com/",
+    "description": "Q&A for professional and enthusiast programmers"
   },
   {
     "name": "World Wide Web Consortium (W3C)",
     "logo": "w3c.png",
-    "link": "http://www.w3.org"
-  },
-  {
-    "name": "CSSDeck",
-    "logo": "cssdeck.jpeg",
-    "link": "http://cssdeck.com/"
+    "link": "http://www.w3.org",
+    "description": "The World Wide Web Consortium (W3C) is an international community where Member organizations, a full-time staff, and the public work together to develop Web standards."
   }
 ]

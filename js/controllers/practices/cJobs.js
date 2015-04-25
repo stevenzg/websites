@@ -2,7 +2,7 @@
   'use strict';
   function ctrlWork ($scope, $http) {
     $scope.initialization = function () {
-      $http.get('json/jobs.json')
+      $http.get('json/practices/jobs.json')
         .success(function (data, status, headers, config) {
           $scope.jobs = data;
         })

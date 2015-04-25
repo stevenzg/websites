@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Coding",
+    "link": "https://coding.net/",
+    "description": "Coding 是一个面向开发者的云端开发平台，目前提供代码托管，运行空间，质量控制，项目管理等功能。Coding 提供社会化协作功能，包含了社交元素，为开发者提供技术讨论和协作平台。 Coding，让开发更简单！"
+  },
+  {
+    "name": "Heroku",
+    "link": "https://www.heroku.com/",
+    "description": "A platform as a service (PaaS) that enables developers to build and run applications entirely in the cloud."
+  },
+  {
+    "name": "Modulus",
+    "link": "https://modulus.io/",
+    "description": "Scalable application platform (PaaS) for developers and enterprises. Deploy, host and manage your Node.js and MongoDB applications. Try us for free."
+  },
+  {
+    "name": "Nodejitsu",
+    "link": "nodejitsu.com",
+    "description": "Nodejitsu provides a simple, reliable and smart Node.js hosting platform. We serve more than 25,000 developers and 1 million deployments"
+  },
+  {
+    "name": "OpenShift",
+    "link": "https://www.openshift.com/",
+    "description": "OpenShift gives you all the tools you need to develop, host and scale your apps in the public or private cloud. Get started today."
+  },
+  {
+    "name": "dotCloud",
+    "link": "https://www.dotcloud.com/",
+    "description": "dotCloud is the application Platform which enables developers to deploy, manage and scale their applications. It supports all languages including PHP, Python, Ruby, Java, Nodejs, Perl and any other through custom services."
+  },
+  {
+    "name": "Getup",
+    "link": "https://getupcloud.com",
+    "description": "Getup is a scalable cloud application platform. Uma forma fácil e rápida de desenvolver e publicar aplicações web. Você se preocupa com o código - nós cuidamos do resto."
+  },
+  {
+    "name": "Windows Azure",
+    "link": "http://azure.microsoft.com",
+    "description": "Microsoft Azure is an open, flexible, enterprise-grade cloud computing platform. Move faster, do more, and save money with IaaS + PaaS. Try for FREE."
+  }
+
+]
