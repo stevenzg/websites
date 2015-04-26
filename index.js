@@ -34,6 +34,11 @@
           templateUrl: 'views/reading/tutorials.html',
           title: 'Tutorials'
         },
+        'reading.news': {
+          url: '/news',
+          templateUrl: 'views/reading/news.html',
+          title: 'News'
+        },
         'communities': {
           url: '/communities',
           templateUrl: 'views/communities.html',

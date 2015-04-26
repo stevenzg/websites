@@ -1,0 +1,52 @@
+[
+  {
+    "name": "极客公园",
+    "link": "http://www.geekpark.net/",
+    "description": "极客公园，为你带来互联网热门趋势、热点产品的深度分析，发掘产品和趋势的价值。"
+  },
+  {
+    "name": "36氪",
+    "link": "http://36kr.com/",
+    "description": "36氪是一个关注互联网创业的科技博客"
+  },
+  {
+    "name": "51CTO.COM",
+    "link": "http://www.51cto.com/",
+    "description": "中国领先的IT技术网站51CTO(www.51cto.com)是一个为CTO、IT技术经理、系统工程师、网络工程师、安全工程师、数据库工程师、网络管理员、开发工程师、项目管理人员等IT技术人员搭建的互动媒体平台，主要为IT技术人员提供新闻资讯、技术文档、BBS、博客、技术圈、培训课程、人才交流等专业服务。"
+  },
+  {
+    "name": "CSDN.NET",
+    "link": "http://www.csdn.net/",
+    "description": "全球最大中文IT社区，为IT专业技术人员提供最全面的信息传播和服务平台"
+  },
+  {
+    "name": "InfoQ",
+    "link": "http://www.infoq.com",
+    "description": "Software Development News, Videos & Books"
+  },
+  {
+    "name": "点名时间",
+    "link": "http://www.demohour.com/",
+    "description": "点名时间严格挑选从未上市的智能产品，全网独家发布！30天的特价优惠，让喜爱智能产品的朋友限时预订抢购。"
+  },
+  {
+    "name": "i黑马",
+    "link": "http://www.iheima.com/",
+    "description": "创业服务第一媒体平台—关注创业者的平台"
+  },
+  {
+    "name": "福布斯中文网",
+    "link": "http://www.forbeschina.com/",
+    "description": "福布斯中文网是服务于高端商业群体的财经资讯门户,评论和内容网站.专注提供福布斯榜单、富豪信息、财富、商业、投资、科技、创业、城市、生活奢侈品资讯报道,财经动态,行业动向、投资信息等服务。"
+  },
+  {
+    "name": "IT经理网",
+    "link": "http://www.ctocio.com/",
+    "description": "IT经理网是一个真正面向 IT经理人和企业高级管理层的高端中文IT内容平台IT经理网"
+  },
+  {
+    "name": "9RIA",
+    "link": "http://www.9ria.com/",
+    "description": "专注互联网游戏和应用的开发者平台,全球最大的中文游戏开发者社区。关注ActionScript，Flex，游戏开发、移动开发，发布业内最新的新闻资讯，以及大量原创翻译。网站有众多原创AS3/Flex/AIR教程，游戏开发教程，移动开发教程，以及各类开发书籍、软件、源码工具等。"
+  }
+]

@@ -18,5 +18,72 @@
     "logo": "w3c.png",
     "link": "http://www.w3.org",
     "description": "The World Wide Web Consortium (W3C) is an international community where Member organizations, a full-time staff, and the public work together to develop Web standards."
+  },
+  {
+    "name": "StackShare",
+    "logo": "",
+    "link": "http://stackshare.io/",
+    "description": "StackShare helps developers find and decide on the best cloud services. Search and browse cloud infrasctructure services such as PaaS, IaaS, log management, exception monitoring, realtime backend APIs, and more. Find the right tools and services to build your next app."
+  },
+  {
+    "name": "Snipplr",
+    "logo": "",
+    "link": "http://snipplr.com/",
+    "description": "Snipplr lets your store and share all of your commonly used pieces of code and HTML with other programmers and designers."
+  },
+  {
+    "name": "知乎",
+    "logo": "",
+    "link": "http://www.zhihu.com/",
+    "description": "一个真实的网络问答社区，帮助你寻找答案，分享知识。"
+  },
+  {
+    "name": "DZone",
+    "logo": "",
+    "link": "http://www.dzone.com/",
+    "description": "fresh links for developers"
+  },
+  {
+    "name": "CodeProject",
+    "logo": "",
+    "link": "http://www.codeproject.com/",
+    "description": "Free source code and tutorials for Software developers and Architects."
+  },
+  {
+    "name": "Toptal",
+    "logo": "",
+    "link": "http://www.toptal.com/",
+    "description": "Toptal connects start-ups, businesses, and organizations to a growing network of the best custom software developers in the world. Our engineers are available full-time, part-time, or hourly and are able to seamlessly integrate into your team."
+  },
+  {
+    "name": "Koding",
+    "logo": "",
+    "link": "https://koding.com/",
+    "description": "Koding is a cloud-based development environment complete with free VMs, IDE &amp; sudo enabled terminal where you can learn Ruby, Go, Java, NodeJS, PHP, C, C&#43;&#43;, Perl, Python, etc."
+  },
+  {
+    "name": "V2EX",
+    "logo": "",
+    "link": "http://www.v2ex.com/",
+    "description": " V2EX = way to explore V2EX 是一个关于分享和探索的地方"
+  },
+  {
+    "name": "OurJS",
+    "logo": "",
+    "link": "http://ourjs.com/",
+    "description": " 爱我技术 我们的技术-IT文摘 JavaScript社区 Node.JS社区 前端社区 全端论坛 MongoDB html5 CSS3 开源社区"
+  },
+  {
+    "name": "开源中国",
+    "logo": "",
+    "link": "http://www.oschina.net/",
+    "description": " www.oschina.net 是目前中国最大的开源技术社区。我们传播开源的理念，推广开源项目，为 IT 开发者提供了一个发现、使用、并交流开源技术的平台。目前开源中国社区已收录超过两万款开源软件。"
+  },
+  {
+    "name": "GitCafe",
+    "logo": "",
+    "link": "https://gitcafe.com/",
+    "description": "GitCafe 是一个为您在线托管软件项目的服务平台。 这里是一个大家庭，您可以在 GitCafe 与他人快乐地进行项目分享与协作。 现在就加入 GitCafe，找到喜欢的项目与志同道合的程序员！"
   }
+
 ]

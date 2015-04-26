@@ -2,7 +2,46 @@
   {
     "name": "快法务",
     "description": "专注创业法律服务",
-    "link": "http://www.kuaifawu.com",
-    "type": "Service"
+    "link": "http://www.kuaifawu.com"
+  },
+  {
+    "name": "云梯 VPN",
+    "description": "连接世界的梯子",
+    "link": "https://www.ytvpn.com/"
+  },
+  {
+    "name": "Learnable",
+    "description": "Learnable: Learn web development and design from the masters",
+    "link": "https://learnable.com/"
+  },
+  {
+    "name": "懒投资",
+    "description": "懒投资是国内领先的互联网金融平台，专注于应收账款保理业务，懒人投资理财就上懒投资网",
+    "link": "https://lantouzi.com/"
+  },
+  {
+    "name": "DNSPod",
+    "description": "DNSPod是国内最早提供免费智能DNS产品的网站，致力于为各类网站提供高质量的电信、网通、教育网双线或者三线智能DNS免费解析。目前DNSPod已经是国内最大的免费DNS解析产品提供商",
+    "link": "https://www.dnspod.cn/"
+  },
+  {
+    "name": "麦客",
+    "description": "麦客是简洁易用的表单制作与联系人管理工具，你可以自己设计表单，收集结构化数据，轻松进行客户管理",
+    "link": "http://www.mikecrm.com/"
+  },
+  {
+    "name": "饿了么",
+    "description": "饿了么是中国最专业的网上订餐平台，提供各类中式、日式、韩式、西式等优质美食。",
+    "link": "http://ele.me/"
+  },
+  {
+    "name": "Thinkful",
+    "description": "Thinkful is the online school you need to become a web developer. Build real projects at your own pace with ongoing support from your own mentor. Join today.",
+    "link": "https://www.thinkful.com/"
+  },
+  {
+    "name": "Code School",
+    "description": "Learn to code in the comfort of your browser with video tutorials, programming challenges, and screencasts.",
+    "link": "https://www.codeschool.com/"
   }
 ]

@@ -58,5 +58,11 @@
     "logo": "website.jpg",
     "title": "WEB前端开发",
     "description": "专注前端开发，关注用户体验"
+  },
+  {
+    "link": "http://www.sitepoint.com/",
+    "logo": "",
+    "title": "SitePoint",
+    "description": "Learn Web Design &amp; Development with SitePoint tutorials, courses and books - HTML5, CSS3, JavaScript, PHP, mobile app development, Responsive Web Design"
   }
 ]

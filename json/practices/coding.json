@@ -22,5 +22,10 @@
     "description": "CSS3Gen is a CSS3 Generator that allows you to generate CSS3 snippets for Box Shadow, Text Shadow, Border Radius and more.",
     "link": "http://css3gen.com/",
     "type": "Generator"
+  },
+  {
+    "name": "MobileTest.me",
+    "description": "MobileTest.me - Test your mobile sites and web applications right from your browser",
+    "link": "http://mobiletest.me/"
   }
 ]

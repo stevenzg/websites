@@ -28,5 +28,15 @@
     "name": "Pure.css",
     "link": "http://purecss.io/",
     "description": "A set of small, responsive CSS modules that you can use in every web project."
+  },
+  {
+    "name": "Ionic",
+    "link": "http://ionicframework.com/",
+    "description": "Ionic makes it incredibly easy to build beautiful and interactive mobile apps using HTML5 and AngularJS."
+  },
+  {
+    "name": "Hexo",
+    "link": "http://hexo.io/",
+    "description": "Hexo is a fast, simple &amp; powerful blog framework powered by Node.js."
   }
 ]

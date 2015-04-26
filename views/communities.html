@@ -1,5 +1,5 @@
 <div ng-controller="CtrlCommunities" ng-init="initialization();" class="container" style="margin: 0 30px;">
-  <div ng-repeat="community in communities" style="margin-bottom: 30px;">
+  <div ng-repeat="community in communities | orderBy : 'name'" style="margin-bottom: 30px;">
     <h3 class="md-display-2">
       <a style="color: #445A64;" ng-href="{{community.link}}" target="_blank">
         <i class="fa" ng-class="community.icon"></i> {{community.name}}</a>

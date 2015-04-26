@@ -38,6 +38,61 @@
     "name": "Windows Azure",
     "link": "http://azure.microsoft.com",
     "description": "Microsoft Azure is an open, flexible, enterprise-grade cloud computing platform. Move faster, do more, and save money with IaaS + PaaS. Try for FREE."
+  },
+  {
+    "name": "FIR.im",
+    "link": "http://fir.im/",
+    "description": "FIR.im 为开发者提供简洁迅速的内测程序分发服务，支持iOS与Android，可以让用户两步简单发布应用程序, 并提供团队开发、权限管理及版本管理等功能，极大简化了App内测的过程，能够让开发者更专注于产品。"
+  },
+  {
+    "name": "又拍云",
+    "link": "https://www.upyun.com/",
+    "description": "又拍云存储为您提供安全、稳定、高速、开放的文件云存储、图片云存储、音频云存储、视频云存储等各类专业的云存储服务，8年的专业云存储技术让我们成为数十万用户的第一选择！"
+  },
+  {
+    "name": "Parse",
+    "link": "https://parse.com/",
+    "description": "Focus on creating unique &amp; engaging apps on any platform. We take care of everything else your app needs, from the core of your app to analytics and push notifications."
+  },
+  {
+    "name": "Firebase",
+    "link": "https://www.firebase.com/",
+    "description": "Firebase is a realtime backend as a service that allows you to create incredible apps. Save, Store and Update Data in realtime directly from the browser or mobile client using only javascript or native iOS or Android code."
+  },
+  {
+    "name": "百度开放云平台",
+    "link": "http://developer.baidu.com/",
+    "description": "百度开放云平台是百度面向开发者的开放平台，为开发者集中提供开发、托管、提交、推广、统计分析、换量、变现等全流程服务。目前具备web应用、移动客户端应用和网站三种合作类型，包含开发支持、运营支持、渠道推广和商业变现四大主要业务。"
+  },
+  {
+    "name": "Sina App Engine",
+    "link": "http://sae.sina.com.cn/",
+    "description": "Sina App Engine（简称SAE）是新浪研发中心推出的国内首个公有云计算平台，支持PHP,MySQL,Memcached,Mail,TaskQueue,RDC（关系型数据库集群）等服务，并为开发者提供了非常便捷的管理界面。"
+  },
+  {
+    "name": "LeanCloud",
+    "link": "https://leancloud.cn/",
+    "description": "LeanCloud 为应用开发提供一站式解决方案，包括：数据存储、用户管理、消息推送、应用统计、社交分享、实时聊天等服务，让开发者彻底抛弃后端负担，专注于提升用户体验，最大限度提升产品发布、迭代周期，在市场上占领先机。"
+  },
+  {
+    "name": "AppCan.cn",
+    "link": "http://www.appcan.cn/",
+    "description": "AppCan.cn是国内领先的一站式移动开发服务平台，支持HTML5快速开发手机应用，同时支持iOS、Android、WindowsPhone。"
+  },
+  {
+    "name": "七牛云存储",
+    "link": "http://www.qiniu.com/",
+    "description": "七牛云存储为企业提供图片云存储、音频云存储、视频云存储等非结构化静态文件的高速稳定安全云存储平台，快速拥有专属文件服务集群，七牛云存储用户免费享有CDN特权，云存储将闪电加速终端客户体验。"
+  },
+  {
+    "name": "APICloud",
+    "link": "http://www.apicloud.com/",
+    "description": "APICloud是中国首个“云端一体”的移动应用云服务提供商。APICloud为开发者从“云”和“端”两个方向提供API，简化移动应用开发技术，让移动应用的开发周期从一个月缩短到7天。其中表现最为凸显的技术为移动应用开发，app开发，phonegap，phonegap 教程，phonegap 教程 ，appcan，hybrid app，html5 app 开发。"
+  },
+  {
+    "name": "阿里云",
+    "link": "http://www.aliyun.com/",
+    "description": "阿里云，数据分享第一平台，云计算第一平台，云产品解决方案，享多线独享带宽，开发者合作平台，站长云集平台"
   }
 
 ]
