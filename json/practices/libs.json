@@ -13,5 +13,40 @@
     "name": "jPlayer",
     "link": "http://jplayer.org/",
     "description": "HTML5 Audio & Video for jQuery. The CSS styleable jQuery media player plugin with HTML5 support!"
+  },
+  {
+    "name": "Toolbar.js",
+    "link": "http://paulkinzett.github.io/toolbar/",
+    "description": "jQuery plugin to create tooltip style toobars"
+  },
+  {
+    "name": "Hint.css",
+    "link": "http://kushagragour.in/lab/hint/",
+    "description": "Hint.css is a tooltip library written in SASS which uses only HTML/CSS to create simple tooltips. "
+  },
+  {
+    "name": "Sea.js",
+    "link": "http://seajs.org",
+    "description": "A Module Loader for the Web"
+  },
+  {
+    "name": "Magnific Popup",
+    "link": "http://dimsemenov.com/plugins/magnific-popup/",
+    "description": "Light and open source responsive lightbox plugin with focus on performance, for jQuery and Zepto.js. High-DPI (retina) display support, fast tap for touch devices."
+  },
+  {
+    "name": "Underscore.js",
+    "link": "http://underscorejs.org/",
+    "description": "Underscore is a JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects."
+  },
+  {
+    "name": "Underscore.js 中文文档",
+    "link": "http://learningcn.com/underscore/",
+    "description": "Underscore 是一个JavaScript实用库,提供了类似Prototype.js (或 Ruby)的一些功能,但是没有继承任何JavaScript内置对象。"
+  },
+  {
+    "name": "FastClick",
+    "link": "https://github.com/ftlabs/fastclick",
+    "description": "FastClick is a simple, easy-to-use library for eliminating the 300ms delay between a physical tap and the firing of a click event on mobile browsers. "
   }
 ]

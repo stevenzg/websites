@@ -53,5 +53,45 @@
     "name": "Ember.js",
     "link": "http://emberjs.com/",
     "description": "A framework for creating ambitious web applications."
+  },
+  {
+    "name": "Ember.js",
+    "link": "http://emberjs.com/",
+    "description": "A framework for creating ambitious web applications."
+  },
+  {
+    "name": "Foundation",
+    "link": "http://foundation.zurb.com/",
+    "description": "The Most Advanced Responsive Front-end Framework from ZURB. Documentation and reference library for ZURB Foundation. JavaScript, CSS, components, grid and more."
+  },
+  {
+    "name": "Semantic UI",
+    "link": "http://semantic-ui.com/",
+    "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI."
+  },
+  {
+    "name": "Karma",
+    "link": "http://karma-runner.github.io",
+    "description": "Spectacular Test Runner for Javascript"
+  },
+  {
+    "name": "Jasmine",
+    "link": "http://jasmine.github.io/",
+    "description": "Behavior-Driven JavaScript"
+  },
+  {
+    "name": "Jade",
+    "link": "http://jade-lang.com/",
+    "description": "Node Template Engine"
+  },
+  {
+    "name": "Topcoat",
+    "link": "http://topcoat.io/",
+    "description": "CSS for clean and fast web apps."
+  },
+  {
+    "name": "Jekyll",
+    "link": "http://jekyllrb.com/",
+    "description": "Simple, blog-aware, static sites"
   }
 ]

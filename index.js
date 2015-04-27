@@ -64,6 +64,11 @@
           templateUrl: 'views/practices/libs.html',
           title: 'Libraries'
         },
+        'practices.resource': {
+          url: '/resource',
+          templateUrl: 'views/practices/resource.html',
+          title: 'Resource'
+        },
         'practices.coding': {
           url: '/coding',
           templateUrl: 'views/practices/coding.html',
