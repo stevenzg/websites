@@ -7,7 +7,7 @@
         'home': {
           url: '',
           templateUrl: 'views/home.html',
-          title: 'Home'
+          title: 'Stuff You Should Know As a Web Developer'
         },
         'users': {
           url: '/users',
