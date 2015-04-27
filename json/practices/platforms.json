@@ -98,6 +98,11 @@
     "name": "大众点评开发者平台",
     "link": "http://developer.dianping.com/",
     "description": "大众点评"
+  },
+  {
+    "name": "Linode",
+    "link": "https://www.linode.com/",
+    "description": "SSD Cloud Hosting - Instantly deploy and manage an SSD server in the Linode Cloud. Get a server running in seconds with your choice of Linux distro, resources, and node location."
   }
 
 ]

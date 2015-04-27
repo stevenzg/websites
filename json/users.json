@@ -159,5 +159,19 @@
     "avatar" : "timberners_lee.jpg",
     "github": "https://twitter.com/timberners_lee",
     "description": ""
+  },
+  {
+    "name" : "Lea Verou",
+    "site" : "http://lea.verou.me/",
+    "avatar" : "LeaVerou.jpeg",
+    "github": "https://github.com/LeaVerou",
+    "description": ""
+  },
+  {
+    "name" : "Chris Coyier",
+    "site" : "http://css-tricks.com",
+    "avatar" : "chriscoyier.jpeg",
+    "github": "https://github.com/chriscoyier/",
+    "description": ""
   }
 ]
