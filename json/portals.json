@@ -64,5 +64,11 @@
     "logo": "",
     "title": "SitePoint",
     "description": "Learn Web Design &amp; Development with SitePoint tutorials, courses and books - HTML5, CSS3, JavaScript, PHP, mobile app development, Responsive Web Design"
+  },
+  {
+    "link": "http://howtonode.org/",
+    "logo": "",
+    "title": "How To Node - NodeJS",
+    "description": "Learn the zen of coding in NodeJS."
   }
 ]

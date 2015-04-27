@@ -84,6 +84,11 @@
     "logo": "",
     "link": "https://gitcafe.com/",
     "description": "GitCafe 是一个为您在线托管软件项目的服务平台。 这里是一个大家庭，您可以在 GitCafe 与他人快乐地进行项目分享与协作。 现在就加入 GitCafe，找到喜欢的项目与志同道合的程序员！"
+  },
+  {
+    "name": "前端乱炖",
+    "link": "http://www.html-js.com/",
+    "description": "前端乱炖，这里是最专业的前端知识平台，汇集国内大部分前端开发人员的前端花名册，最精彩的原创文章专栏，最专业的问答平台，最火热的话题频道，最丰富的线下线上活动。html,js,css,nodejs,前端开发,前端招聘,jquery,qianduan"
   }
 
 ]

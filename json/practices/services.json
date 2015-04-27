@@ -43,5 +43,10 @@
     "name": "Code School",
     "description": "Learn to code in the comfort of your browser with video tutorials, programming challenges, and screencasts.",
     "link": "https://www.codeschool.com/"
+  },
+  {
+    "name": "Pluralsight",
+    "description": "Unlimited online developer and IT courses, starting at $29 per month with new training daily. Courses authored by top industry experts on the most in-demand skills.",
+    "link": "http://www.pluralsight.com/"
   }
 ]
