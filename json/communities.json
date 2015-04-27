@@ -89,6 +89,46 @@
     "name": "前端乱炖",
     "link": "http://www.html-js.com/",
     "description": "前端乱炖，这里是最专业的前端知识平台，汇集国内大部分前端开发人员的前端花名册，最精彩的原创文章专栏，最专业的问答平台，最火热的话题频道，最丰富的线下线上活动。html,js,css,nodejs,前端开发,前端招聘,jquery,qianduan"
+  },
+  {
+    "name": "Java开源大全",
+    "link": "http://www.open-open.com/",
+    "description": "Java开源大全(www.open-open.com)收录最全，最新的Java开源软件，发布最新IT资讯，提供开发文档、技术经验在线分享平台。"
+  },
+  {
+    "name": "百度前端团队",
+    "link": "http://fex.baidu.com/",
+    "description": "_FEX_做最专业的前端_百度前端研发部_百度前端团队Blog"
+  },
+  {
+    "name": "Dribbble",
+    "link": "https://dribbble.com/",
+    "description": "Show and tell for designers"
+  },
+  {
+    "name": "topcoder",
+    "link": "https://www.topcoder.com/",
+    "description": "Improve your skills. Get paid."
+  },
+  {
+    "name": "腾讯AlloyTeam",
+    "link": "http://www.alloyteam.com/",
+    "description": "愿景: 成为地球卓越的Web团队！ | 腾讯全端 AlloyTeam 团队 Blog"
+  },
+  {
+    "name": "coderwall.com",
+    "link": "https://coderwall.com/",
+    "description": "establishing geek cred since 1305712800"
+  },
+  {
+    "name": "CNode：Node.js专业中文社区",
+    "link": "https://cnodejs.org/",
+    "description": "CNode：Node.js专业中文社区"
+  },
+  {
+    "name": "SegmentFault",
+    "link": "http://segmentfault.com/",
+    "description": "最前沿的技术问答，最纯粹的技术切磋。让你不知不觉中开拓眼界，提高技能。在巨人的肩膀上，成为一名优秀开发者。"
   }
 
 ]

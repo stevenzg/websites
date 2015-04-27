@@ -27,5 +27,25 @@
     "name": "MobileTest.me",
     "description": "MobileTest.me - Test your mobile sites and web applications right from your browser",
     "link": "http://mobiletest.me/"
+  },
+  {
+    "name": "在线工具 —— 开源中国社区",
+    "description": "开源中国在线工具,ostools为开发设计人员提供在线工具，提供jsbin在线 CSS、JS 调试，在线 Java API文档,在线 PHP API文档,在线 Node.js API文档,Less CSS编译器，MarkDown编译器等其他在线工具",
+    "link": "http://tool.oschina.net/"
+  },
+  {
+    "name": "Git@OSC代码托管-开源中国社区",
+    "description": "不只是编码，我们更注重社会化协作！",
+    "link": "http://git.oschina.net/"
+  },
+  {
+    "name": "Can I use...",
+    "description": "Support tables for HTML5, CSS3, etc",
+    "link": "http://caniuse.com/"
+  },
+  {
+    "name": "EditorConfig",
+    "description": "EditorConfig is a file format and collection of text editor plugins for maintaining consistent coding styles between different editors and IDEs.",
+    "link": "http://editorconfig.org/"
   }
 ]

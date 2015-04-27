@@ -38,5 +38,25 @@
     "name": "Hexo",
     "link": "http://hexo.io/",
     "description": "Hexo is a fast, simple &amp; powerful blog framework powered by Node.js."
+  },
+  {
+    "name": "Compass",
+    "link": "http://compass-style.org/",
+    "description": "Compass is an open-source CSS Authoring Framework."
+  },
+  {
+    "name": "RequireJS",
+    "link": "http://www.requirejs.org/",
+    "description": "RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node. Using a modular script loader like RequireJS will improve the speed and quality of your code."
+  },
+  {
+    "name": "Sass",
+    "link": "http://sass-lang.com/",
+    "description": "Syntatically Awesome Style Sheets"
+  },
+  {
+    "name": "Ember.js",
+    "link": "http://emberjs.com/",
+    "description": "A framework for creating ambitious web applications."
   }
 ]

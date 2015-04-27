@@ -93,6 +93,11 @@
     "name": "阿里云",
     "link": "http://www.aliyun.com/",
     "description": "阿里云，数据分享第一平台，云计算第一平台，云产品解决方案，享多线独享带宽，开发者合作平台，站长云集平台"
+  },
+  {
+    "name": "大众点评开发者平台",
+    "link": "http://developer.dianping.com/",
+    "description": "大众点评"
   }
 
 ]
