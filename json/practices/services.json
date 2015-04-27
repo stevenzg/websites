@@ -48,5 +48,10 @@
     "name": "Pluralsight",
     "description": "Unlimited online developer and IT courses, starting at $29 per month with new training daily. Courses authored by top industry experts on the most in-demand skills.",
     "link": "http://www.pluralsight.com/"
+  },
+  {
+    "name": "多说",
+    "description": "多说评论框是一款WordPress社会化评论插件，可以用新浪微博、腾讯QQ、人人、豆瓣多帐号登录，帮助网站进行社会化媒体优化。多说让评论更活跃、互动性更强的评论系统，永久免费且容易安装。它能智能识别垃圾评论、稳步提升网站流量。",
+    "link": "http://duoshuo.com/"
   }
 ]

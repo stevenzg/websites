@@ -59,6 +59,11 @@
           templateUrl: 'views/practices/frameworks.html',
           title: 'Frameworks'
         },
+        'practices.libs': {
+          url: '/libs',
+          templateUrl: 'views/practices/libs.html',
+          title: 'Libraries'
+        },
         'practices.coding': {
           url: '/coding',
           templateUrl: 'views/practices/coding.html',

@@ -1,0 +1,11 @@
+<div ng-controller="CtrlLibs" ng-init="initialization();" class="container" style="margin: 0 30px;">
+  <div ng-repeat="lib in libs | orderBy : 'name'" style="margin-bottom: 30px;">
+    <h3 class="md-display-2">
+      <a style="color: #445A64;" ng-href="{{lib.link}}" target="_blank">{{lib.name}}</a>
+    </h3>
+
+    <p>{{lib.description}}</p>
+
+    <md-divider ng-if="!$last"></md-divider>
+  </div>
+</div>
