@@ -48,5 +48,10 @@
     "name": "FastClick",
     "link": "https://github.com/ftlabs/fastclick",
     "description": "FastClick is a simple, easy-to-use library for eliminating the 300ms delay between a physical tap and the firing of a click event on mobile browsers. "
+  },
+  {
+    "name": "Turn.js",
+    "link": "http://www.turnjs.com/",
+    "description": "Turn.js makes a beautiful page turning effect using HTML5 and jQuery"
   }
 ]

@@ -58,5 +58,10 @@
     "title": "JavaScript MDN",
     "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "description": "JavaScript® (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, most known as the scripting language for Web pages, but used in many non-browser environments as well such as node.js or Apache CouchDB. It is a prototype-based, multi-paradigm scripting language that is dynamic, and supports object-oriented, imperative, and functional programming styles. Read more about JavaScript."
+  },
+  {
+    "title": "JavaScript reference",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference",
+    "description": "This part of the JavaScript section on MDN serves as a repository of facts about the JavaScript language. "
   }
 ]

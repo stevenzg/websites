@@ -70,5 +70,17 @@
     "logo": "",
     "title": "How To Node - NodeJS",
     "description": "Learn the zen of coding in NodeJS."
+  },
+  {
+    "link": "http://codecanyon.net/",
+    "logo": "",
+    "title": "CodeCanyon",
+    "description": "Browse the largest script and code marketplace on the web. Find WordPress plugins, jQuery plugins, Javascript, CSS and more. Save time, Buy code."
+  },
+  {
+    "link": "http://www.inwebson.com/",
+    "logo": "",
+    "title": "inWebson.com",
+    "description": "A design weblog dedicated to web designers, web developers and freelancers. We will constantly publishing useful tips and tricks regarding latest web technology and covering latest web tools for you!"
   }
 ]

@@ -129,6 +129,20 @@
     "name": "SegmentFault",
     "link": "http://segmentfault.com/",
     "description": "最前沿的技术问答，最纯粹的技术切磋。让你不知不觉中开拓眼界，提高技能。在巨人的肩膀上，成为一名优秀开发者。"
+  },
+  {
+    "name": "IBM developerWorks",
+    "link": "http://www.ibm.com/developerworks/",
+    "description": "IBM's official developer program. Access software trials and downloads, how-to information, and expert practitioners. Learn, develop, and connect."
+  },
+  {
+    "name": "MSDN - Microsoft Developer Network",
+    "link": "https://msdn.microsoft.com/",
+    "description": "在 Microsoft Developer Network 上查找开发人员可用的资源，比如工具、代码示例和更多其他资源。为 web、Windows Phone 和 Xbox 构建应用程序"
+  },
+  {
+    "name": "Mozilla Developer Network",
+    "link": "https://developer.mozilla.org",
+    "description": "The Mozilla Developer Network (MDN) provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and HTML5 Apps. It also documents Mozilla products, like Firefox OS."
   }
-
 ]
