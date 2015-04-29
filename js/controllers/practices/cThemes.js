@@ -1,15 +1,10 @@
 (function () {
   'use strict';
-  function ctrlThemes ($scope, $http) {
-    $scope.initialization = function () {
-      $http.get('json/practices/themes.json')
-        .success(function (data, status, headers, config) {
-          $scope.themes = data;
-        })
-        .error(function (data, status, headers, config) {
-        });
-    };
+  function ctrlThemes ($scope, SitesAPI) {
+    SitesAPI.readJSON('json/practices/themes.json').then(function (response) {
+      $scope.themes = response.data;
+    });
   }
 
-  angular.module('websites').controller('CtrlThemes', ['$scope', '$http', ctrlThemes]);
+  angular.module('websites').controller('CtrlThemes', ['$scope', 'SitesAPI', ctrlThemes]);
 }());

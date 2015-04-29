@@ -13,5 +13,20 @@
     "name": "iDangero.us",
     "link": "http://www.idangero.us/",
     "description": "Buy Premium Website Templates, Ajax Templates, Wordpress Themes, Scripts and Graphics for websites!"
+  },
+  {
+    "name": "BootstrapHunter",
+    "link": "https://bootstraphunter.com/",
+    "description": "Bootstrap Themes and Templates"
+  },
+  {
+    "name": "BootstrapHunter Forum",
+    "link": "http://myorange.ca/supportforum/",
+    "description": "https://bootstraphunter.com"
+  },
+  {
+    "name": "WOOThemes",
+    "link": "http://www.woothemes.com/",
+    "description": "WordPress Themes, Plugins & eCommerce The ultimate WordPress toolkit."
   }
 ]

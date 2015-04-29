@@ -53,5 +53,20 @@
     "name": "Turn.js",
     "link": "http://www.turnjs.com/",
     "description": "Turn.js makes a beautiful page turning effect using HTML5 and jQuery"
+  },
+  {
+    "name": "jQuery.AjaxFileUpload.js",
+    "link": "https://github.com/jfeldstein/jQuery.AjaxFileUpload.js",
+    "description": "jQuery plugin to magically make file inputs upload via ajax"
+  },
+  {
+    "name": "FlexPaper",
+    "link": "http://flexpaper.devaldi.com/",
+    "description": "The web pdf viewer solution."
+  },
+  {
+    "name": "Passport",
+    "link": "http://passportjs.org/",
+    "description": "Simple, unobtrusive authentication for Node.js."
   }
 ]

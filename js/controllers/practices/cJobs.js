@@ -1,25 +1,10 @@
 (function () {
   'use strict';
-  function ctrlWork ($scope, $http) {
-    $scope.initialization = function () {
-      $http.get('json/practices/jobs.json')
-        .success(function (data, status, headers, config) {
-          $scope.jobs = data;
-        })
-        .error(function (data, status, headers, config) {
-        });
-    };
-
-    $scope.readInformationTechnology = function () {
-      $http.get('json/IT.json')
-        .success(function (data, status, headers, config) {
-          $scope.ITs = data;
-        })
-        .error(function (data, status, headers, config) {
-        });
-    };
-
+  function ctrlJobs ($scope, SitesAPI) {
+    SitesAPI.readJSON('json/practices/jobs.json').then(function (response) {
+      $scope.jobs = response.data;
+    });
   }
 
-  angular.module('websites').controller('CtrlWork', ['$scope', '$http', ctrlWork]);
+  angular.module('websites').controller('CtrlJobs', ['$scope', 'SitesAPI', ctrlJobs]);
 }());

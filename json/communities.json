@@ -144,5 +144,15 @@
     "name": "Mozilla Developer Network",
     "link": "https://developer.mozilla.org",
     "description": "The Mozilla Developer Network (MDN) provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and HTML5 Apps. It also documents Mozilla products, like Firefox OS."
+  },
+  {
+    "name": "视觉ME",
+    "link": "http://shijue.me",
+    "description": "视觉ME（Shijue.me）是中国领先的创意设计社区，为用户提供最新鲜的行业资讯、最新锐的创意灵感、最丰富的下吧素材以及最专业的原创设计作品分享交流平台。作为视觉中国集团旗下视觉设计社区，我们聚焦设计师的核心需求，提供最有价值的服务。"
+  },
+  {
+    "name": "一周一博",
+    "link": "http://www.1z1b.com/",
+    "description": "一周一博，每周写一篇自己的博客，记录你的生活、学习和工作思想，不管内容是什么都将是我们成长轨迹的一部分。"
   }
 ]

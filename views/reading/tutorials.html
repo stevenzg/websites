@@ -1,5 +1,5 @@
-<div class="container" ng-controller="CtrlTutorials" ng-init="initialization();">
-  <div ng-repeat="article in articles">
-    <h3 class="md-display-2"><a style="color: #445A64;" ng-href="{{article.link}}" target="_blank">{{article.title}}</a></h3>
+<div ng-controller="CtrlTutorials">
+  <div ng-repeat="tutorial in tutorials">
+    <h3 class="md-display-2"><a style="color: #445A64;" ng-href="{{tutorial.link}}" target="_blank">{{tutorial.title}}</a></h3>
   </div>
 </div>

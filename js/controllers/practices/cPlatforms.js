@@ -1,15 +1,10 @@
 (function () {
   'use strict';
-  function ctrlPlatforms ($scope, $http) {
-    $scope.initialization = function () {
-      $http.get('json/practices/platforms.json')
-        .success(function (data, status, headers, config) {
-          $scope.platforms = data;
-        })
-        .error(function (data, status, headers, config) {
-        });
-    };
+  function ctrlPlatforms ($scope, SitesAPI) {
+    SitesAPI.readJSON('json/practices/platforms.json').then(function (response) {
+      $scope.platforms = response.data;
+    });
   }
 
-  angular.module('websites').controller('CtrlPlatforms', ['$scope', '$http', ctrlPlatforms]);
+  angular.module('websites').controller('CtrlPlatforms', ['$scope', 'SitesAPI', ctrlPlatforms]);
 }());

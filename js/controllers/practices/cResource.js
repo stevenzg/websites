@@ -1,15 +1,10 @@
 (function () {
   'use strict';
-  function ctrlResource ($scope, $http) {
-    $scope.initialization = function () {
-      $http.get('json/practices/resource.json')
-        .success(function (data, status, headers, config) {
-          $scope.resources = data;
-        })
-        .error(function (data, status, headers, config) {
-        });
-    };
+  function ctrlResource ($scope, SitesAPI) {
+    SitesAPI.readJSON('json/practices/resource.json').then(function (response) {
+      $scope.resources = response.data;
+    });
   }
 
-  angular.module('websites').controller('CtrlResource', ['$scope', '$http', ctrlResource]);
+  angular.module('websites').controller('CtrlResource', ['$scope', 'SitesAPI', ctrlResource]);
 }());

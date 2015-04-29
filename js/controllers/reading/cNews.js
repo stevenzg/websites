@@ -3,16 +3,11 @@
  */
 (function () {
   'use strict';
-  function ctrlNews ($scope, $http) {
-    $scope.initialization = function () {
-      $http.get('json/reading/news.json')
-        .success(function (data, status, headers, config) {
-          $scope.newss = data;
-        })
-        .error(function (data, status, headers, config) {
-        });
-    };
+  function ctrlNews ($scope, SitesAPI) {
+    SitesAPI.readJSON('json/reading/news.json').then(function (response) {
+      $scope.newss = response.data;
+    });
   }
 
-  angular.module('websites').controller('CtrlNews', ['$scope', '$http', ctrlNews]);
+  angular.module('websites').controller('CtrlNews', ['$scope', 'SitesAPI', ctrlNews]);
 }());

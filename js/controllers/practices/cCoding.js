@@ -1,15 +1,10 @@
 (function () {
   'use strict';
-  function ctrlCoding ($scope, $http) {
-    $scope.initialization = function () {
-      $http.get('json/practices/coding.json')
-        .success(function (data, status, headers, config) {
-          $scope.codings = data;
-        })
-        .error(function (data, status, headers, config) {
-        });
-    };
+  function ctrlCoding ($scope, SitesAPI) {
+    SitesAPI.readJSON('json/practices/coding.json').then(function (response) {
+      $scope.codings = response.data;
+    });
   }
 
-  angular.module('websites').controller('CtrlCoding', ['$scope', '$http', ctrlCoding]);
+  angular.module('websites').controller('CtrlCoding', ['$scope', 'SitesAPI', ctrlCoding]);
 }());

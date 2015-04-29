@@ -93,5 +93,45 @@
     "name": "Jekyll",
     "link": "http://jekyllrb.com/",
     "description": "Simple, blog-aware, static sites"
+  },
+  {
+    "name": "TideKit",
+    "link": "https://www.tidekit.com/",
+    "description": "TideKit is a platform to develop mobile, web and desktop apps using a single code base written in JavaScript. Try TideKit today!"
+  },
+  {
+    "name": "Knockout",
+    "link": "http://knockoutjs.com/",
+    "description": "Knockout makes it easier to create rich, responsive UIs with JavaScript"
+  },
+  {
+    "name": "SproutCore",
+    "link": "http://sproutcore.com/",
+    "description": "KnockoutA framework for building fast, desktop caliber web applications."
+  },
+  {
+    "name": "Django",
+    "link": "https://www.djangoproject.com/",
+    "description": "The Web framework for perfectionists with deadlines"
+  },
+  {
+    "name": "Locomotive",
+    "link": "http://locomotivejs.org/",
+    "description": "Powerful MVC web framework for Node.js."
+  },
+  {
+    "name": "jQuery EasyUI",
+    "link": "http://www.jeasyui.com/",
+    "description": "jQuery EasyUI is a complete framework for HTML5 web page. It provides easy to use components for building modern, interactive, javascript applications that work on pc and mobile devices."
+  },
+  {
+    "name": "960 Grid System",
+    "link": "http://960.gs/",
+    "description": "The 960 Grid System is an effort to streamline web development workflow."
+  },
+  {
+    "name": "Unsemantic CSS Framework",
+    "link": "http://unsemantic.com/",
+    "description": "Unsemantic is a fluid grid system that is the successor to the 960 Grid System. It works in a similar way, but instead of being a set number of columns, it's entirely based on percentages."
   }
 ]

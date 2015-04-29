@@ -58,5 +58,25 @@
     "name": "今日头条",
     "link": "http://toutiao.com/",
     "description": "你关心的，才是头条！"
+  },
+  {
+    "name": "虎嗅网",
+    "link": "http://www.huxiu.com/",
+    "description": "虎嗅网是一个有视角的、个性化商业资讯与交流平台，核心关注对象是包括公众公司与创业型企业在内的一系列明星公司"
+  },
+  {
+    "name": "TechCrunch",
+    "description": "The latest technology news and information on startups",
+    "link": "http://techcrunch.com/"
+  },
+  {
+    "name": "译言网",
+    "description": "译言网 | 发现、翻译、分享中文之外的互联网精华",
+    "link": "http://www.yeeyan.org/"
+  },
+  {
+    "name": "eNet硅谷动力",
+    "description": "eNet硅谷动力网站是中国权威的IT产品信息与商业流通门户，涵盖电脑,笔记本,手机,通信产品,数码产品,家电产品等全线IT领域，拥有IT资讯,科技新闻,IT产品库,IT商城,硬件,DIY,手机,数码,MP3,MP4,游戏,评测,学院,下载,服务器,存储,安全等30余个主力频道，每天发布大量IT产品信息及文章专题，是IT行业最重要的网上信息获取和沟通平台。",
+    "link": "http://www.enet.com.cn/"
   }
 ]

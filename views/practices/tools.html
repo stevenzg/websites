@@ -1,0 +1,9 @@
+<div ng-controller="CtrlTools" style="margin: 0 30px;">
+  <div ng-repeat="tool in tools | orderBy : 'name'" style="margin-bottom: 30px;">
+    <h3 class="md-display-2">
+      <a style="color: #445A64;" ng-href="{{tool.link}}" target="_blank">{{tool.name}}</a>
+    </h3>
+    <p>{{tool.description}}</p>
+    <md-divider ng-if="!$last"></md-divider>
+  </div>
+</div>

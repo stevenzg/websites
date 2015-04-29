@@ -1,0 +1,22 @@
+[
+  {
+    "name": "WebStorm",
+    "link": "https://www.jetbrains.com/webstorm/",
+    "description": "The most intelligent JavaScript IDE: JavaScript + CSS + HTML Editor with refactorings, code completion and on-the-fly code analysis"
+  },
+  {
+    "name": "WebStorm Help",
+    "link": "https://www.jetbrains.com/webstorm/help/webstorm.html",
+    "description": "WebStorm is an Integrated Development Environment for the Web developers and coders, built on top of IntelliJ IDEA platform. WebStorm inherits all the web-related functionality of IntelliJ IDEA for editing HTML, CSS, JavaScript, XML, working with VCS, and the other tools specific to web development."
+  },
+  {
+    "name": "Javascript Beautifier and Formatter Online",
+    "link": "http://www.jspretty.com/",
+    "description": "Enter your compressed, minified, or obfuscated javascript and get clean, well-formatted code."
+  },
+  {
+    "name": "Atom",
+    "link": "https://atom.io/",
+    "description": "A hackable text editor for the 21st Century"
+  }
+]

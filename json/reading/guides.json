@@ -63,5 +63,10 @@
     "title": "JavaScript reference",
     "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference",
     "description": "This part of the JavaScript section on MDN serves as a repository of facts about the JavaScript language. "
+  },
+  {
+    "title": "前端收集",
+    "link": "https://github.com/foru17/front-end-collect",
+    "description": "分享前端开发相关的优秀网站、博客、以及活跃开发者"
   }
 ]

@@ -1,15 +1,10 @@
 (function () {
   'use strict';
-  function ctrlSelfBookMarks ($scope, $http) {
-    $scope.initialization = function () {
-      $http.get('json/selfbookmarks.json')
-        .success(function (data, status, headers, config) {
-          $scope.bookmarks = data;
-        })
-        .error(function (data, status, headers, config) {
-        });
-    };
+  function ctrlSelfBookMarks ($scope, SitesAPI) {
+    SitesAPI.readJSON('json/selfbookmarks.json').then(function (response) {
+      $scope.bookmarks = response.data;
+    });
   }
 
-  angular.module('websites').controller('CtrlSelfBookMarks', ['$scope', '$http', ctrlSelfBookMarks]);
+  angular.module('websites').controller('CtrlSelfBookMarks', ['$scope', 'SitesAPI', ctrlSelfBookMarks]);
 }());

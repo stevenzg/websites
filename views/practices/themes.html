@@ -1,4 +1,4 @@
-<div ng-controller="CtrlThemes" ng-init="initialization();" class="container" style="margin: 0 30px;">
+<div ng-controller="CtrlThemes" style="margin: 0 30px;">
   <div ng-repeat="theme in themes | orderBy : 'name'" style="margin-bottom: 30px;">
     <h3 class="md-display-2">
       <a style="color: #445A64;" ng-href="{{theme.link}}" target="_blank">{{theme.name}}</a>

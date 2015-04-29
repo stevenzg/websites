@@ -1,12 +1,3 @@
-<!--<div ng-controller="CtrlTools" ng-init="initialization();" class="container">-->
-<!--<table class="table table-hover">-->
-<!--<tr ng-repeat="tool in tools">-->
-<!--<td><a target="_blank" ng-href="{{tool.link}}">{{tool.name}}</a></td>-->
-<!--<td><span class="label label-info">{{tool.type}}</span></td>-->
-<!--</tr>-->
-<!--</table>-->
-<!--</div>-->
-
 <nav class="side-nav l-pinned-left l-layer-4 l-offset-nav"  ng-controller="CtrlPractices">
   <header class="side-nav-search st-input-wrapper">
     <button class="mobile-trigger button md-button md-default-theme" ng-transclude="" aria-label="View Docs Menu"
@@ -47,6 +38,13 @@
         <span
           class="side-nav-icon icon-query-builder ng-scope"></span>
         <span class="ng-scope"> Coding</span>
+      </a>
+    </li>
+    <li ng-class="{'is-selected': isActive('/practices/tools')}">
+      <a class="md-button md-default-theme" ng-transclude="" href="#/practices/tools" md-button="">
+        <span
+          class="side-nav-icon icon-query-builder ng-scope"></span>
+        <span class="ng-scope"> Tools</span>
       </a>
     </li>
     <li ng-class="{'is-selected': isActive('/practices/platforms')}">

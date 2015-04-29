@@ -1,16 +1,10 @@
 (function () {
   'use strict';
-  function ctrlFrameworks ($scope, $http) {
-    $scope.initialization = function () {
-      $http.get('json/practices/frameworks.json')
-        .success(function (data, status, headers, config) {
-          $scope.frameworks = data;
-          console.log('$scope.frameworks', $scope.frameworks);
-        })
-        .error(function (data, status, headers, config) {
-        });
-    };
+  function ctrlFrameworks ($scope, SitesAPI) {
+    SitesAPI.readJSON('json/practices/frameworks.json').then(function (response) {
+      $scope.frameworks = response.data;
+    });
   }
 
-  angular.module('websites').controller('CtrlFrameworks', ['$scope', '$http', ctrlFrameworks]);
+  angular.module('websites').controller('CtrlFrameworks', ['$scope', 'SitesAPI', ctrlFrameworks]);
 }());

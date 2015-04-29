@@ -47,5 +47,15 @@
     "name": "EditorConfig",
     "description": "EditorConfig is a file format and collection of text editor plugins for maintaining consistent coding styles between different editors and IDEs.",
     "link": "http://editorconfig.org/"
+  },
+  {
+    "name": "Git",
+    "link": "http://git-scm.com/",
+    "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. "
+  },
+  {
+    "name": "Request Maker",
+    "link": "http://www.requestmaker.com/",
+    "description": "Request Maker: HTTP Requests made easy."
   }
 ]

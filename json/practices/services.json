@@ -63,5 +63,30 @@
     "name": "金丰驿家",
     "description": "上海公租房",
     "link": "http://www.ehomesh.com/"
+  },
+  {
+    "name": "万网",
+    "link": "http://www.net.cn/",
+    "description": "基于云计算领先的互联网应用服务提供商。万网,阿里云旗下品牌,是中国最大的域名注册服务提供商、中国虚拟主机服务的开创者，中国企业邮箱服务的领先者和中国网站建设服务的创新者"
+  },
+  {
+    "name": "Treehouse",
+    "link": "https://teamtreehouse.com/",
+    "description": "Learn Web Design, Web Development, and More"
+  },
+  {
+    "name": "爱站网",
+    "link": "http://www.aizhan.com/",
+    "description": "爱站网站长工具提供网站收录查询和站长查询以及百度权重值查询等多个站长工具，免费查询各种工具，包括有关键词排名查询，百度收录查询等。"
+  },
+  {
+    "name": "CDN by MaxCDN",
+    "link": "https://www.maxcdn.com/",
+    "description": "Trailblazing Content Delivery Network - Affordable and Lightening fast CDN services. Super-Charge your Site Speed with a Free Trial today."
+  },
+  {
+    "name": "GoDaddy",
+    "link": "https://www.godaddy.com/",
+    "description": "GoDaddy makes registering Domain Names fast, simple, and affordable. Find out why so many business owners chose GoDaddy to be their Domain Name Registrar."
   }
 ]

@@ -1,20 +1,10 @@
 (function () {
   'use strict';
-  function ctrlPortals ($scope, $http) {
-
-    $scope.gotoPortals = function (link) {
-      window.location.href = link;
-    };
-    $scope.initialization = function () {
-      $http.get('json/portals.json')
-        .success(function (data, status, headers, config) {
-          $scope.portals = data;
-          console.log('$scope.portals', $scope.portals);
-        })
-        .error(function (data, status, headers, config) {
-      });
-    };
+  function ctrlPortals ($scope, SitesAPI) {
+    SitesAPI.readJSON('json/portals.json').then(function (response) {
+      $scope.portals = response.data;
+    });
   }
 
-  angular.module('websites').controller('CtrlPortals', ['$scope', '$http', ctrlPortals]);
+  angular.module('websites').controller('CtrlPortals', ['$scope', 'SitesAPI', ctrlPortals]);
 }());

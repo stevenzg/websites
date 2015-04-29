@@ -103,6 +103,16 @@
     "name": "Linode",
     "link": "https://www.linode.com/",
     "description": "SSD Cloud Hosting - Instantly deploy and manage an SSD server in the Linode Cloud. Get a server running in seconds with your choice of Linux distro, resources, and node location."
+  },
+  {
+    "name": "Docker",
+    "link": "https://www.docker.com/",
+    "description": "Docker is an open platform for developers and sysadmins to build, ship, and run distributed applications, whether on laptops, data center VMs, or the cloud."
+  },
+  {
+    "name": "Nodejitsu",
+    "link": "https://www.nodejitsu.com/",
+    "description": "Nodejitsu provides a simple, reliable and smart Node.js hosting platform. We serve more than 25,000 developers and 1 million deployments"
   }
 
 ]

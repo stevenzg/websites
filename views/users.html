@@ -1,4 +1,4 @@
-<div ng-controller="CtrlUsers" ng-init="initialization();" id="users-container" >
+<div ng-controller="CtrlUsers" id="users-container" >
   <ul class="polaroids">
     <li ng-repeat="user in users | orderBy: 'name'">
       <a ng-href="{{user.github}}" title="{{user.name}}" target="_blank">
