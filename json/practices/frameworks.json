@@ -133,5 +133,65 @@
     "name": "Unsemantic CSS Framework",
     "link": "http://unsemantic.com/",
     "description": "Unsemantic is a fluid grid system that is the successor to the 960 Grid System. It works in a similar way, but instead of being a set number of columns, it's entirely based on percentages."
+  },
+  {
+    "name": "AppJS",
+    "link": "http://appjs.com/",
+    "description": "Build Desktop Applications for Linux, Windows and Mac using HTML, CSS and Javascript."
+  },
+  {
+    "name": "Clouda+",
+    "link": "http://clouda.baidu.com/",
+    "description": "移动web应用开发整体解决方案，特别为轻应用设计，让你的webapp体验和交互媲美Native应用！"
+  },
+  {
+    "name": "MooTools",
+    "link": "http://mootools.net/",
+    "description": "MooTools is a collection of JavaScript utilities designed for the intermediate to advanced JavaScript developer. It allows you to write powerful and flexible code with its elegant, well documented, and coherent APIs."
+  },
+  {
+    "name": "YUI Library",
+    "link": "http://yuilibrary.com/",
+    "description": "YUI is a free, open source JavaScript and CSS library for building richly interactive web applications."
+  },
+  {
+    "name": "WinJS",
+    "link": "https://dev.windows.com/en-us/develop/winjs",
+    "description": "WinJS is a set of JavaScript toolkits that allow developers to build applications using HTML/JS/CSS technology. It provides a distinct set of UI controls with high polish and performance with fundamental support for touch, mouse, keyboard and accessibility."
+  },
+  {
+    "name": "Fuel UX",
+    "link": "http://getfuelux.com/",
+    "description": "Fuel UX, a front-end library that extends Bootstrap with additional lightweight controls."
+  },
+  {
+    "name": "Spine",
+    "link": "http://spinejs.com/",
+    "description": "Spine - Build Awesome JavaScript MVC Applications"
+  },
+  {
+    "name": "Enyo",
+    "link": "http://enyojs.com/",
+    "description": "Enyo is a JavaScript app framework enabling developers build native-quality HTML5 apps that run everywhere — from phones and tablets to PCs and TVs."
+  },
+  {
+    "name": "Handlebars.js",
+    "link": "http://handlebarsjs.com/",
+    "description": "Minimal Templating on Steroids"
+  },
+  {
+    "name": "TideSDK",
+    "link": "http://www.tidesdk.org/",
+    "description": "Create multi-platform desktop apps with HTML5, CSS3 and JavaScript. TideSDK formerly known as Titanium Desktop is the best way to create beautiful, unique desktop apps using your web development skills."
+  },
+  {
+    "name": "Webix",
+    "link": "http://webix.com/",
+    "description": "Webix is a cross-browser JavaScript ui widgets library. Build fast mobile and desktop web applications that run on all touch devices with HTML5 framework."
+  },
+  {
+    "name": "Bootstrap中文网",
+    "link": "http://www.bootcss.com/",
+    "description": "Bootstrap是Twitter推出的一个用于前端开发的开源工具包。它由Twitter的设计师Mark Otto和Jacob Thornton合作开发，是一个CSS/HTML框架。目前，Bootstrap最新版本为3.0 。Bootstrap中文网致力于为广大国内开发者提供详尽的中文文档、代码实例等，助力开发者掌握并使用这一框架。"
   }
 ]

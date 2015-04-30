@@ -164,5 +164,20 @@
     "name": "伯乐在线",
     "link": "http://www.jobbole.com/",
     "description": "伯乐在线是一个IT互联网职业社区。为IT互联网行业的企业和个人提供服务。网站目前包括：博客、伯乐头条、 资源/工具导航。"
+  },
+  {
+    "name": "DailyJS",
+    "link": "http://dailyjs.com/",
+    "description": "The JavaScript blog."
+  },
+  {
+    "name": "CSS Snippets",
+    "link": "http://css-snippets.com/",
+    "description": "CSS and HTML Snippets to cut and paste into websites. Video tutorials on CSS and other web development topics."
+  },
+  {
+    "name": "CSS Zen Garden",
+    "link": "http://www.csszengarden.com/",
+    "description": "A demonstration of what can be accomplished visually through CSS-based design."
   }
 ]

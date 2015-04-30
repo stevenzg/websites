@@ -73,5 +73,60 @@
     "name": "Chance.js",
     "link": "http://chancejs.com/",
     "description": "Utility library to generate anything random for JavaScript"
+  },
+  {
+    "name": "lodash",
+    "link": "https://lodash.com/",
+    "description": "A JavaScript utility library delivering consistency, modularity, performance, & extras."
+  },
+  {
+    "name": "Hammer.JS",
+    "link": "http://hammerjs.github.io/",
+    "description": "Add multi-touch gestures to your webpage."
+  },
+  {
+    "name": "zTree",
+    "link": "http://www.ztree.me/",
+    "description": "zTree 是一个依靠 jQuery 实现的多功能 “树插件”。优异的性能、灵活的配置、多种功能的组合是 zTree 最大优点。专门适合项目开发，尤其是 树状菜单、树状数据的Web显示、权限管理等等。zTree 是开源免费的软件（MIT 许可证）。在开源的作用下，zTree 越来越完善，目前已经拥有了不少粉丝，并且今后还会推出更多的 zTree 扩展功能库，让 zTree 更加强大。"
+  },
+  {
+    "name": "ui-tinymce",
+    "link": "https://github.com/angular-ui/ui-tinymce",
+    "description": "AngularUI wrapper for TinyMCE "
+  },
+  {
+    "name": "angular-breadcrumb",
+    "link": "https://github.com/ncuillery/angular-breadcrumb",
+    "description": "Angular-breadcrumb is a module for AngularJS, which generates a breadcrumb for any page of your application. It is strongly based on the ui-router framework and its hierarchical tree of states."
+  },
+  {
+    "name": "Intro.js",
+    "link": "http://usablica.github.io/intro.js/",
+    "description": "Intro.js - Better introductions for websites and features with a step-by-step guide for your projects."
+  },
+  {
+    "name": "angular-intro.js",
+    "link": "https://github.com/mendhak/angular-intro.js",
+    "description": "AngularJS directives for intro.js"
+  },
+  {
+    "name": "angular-notifications",
+    "link": "https://github.com/DerekRies/angular-notifications",
+    "description": "An AngularJS component for easily creating notifications. Can also use HTML5 notifications."
+  },
+  {
+    "name": "Uploadify",
+    "link": "http://www.uploadify.com/",
+    "description": "HTML5 File Upload Script, jQuery Multiple File Upload Plugin"
+  },
+  {
+    "name": "floatlabels.js",
+    "link": "http://clubdesign.github.io/floatlabels.js/",
+    "description": "Follows the famous Float Label Pattern. A Plugin built on jQuery."
+  },
+  {
+    "name": "D3.js - Data-Driven Documents",
+    "link": "http://d3js.org/",
+    "description": "D3 is a JavaScript library for visualizing data with HTML, SVG, and CSS."
   }
 ]

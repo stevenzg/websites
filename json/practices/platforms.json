@@ -118,6 +118,11 @@
     "name": "UserApp",
     "link": "https://www.userapp.io/",
     "description": "Cloud-based user management for web and mobile apps."
+  },
+  {
+    "name": "StrongLoop",
+    "link": "https://strongloop.com/",
+    "description": "Develop APIs in Node.js, DevOps and Support"
   }
 
 ]

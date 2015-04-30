@@ -78,5 +78,45 @@
     "name": "Plunker",
     "link": "http://plnkr.co/",
     "description": "Plunker is an online community for creating, collaborating on and sharing your web development ideas."
+  },
+  {
+    "name": "jsbeautifier.org",
+    "link": "http://jsbeautifier.org/",
+    "description": "Online JavaScript beautifier"
+  },
+  {
+    "name": "JSHint",
+    "link": "http://jshint.com/",
+    "description": "JSHint, a JavaScript Code Quality Tool"
+  },
+  {
+    "name": "JSLint",
+    "link": "http://jslint.com/",
+    "description": "The JavaScript Code Quality Tool"
+  },
+  {
+    "name": "FreeFormatter.com",
+    "link": "http://www.freeformatter.com/",
+    "description": "Online tools for developers, including formatters (JSON, XML, HTML, SQL, etc.), minifiers (JavaScript, CSS), validators, compactors and many more!"
+  },
+  {
+    "name": "CSS3 Properties 在线手册",
+    "link": "http://www.php100.com/manual/css3_0/index.html",
+    "description": "CSS就是一种叫做样式表（stylesheet）的技术。也有的人称之为层叠样式表（Cascading Stylesheet）。 在主页制作时采用CSS技术，可以有效地对页面的布局、字体、颜色、背景和其它效果实现更加精确的控制。 只要对相应的代码做一些简单的修改，就可以改变同一页面的不同部分，或者页数不同的网页的外观和格式。"
+  },
+  {
+    "name": "Color Hex - ColorHexa.com",
+    "link": "http://www.colorhexa.com/",
+    "description": "Color hex encyclopedia providing information about any color."
+  },
+  {
+    "name": "Cool Text",
+    "link": "http://cooltext.com/",
+    "description": "Logo and Graphics Generator"
+  },
+  {
+    "name": "Color Hex Color Codes",
+    "link": "http://www.color-hex.com/",
+    "description": "Color hex is a easy to use tool to get the color codes information including color models (RGB,HSL,HSV and CMYK), css and html color codes."
   }
 ]
