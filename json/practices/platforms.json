@@ -113,6 +113,11 @@
     "name": "Nodejitsu",
     "link": "https://www.nodejitsu.com/",
     "description": "Nodejitsu provides a simple, reliable and smart Node.js hosting platform. We serve more than 25,000 developers and 1 million deployments"
+  },
+  {
+    "name": "UserApp",
+    "link": "https://www.userapp.io/",
+    "description": "Cloud-based user management for web and mobile apps."
   }
 
 ]

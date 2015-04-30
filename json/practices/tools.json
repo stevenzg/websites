@@ -18,5 +18,65 @@
     "name": "Atom",
     "link": "https://atom.io/",
     "description": "A hackable text editor for the 21st Century"
+  },
+  {
+    "name": "在线工具 —— 开源中国社区",
+    "link": "http://tool.oschina.net/",
+    "description": "开源中国在线工具,ostools为开发设计人员提供在线工具，提供jsbin在线 CSS、JS 调试，在线 Java API文档,在线 PHP API文档,在线 Node.js API文档,Less CSS编译器，MarkDown编译器等其他在线工具"
+  },
+  {
+    "name": "Sprite Cow",
+    "link": "http://www.spritecow.com/",
+    "description": "Generate CSS for sprite sheets"
+  },
+  {
+    "name": "Spritebox",
+    "link": "http://www.spritebox.net/",
+    "description": "Generate and Create CSS from Sprite Images"
+  },
+  {
+    "name": "Dash",
+    "link": "https://kapeli.com/dash",
+    "description": "API Documentation Browser, Snippet Manager. Dash is an API Documentation Browser and Code Snippet Manager. Dash searches offline documentation of 150+ APIs and stores snippets of code. You can also generate your own documentation sets."
+  },
+  {
+    "name": "Sketch中文网",
+    "link": "http://www.sketchcn.com/",
+    "description": "Sketch中文网是一个以中文内容介绍Sketch这款Mac设计工具的社区，在这里分享最新的Sketch中文手册，以及使用技巧。"
+  },
+  {
+    "name": "Trello",
+    "link": "https://trello.com/",
+    "description": "Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what's being worked on, who's working on what, and where something is in a process."
+  },
+  {
+    "name": "jsdo.it",
+    "link": "http://jsdo.it/",
+    "description": "jsdo.it - share JavaScript, HTML5 and CSS - jsdo.it是一项可以在你的浏览器中编写JavaScript，HTML5，CSS代码并分享的服务。你可以拷贝并修改他人的代码，也可以询问任何关于JavaScript，HTML5，CSS的问题。"
+  },
+  {
+    "name": "CodePen",
+    "link": "http://codepen.io/",
+    "description": "A front end web development playground."
+  },
+  {
+    "name": "JSFiddle",
+    "link": "http://jsfiddle.net/",
+    "description": "online javascript editor, testing javascript online, online ide, online code editor, html, css, coffeescript, scss online editor"
+  },
+  {
+    "name": "JS Bin",
+    "link": "http://jsbin.com",
+    "description": "A live pastebin for HTML, CSS & JavaScript and a range of processors, including SCSS, CoffeeScript, Jade and more..."
+  },
+  {
+    "name": "CSSDeck",
+    "link": "http://cssdeck.com/",
+    "description": "Collection of Awesome CSS and JS Creations to help out frontend developers and designers."
+  },
+  {
+    "name": "Plunker",
+    "link": "http://plnkr.co/",
+    "description": "Plunker is an online community for creating, collaborating on and sharing your web development ideas."
   }
 ]

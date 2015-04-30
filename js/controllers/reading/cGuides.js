@@ -1,6 +1,3 @@
-/**
- * Created by guoyinfeng on 4/2/15.
- */
 (function () {
   'use strict';
   function ctrlReadingGuides ($scope, SitesAPI) {

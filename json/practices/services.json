@@ -88,5 +88,20 @@
     "name": "GoDaddy",
     "link": "https://www.godaddy.com/",
     "description": "GoDaddy makes registering Domain Names fast, simple, and affordable. Find out why so many business owners chose GoDaddy to be their Domain Name Registrar."
+  },
+  {
+    "name": "前端公共库CDN",
+    "link": "http://www.freecdn.cn/",
+    "description": "本站是cdnjs.com的国内镜像，由国内前端爱好者搭建，致力于打造一个稳定而又全面的JS/CSS库，给前端开发者免费使用。"
+  },
+  {
+    "name": "cdnjs.com",
+    "link": "https://cdnjs.com/",
+    "description": "An open source CDN for Javascript and CSS sponsored by CloudFlare that hosts everything from jQuery and Modernizr to Bootstrap. Speed up your site with cdnjs!"
+  },
+  {
+    "name": "iwantmyname - Simple Domain Name Registrar",
+    "link": "https://iwantmyname.com/",
+    "description": "Buy your domain name for the best personal and business web applications, no web hosting required. Register international domains and country code domains for your online identity now."
   }
 ]

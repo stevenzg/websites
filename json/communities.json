@@ -154,5 +154,15 @@
     "name": "一周一博",
     "link": "http://www.1z1b.com/",
     "description": "一周一博，每周写一篇自己的博客，记录你的生活、学习和工作思想，不管内容是什么都将是我们成长轨迹的一部分。"
+  },
+  {
+    "name": "Meetup",
+    "link": "http://www.meetup.com/",
+    "description": "Find Meetups and meet people in your local community who share your interests."
+  },
+  {
+    "name": "伯乐在线",
+    "link": "http://www.jobbole.com/",
+    "description": "伯乐在线是一个IT互联网职业社区。为IT互联网行业的企业和个人提供服务。网站目前包括：博客、伯乐头条、 资源/工具导航。"
   }
 ]

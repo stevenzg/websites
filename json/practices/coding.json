@@ -1,11 +1,5 @@
 [
   {
-    "name": "Dash",
-    "link": "https://kapeli.com/dash",
-    "type": "Coding",
-    "description": "API Documentation Browser, Snippet Manager. Dash is an API Documentation Browser and Code Snippet Manager. Dash searches offline documentation of 150+ APIs and stores snippets of code. You can also generate your own documentation sets."
-  },
-  {
     "name": "Gulp",
     "link": "http://gulpjs.com/",
     "type": "Coding",
@@ -27,11 +21,6 @@
     "name": "MobileTest.me",
     "description": "MobileTest.me - Test your mobile sites and web applications right from your browser",
     "link": "http://mobiletest.me/"
-  },
-  {
-    "name": "在线工具 —— 开源中国社区",
-    "description": "开源中国在线工具,ostools为开发设计人员提供在线工具，提供jsbin在线 CSS、JS 调试，在线 Java API文档,在线 PHP API文档,在线 Node.js API文档,Less CSS编译器，MarkDown编译器等其他在线工具",
-    "link": "http://tool.oschina.net/"
   },
   {
     "name": "Git@OSC代码托管-开源中国社区",
@@ -57,5 +46,10 @@
     "name": "Request Maker",
     "link": "http://www.requestmaker.com/",
     "description": "Request Maker: HTTP Requests made easy."
+  },
+  {
+    "name": "LiveReload",
+    "link": "http://livereload.com/",
+    "description": "The Web Developer Wonderland: a happy land where browsers don't need a Refresh button"
   }
 ]

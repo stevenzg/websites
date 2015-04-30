@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="websites">
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title ng-bind="strHTMLTitle + ' - Websites' "></title>
+
+  <meta name="description" content="Collection of websites that web developer should know. Best Ways for Front-End Developers. 前端网址导航.">
+  <meta name="keywords" content="Web,Frond-End,FrontEnd,Full-Stack,JS,CSS,HTML,Design,Bookmarks,前端网址导航,前端学习方法,前端最佳实践">
+  <link rel="shortcut icon" href="img/favicon.ico">
+
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+  <link href="css/page-users.css" rel="stylesheet">
+  <link href="css/page-portals.css" rel="stylesheet">
+  <link href="css/angular-material-custom.css" rel="stylesheet">
+</head>
+
+<body class="l-offset-nav">
+
+<div data-ng-include="'views/navbar.html'"></div>
+
+<section data-ui-view></section>
+
+<!-- Angular Material Dependencies -->
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-aria/angular-aria.js"></script>
+
+<!-- Angular Material Javascript -->
+<script src="bower_components/angular-material/angular-material.js"></script>
+
+<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="index.js"></script>
+<script src="js/services/sAPI.js"></script>
+<script src="js/controllers/cUsers.js"></script>
+<script src="js/controllers/cCommunities.js"></script>
+<script src="js/controllers/cPortals.js"></script>
+<script src="js/controllers/cPractices.js"></script>
+<script src="js/controllers/practices/cFrameworks.js"></script>
+<script src="js/controllers/practices/cJobs.js"></script>
+<script src="js/controllers/cSelfBookMarks.js"></script>
+<script src="js/controllers/cNavbar.js"></script>
+<script src="js/controllers/cReading.js"></script>
+<script src="js/controllers/reading/cArticles.js"></script>
+<script src="js/controllers/reading/cTutorials.js"></script>
+<script src="js/controllers/reading/cNews.js"></script>
+<script src="js/controllers/reading/cGuides.js"></script>
+<script src="js/controllers/practices/cCoding.js"></script>
+<script src="js/controllers/practices/cService.js"></script>
+<script src="js/controllers/practices/cThemes.js"></script>
+<script src="js/controllers/practices/cPlatforms.js"></script>
+<script src="js/controllers/practices/cLibs.js"></script>
+<script src="js/controllers/practices/cResource.js"></script>
+<script src="js/controllers/practices/cTools.js"></script>
+
+
+<script type="text/javascript">document.write('<script src="' + (location.protocol || 'http:') + '//' + (location.hostname || 'localhost') + ':35729/livereload.js?snipver=1" type="text/javascript"><\/script>')</script>
+</body>
+</html>

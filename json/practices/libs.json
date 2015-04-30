@@ -68,5 +68,10 @@
     "name": "Passport",
     "link": "http://passportjs.org/",
     "description": "Simple, unobtrusive authentication for Node.js."
+  },
+  {
+    "name": "Chance.js",
+    "link": "http://chancejs.com/",
+    "description": "Utility library to generate anything random for JavaScript"
   }
 ]

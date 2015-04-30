@@ -18,6 +18,7 @@
   "homepage": "https://github.com/GYF1/websites",
   "devDependencies": {
     "gulp": "^3.8.11",
-    "gulp.spritesmith": "^3.5.3"
+    "gulp-embedlr": "^0.5.2",
+    "gulp-livereload": "^3.8.0"
   }
 }

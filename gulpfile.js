@@ -1,17 +1,26 @@
-var gulp = require('gulp');
+var gulp = require('gulp'),
+  livereload = require('gulp-livereload'),
+  embedlr = require("gulp-embedlr");
 
 
-var spritesmith = require('gulp.spritesmith');
+gulp.src("*.html")
+  .pipe(embedlr())
+  .pipe(gulp.dest("./dist"));
 
-gulp.task('default', function() {
-  // place code for your default task here
-  console.log('wow');
-});
+gulp.task('watch', function() {
 
-gulp.task('sprite', function () {
-  var spriteData = gulp.src('img/*/*.').pipe(spritesmith({
-    imgName: 'sprite.png',
-    cssName: 'sprite.css'
-  }));
-  spriteData.pipe(gulp.dest('sprite'));
+  // Create LiveReload server
+  livereload.listen();
+
+  // Watch any files in dist/, reload on change
+  gulp.watch(['js/**/*.*']).on('change', livereload.changed);
+  //gulp.watch('js/**/*.*');
+
+
+  //var server = livereload();
+
+  // app/**/*.*的意思是 app文件夹下的 任何文件夹 的 任何文件
+  //gulp.watch('js/**/*.*', function (file) {
+  //  server.changed(file.path);
+  //});
 });
