@@ -33,5 +33,30 @@
     "name": "oDesk and Elance Tests",
     "description": "Tests with answers",
     "link": "http://odesk-tests.com/"
+  },
+  {
+    "name": "拉勾网",
+    "description": "拉勾网是最权威的互联网行业招聘网站,提供全国真实的互联网招聘信息,工资不面议当面谈,找工作,招聘网,寻人才就来拉勾网,互联网行业找工作首选拉勾网",
+    "link": "http://www.lagou.com/"
+  },
+  {
+    "name": "100offer",
+    "description": "100offer程序员拍卖--提交申请, 在一周以内获得3-5个offer。 已签约数百家企业, 超过86%参加拍卖的程序员在两周内获得offer。",
+    "link": "http://100offer.com/"
+  },
+  {
+    "name": "哪上班",
+    "description": "哪上班 招聘 工作 直招 内推 内部推荐直接面试",
+    "link": "https://www.nashangban.com/"
+  },
+  {
+    "name": "牛客网",
+    "description": "牛客网是IT求职神器,提供海量IT笔试题库,在线进行IT互联网名企笔试面试模拟考试练习,和牛人一起讨论经典试题,全面提升你的编程能力",
+    "link": "http://www.nowcoder.com/"
+  },
+  {
+    "name": "海丁网",
+    "description": "海丁网致力于打造一个IT人的职业新天地社区，包含了创业招聘，主题社区，社区活动等业务与功能。其中的创业招聘专注于为IT创业公司/IT创业团队提供人力资源服务,创业人才找IT创业工作,创业团队招募IT创业人才,就上海丁网",
+    "link": "http://www.headin.cn/"
   }
 ]
