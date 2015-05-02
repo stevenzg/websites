@@ -173,5 +173,12 @@
     "avatar" : "chriscoyier.jpeg",
     "github": "https://github.com/chriscoyier/",
     "description": ""
+  },
+  {
+    "name" : "Nicolas Gallagher",
+    "site" : "http://nicolasgallagher.com/",
+    "avatar" : "necolas.jpg",
+    "github": "https://github.com/necolas",
+    "description": ""
   }
 ]
