@@ -1,0 +1,9 @@
+<div ng-controller="CtrlPortals" style="margin: 0 30px;">
+  <div ng-repeat="portal in portals | orderBy : 'title'" style="margin-bottom: 30px;">
+
+    <h3 class="md-display-2"><a style="color: #445A64;" ng-href="{{portal.link}}" target="_blank">{{portal.title}}</a></h3>
+    <p>{{portal.description}}</p>
+
+    <md-divider ng-if="!$last"></md-divider>
+  </div>
+</div>

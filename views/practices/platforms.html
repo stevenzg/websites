@@ -1,0 +1,11 @@
+<div ng-controller="CtrlPlatforms" style="margin: 0 30px;">
+  <div ng-repeat="platform in platforms | orderBy : 'name'" style="margin-bottom: 30px;">
+    <h3 class="md-display-2">
+      <a style="color: #445A64;" ng-href="{{platform.link}}" target="_blank">{{platform.name}}</a>
+    </h3>
+
+    <p>{{platform.description}}</p>
+
+    <md-divider ng-if="!$last"></md-divider>
+  </div>
+</div>

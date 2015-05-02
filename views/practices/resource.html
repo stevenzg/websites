@@ -1,0 +1,11 @@
+<div ng-controller="CtrlResource" style="margin: 0 30px;">
+  <div ng-repeat="resource in resources | orderBy : 'name'" style="margin-bottom: 30px;">
+    <h3 class="md-display-2">
+      <a style="color: #445A64;" ng-href="{{resource.link}}" target="_blank">{{resource.name}}</a>
+    </h3>
+
+    <p>{{resource.description}}</p>
+
+    <md-divider ng-if="!$last"></md-divider>
+  </div>
+</div>

@@ -1,0 +1,92 @@
+[
+  {
+    "link": "http://www.html5rocks.com/",
+    "logo": "",
+    "title": "HTML5 Rocks",
+    "description": "A resource for developers looking to put HTML5 to use today, including information on specific features and when to use them in your apps."
+  },
+  {
+    "link": "http://www.w3fools.com/",
+    "logo": "",
+    "title": "W3Fools",
+    "description": "Better web education for all. We hope to get proper documentation resources to developers. W3Schools doesn't cut it."
+  },
+  {
+    "link": "https://css-tricks.com/",
+    "logo": "css-tricks.png",
+    "title": "CSS-Tricks",
+    "description": "Tips, Tricks, and Techniques on using Cascading Style Sheets."
+  },
+  {
+    "link": "http://www.cssflow.com/",
+    "logo": "cssflow.png",
+    "title": "CSSFlow",
+    "description": "Download a wide variety of free web UI elements and complete UI kits coded with HTML5, CSS3, and Sass/SCSS."
+  },
+  {
+    "link": "http://tympanus.net/codrops/",
+    "logo": "codrops.png",
+    "title": "Codrops",
+    "description": "Codrops is a web design and development blog that publishes articles and tutorials about the latest web trends, techniques and new possibilities."
+  },
+  {
+    "link": "http://cssdeck.com/",
+    "logo": "cssdeck.jpeg",
+    "title": "CSSDeck",
+    "description": "Collection of Awesome CSS and JS Creations to help out frontend developers and designers."
+  },
+  {
+    "link": "http://www.smashingmagazine.com/",
+    "logo": "smashingmagazine.png",
+    "title": "Smashing Magazine",
+    "description": "Smashing Magazine is an online magazine for professional Web designers and developers, with a focus on useful techniques, best practices and valuable resources."
+  },
+  {
+    "link": "http://tutsplus.com/",
+    "logo": "tutsplus.jpg",
+    "title": "Tuts+",
+    "description": "Tuts+ teaches creative and technical skills across many topics to millions of people worldwide. We offer tutorials, articles, news and insights that help you take your knowledge to the next level."
+  },
+  {
+    "link": "https://scotch.io/",
+    "logo": "tutsplus.jpg",
+    "title": "Scotch",
+    "description": "Scotch is a web development blog discussing all things programming, development, web and life."
+  },
+  {
+    "link": "http://www.css88.com/",
+    "logo": "website.jpg",
+    "title": "WEB前端开发",
+    "description": "专注前端开发，关注用户体验"
+  },
+  {
+    "link": "http://www.sitepoint.com/",
+    "logo": "",
+    "title": "SitePoint",
+    "description": "Learn Web Design &amp; Development with SitePoint tutorials, courses and books - HTML5, CSS3, JavaScript, PHP, mobile app development, Responsive Web Design"
+  },
+  {
+    "link": "http://howtonode.org/",
+    "logo": "",
+    "title": "How To Node - NodeJS",
+    "description": "Learn the zen of coding in NodeJS."
+  },
+  {
+    "link": "http://codecanyon.net/",
+    "logo": "",
+    "title": "CodeCanyon",
+    "description": "Browse the largest script and code marketplace on the web. Find WordPress plugins, jQuery plugins, Javascript, CSS and more. Save time, Buy code."
+  },
+  {
+    "link": "http://www.inwebson.com/",
+    "logo": "",
+    "title": "inWebson.com",
+    "description": "A design weblog dedicated to web designers, web developers and freelancers. We will constantly publishing useful tips and tricks regarding latest web technology and covering latest web tools for you!"
+  },
+  {
+    "link": "http://line25.com/",
+    "logo": "",
+    "title": "Line25 Web Design Blog",
+    "description": "Line25 provides ideas and inspiration to web creatives, including roundups of cool website designs and tutorials to help you learn new skills."
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "name" : "Nicholas C. Zakas",
+    "site" : "http://www.nczonline.net/",
+    "avatar" : "nczonline.net.jpg",
+    "github": "https://github.com/nzakas/",
+    "description": "Nicholas C. Zakas is a front-end engineer, author, and speaker. He currently works at Box making the web application awesome. Prior to that, he worked at Yahoo! for almost five years, where he was front-end tech lead for the Yahoo! homepage and a contributor to the YUI library."
+  },
+  {
+    "name" : "Douglas Crockford",
+    "site" : "http://www.crockford.com/",
+    "avatar" : "douglascrockford.jpg",
+    "github": "https://github.com/douglascrockford",
+    "description": "When you get bored, click something. If that doesn't help, then turn off your computer immediately."
+  },
+  {
+    "name" : "Eric A. Meyer",
+    "site" : "http://meyerweb.com/",
+    "avatar" : "eric-meyer.jpg",
+    "github": "https://github.com/meyerweb",
+    "description": ""
+  },
+  {
+    "name" : "Miško Hevery",
+    "site" : "http://misko.hevery.com",
+    "avatar" : "mhevery.jpeg",
+    "github": "https://github.com/mhevery",
+    "description": ""
+  },
+  {
+    "name" : "John Resig",
+    "site" : "http://ejohn.org/",
+    "avatar" : "jeresig.jpg",
+    "github": "https://github.com/jeresig",
+    "description": ""
+  },
+  {
+    "name" : "Jeremy Ashkenas",
+    "site" : "http://www.ashkenas.com/",
+    "avatar" : "jashkenas.png",
+    "github": "https://github.com/jashkenas",
+    "description": ""
+  },
+  {
+    "name" : "Sindre Sorhus",
+    "site" : "https://github.com/sindresorhus",
+    "avatar" : "sindresorhus.png",
+    "github": "https://github.com/sindresorhus",
+    "description": ""
+  },
+  {
+    "name" : "Addy Osmani",
+    "site" : "http://www.addyosmani.com",
+    "avatar" : "addyosmani.jpg",
+    "github": "https://github.com/addyosmani",
+    "description": "When you get bored, click something. If that doesn't help, then turn off your computer immediately."
+  },
+  {
+    "name" : "sofish",
+    "site" : "https://github.com/sofish",
+    "avatar" : "sofish.jpg",
+    "github": "https://github.com/sofish",
+    "description": ""
+  },
+  {
+    "name" : "Yu Bo",
+    "site" : "http://lifesinger.github.com/",
+    "avatar" : "yubo.jpg",
+    "github": "https://github.com/lifesinger",
+    "description": ""
+  },
+  {
+    "name" : "Christophe Coenraets",
+    "site" : "http://coenraets.org/blog/",
+    "avatar" : "christophe_coenraets.jpg",
+    "github": "https://github.com/ccoenraets",
+    "description": ""
+  },
+  {
+    "name" : "Jinks Zhao",
+    "site" : "http://jiongks.name/",
+    "avatar" : "jinjiang.jpg",
+    "github": "https://github.com/jinjiang/",
+    "description": ""
+  },
+  {
+    "name" : "Evan You",
+    "site" : "http://evanyou.me/",
+    "avatar" : "yyx990803.jpg",
+    "github": "https://github.com/yyx990803",
+    "description": ""
+  },
+  {
+    "name" : "xinyu198736",
+    "site" : "http://www.html-js.com",
+    "avatar" : "xinyu198736.jpg",
+    "github": "https://github.com/yyx990803",
+    "description": ""
+  },
+  {
+    "name" : "Ruan YiFeng",
+    "site" : "http://www.ruanyifeng.com/",
+    "avatar" : "ruanyifeng.com.jpeg",
+    "github": "https://github.com/ruanyf",
+    "description": "阮一峰，70后，英文名Frank。他原是上海财经大学世界经济博士研究生。主要研究宏观金融、货币政策与美国经济。于2008年6月获得博士学位。目前在上海一所当地大学（上海金融学院 国际经贸学院）任教。他本人也是一名IT技术人员，主要关注网站制作，并且对免费软件有着坚定不移的信念。除了写博客以外，他还有三个网站：微趣、Italo Calvino in China和读书公园。"
+  },
+  {
+    "name" : "Yehuda Katz",
+    "site" : "http://yehudakatz.com/",
+    "avatar" : "yehudakatz.com.jpeg",
+    "github": "https://github.com/wycats",
+    "description": "Yehuda Katz is a member of the Ember.js, Ruby on Rails and jQuery Core Teams; his 9-to-5 home is at the startup he founded, Tilde Inc.. There he works on Skylight, the smart profiler for Rails, and does Ember.js consulting﻿. He is best known for his open source work, which also includes Thor and Handlebars. He travels the world doing open source evangelism and web standards work."
+  },
+  {
+    "name" : "Paul Irish",
+    "site" : "http://www.paulirish.com/",
+    "avatar" : "paulirish.jpg",
+    "github": "https://github.com/paulirish",
+    "description": ""
+  },
+  {
+    "name" : "Sara Soueidan",
+    "site" : "http://sarasoueidan.com",
+    "avatar" : "SaraSoueidan.png",
+    "github": "https://github.com/SaraSoueidan",
+    "description": ""
+  },
+  {
+    "name" : "Manoela Ilic",
+    "site" : "http://tympanus.net",
+    "avatar" : "crnacura.jpg",
+    "github": "https://github.com/crnacura",
+    "description": ""
+  },
+  {
+    "name" : "Dave Herman",
+    "site" : "http://calculist.org/",
+    "avatar" : "dherman.jpg",
+    "github": "https://github.com/dherman",
+    "description": ""
+  },
+  {
+    "name" : "Rick Waldron",
+    "site" : "https://github.com/rwaldron",
+    "avatar" : "rwaldron.jpg",
+    "github": "https://github.com/rwaldron",
+    "description": ""
+  },
+  {
+    "name" : "Brendan Eich",
+    "site" : "https://brendaneich.com/",
+    "avatar" : "BrendanEich.jpg",
+    "github": "https://github.com/BrendanEich",
+    "description": ""
+  },
+  {
+    "name" : "Tim Berners-Lee",
+    "site" : "https://twitter.com/timberners_lee",
+    "avatar" : "timberners_lee.jpg",
+    "github": "https://twitter.com/timberners_lee",
+    "description": ""
+  },
+  {
+    "name" : "Lea Verou",
+    "site" : "http://lea.verou.me/",
+    "avatar" : "LeaVerou.jpeg",
+    "github": "https://github.com/LeaVerou",
+    "description": ""
+  },
+  {
+    "name" : "Chris Coyier",
+    "site" : "http://css-tricks.com",
+    "avatar" : "chriscoyier.jpeg",
+    "github": "https://github.com/chriscoyier/",
+    "description": ""
+  },
+  {
+    "name" : "Nicolas Gallagher",
+    "site" : "http://nicolasgallagher.com/",
+    "avatar" : "necolas.jpg",
+    "github": "https://github.com/necolas",
+    "description": ""
+  }
+]

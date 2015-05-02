@@ -1,0 +1,72 @@
+[
+  {
+    "title": "JavaScript Guide - JavaScript | MDN",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+    "description": "The JavaScript Guide shows you how to use JavaScript and gives an overview of the language."
+  },
+  {
+    "title": "JS: The Right Way",
+    "link": "http://jstherightway.org/",
+    "description": " This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices."
+  },
+  {
+    "title": "HTML CSS: The Right Way",
+    "link": "http://htmlcsstherightway.org/",
+    "description": "There’s a lot of obsolete information about HTML and CSS and how to do websites, many are outdated, whereas other more current are either too deep into technicalities or just in need to be found."
+  },
+  {
+    "title": "JavaScript Garden",
+    "link": "https://github.com/BonsaiDen/JavaScript-Garden",
+    "description": "A collection of documentation about the most quirky parts of the JavaScript language."
+  },
+  {
+    "title": " Material design",
+    "link": "http://www.google.com/design/spec/material-design/introduction.html",
+    "description": "We challenged ourselves to create a visual language for our users that synthesizes the classic principles of good design with the innovation and possibility of technology and science. This is material design. "
+  },
+  {
+    "title": "Frontend development bookmarks",
+    "link": "https://github.com/dypsilon/frontend-dev-bookmarks",
+    "description": "A huge list of frontend development resources I collected over time. Sorted from general knowledge at the top to concrete problems at the bottom. "
+  },
+  {
+    "title": "Bento",
+    "link": "https://www.bento.io/",
+    "description": "a collection of guides for web development."
+  },
+  {
+    "title": "TodoMVC",
+    "link": "http://todomvc.com/",
+    "description": "Helping you select an MV* framework - Todo apps for Backbone.js, Ember.js, AngularJS, Spine and many more"
+  },
+  {
+    "title": "Node.js Frameworks",
+    "link": "http://nodeframework.com/",
+    "description": "Hand-picked registry of Node.js frameworks."
+  },
+  {
+    "title": "JavaScript is Sexy",
+    "link": "http://javascriptissexy.com/",
+    "description": "Learn modern web application development with JavaScript"
+  },
+  {
+    "title": "Javascript Best Practices",
+    "link": "http://www.javascripttoolbox.com/bestpractices/",
+    "description": "This document is a list of best practices and preferred ways of developing javascript code, based on opinions and experience from many developers in the javascript community. "
+  },
+  {
+    "title": "JavaScript MDN",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "description": "JavaScript® (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, most known as the scripting language for Web pages, but used in many non-browser environments as well such as node.js or Apache CouchDB. It is a prototype-based, multi-paradigm scripting language that is dynamic, and supports object-oriented, imperative, and functional programming styles. Read more about JavaScript."
+  },
+  {
+    "title": "JavaScript reference",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference",
+    "description": "This part of the JavaScript section on MDN serves as a repository of facts about the JavaScript language. "
+  },
+  {
+    "title": "前端收集",
+    "link": "https://github.com/foru17/front-end-collect",
+    "description": "分享前端开发相关的优秀网站、博客、以及活跃开发者"
+  }
+]

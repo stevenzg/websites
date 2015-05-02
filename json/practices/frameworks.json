@@ -1,0 +1,197 @@
+[
+  {
+    "name": "AngularJS 2",
+    "link": "https://angular.io/",
+    "description": "Angular is a development platform for building mobile and desktop web applications. "
+  },
+  {
+    "name": "AngularJS",
+    "link": "https://angularjs.org/",
+    "description": "Superheroic JavaScript MVW Framework. AngularJS is what HTML would have been, had it been designed for building web-apps. Declarative templates with data-binding, MVW, MVVM, MVC, dependency injection and great testability story all implemented with pure client-side JavaScript!"
+  },
+  {
+    "name": "Bootstrap",
+    "link": "http://getbootstrap.com/",
+    "description": "The world's most popular mobile-first and responsive front-end framework. Bootstrap, a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development."
+  },
+  {
+    "name": "Node.js",
+    "link": "https://nodejs.org/",
+    "description": "Node.js® is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices."
+  },
+  {
+    "name": "Meteor",
+    "link": "https://www.meteor.com/",
+    "description": "Meteor is a complete platform for building web and mobile apps in pure JavaScript."
+  },
+  {
+    "name": "Pure.css",
+    "link": "http://purecss.io/",
+    "description": "A set of small, responsive CSS modules that you can use in every web project."
+  },
+  {
+    "name": "Ionic",
+    "link": "http://ionicframework.com/",
+    "description": "Ionic makes it incredibly easy to build beautiful and interactive mobile apps using HTML5 and AngularJS."
+  },
+  {
+    "name": "Hexo",
+    "link": "http://hexo.io/",
+    "description": "Hexo is a fast, simple &amp; powerful blog framework powered by Node.js."
+  },
+  {
+    "name": "Compass",
+    "link": "http://compass-style.org/",
+    "description": "Compass is an open-source CSS Authoring Framework."
+  },
+  {
+    "name": "Sass",
+    "link": "http://sass-lang.com/",
+    "description": "Syntatically Awesome Style Sheets"
+  },
+  {
+    "name": "Ember.js",
+    "link": "http://emberjs.com/",
+    "description": "A framework for creating ambitious web applications."
+  },
+  {
+    "name": "Ember.js",
+    "link": "http://emberjs.com/",
+    "description": "A framework for creating ambitious web applications."
+  },
+  {
+    "name": "Foundation",
+    "link": "http://foundation.zurb.com/",
+    "description": "The Most Advanced Responsive Front-end Framework from ZURB. Documentation and reference library for ZURB Foundation. JavaScript, CSS, components, grid and more."
+  },
+  {
+    "name": "Semantic UI",
+    "link": "http://semantic-ui.com/",
+    "description": "Semantic empowers designers and developers by creating a shared vocabulary for UI."
+  },
+  {
+    "name": "Karma",
+    "link": "http://karma-runner.github.io",
+    "description": "Spectacular Test Runner for Javascript"
+  },
+  {
+    "name": "Jasmine",
+    "link": "http://jasmine.github.io/",
+    "description": "Behavior-Driven JavaScript"
+  },
+  {
+    "name": "Jade",
+    "link": "http://jade-lang.com/",
+    "description": "Node Template Engine"
+  },
+  {
+    "name": "Topcoat",
+    "link": "http://topcoat.io/",
+    "description": "CSS for clean and fast web apps."
+  },
+  {
+    "name": "Jekyll",
+    "link": "http://jekyllrb.com/",
+    "description": "Simple, blog-aware, static sites"
+  },
+  {
+    "name": "TideKit",
+    "link": "https://www.tidekit.com/",
+    "description": "TideKit is a platform to develop mobile, web and desktop apps using a single code base written in JavaScript. Try TideKit today!"
+  },
+  {
+    "name": "Knockout",
+    "link": "http://knockoutjs.com/",
+    "description": "Knockout makes it easier to create rich, responsive UIs with JavaScript"
+  },
+  {
+    "name": "SproutCore",
+    "link": "http://sproutcore.com/",
+    "description": "KnockoutA framework for building fast, desktop caliber web applications."
+  },
+  {
+    "name": "Django",
+    "link": "https://www.djangoproject.com/",
+    "description": "The Web framework for perfectionists with deadlines"
+  },
+  {
+    "name": "Locomotive",
+    "link": "http://locomotivejs.org/",
+    "description": "Powerful MVC web framework for Node.js."
+  },
+  {
+    "name": "jQuery EasyUI",
+    "link": "http://www.jeasyui.com/",
+    "description": "jQuery EasyUI is a complete framework for HTML5 web page. It provides easy to use components for building modern, interactive, javascript applications that work on pc and mobile devices."
+  },
+  {
+    "name": "960 Grid System",
+    "link": "http://960.gs/",
+    "description": "The 960 Grid System is an effort to streamline web development workflow."
+  },
+  {
+    "name": "Unsemantic CSS Framework",
+    "link": "http://unsemantic.com/",
+    "description": "Unsemantic is a fluid grid system that is the successor to the 960 Grid System. It works in a similar way, but instead of being a set number of columns, it's entirely based on percentages."
+  },
+  {
+    "name": "AppJS",
+    "link": "http://appjs.com/",
+    "description": "Build Desktop Applications for Linux, Windows and Mac using HTML, CSS and Javascript."
+  },
+  {
+    "name": "Clouda+",
+    "link": "http://clouda.baidu.com/",
+    "description": "移动web应用开发整体解决方案，特别为轻应用设计，让你的webapp体验和交互媲美Native应用！"
+  },
+  {
+    "name": "MooTools",
+    "link": "http://mootools.net/",
+    "description": "MooTools is a collection of JavaScript utilities designed for the intermediate to advanced JavaScript developer. It allows you to write powerful and flexible code with its elegant, well documented, and coherent APIs."
+  },
+  {
+    "name": "YUI Library",
+    "link": "http://yuilibrary.com/",
+    "description": "YUI is a free, open source JavaScript and CSS library for building richly interactive web applications."
+  },
+  {
+    "name": "WinJS",
+    "link": "https://dev.windows.com/en-us/develop/winjs",
+    "description": "WinJS is a set of JavaScript toolkits that allow developers to build applications using HTML/JS/CSS technology. It provides a distinct set of UI controls with high polish and performance with fundamental support for touch, mouse, keyboard and accessibility."
+  },
+  {
+    "name": "Fuel UX",
+    "link": "http://getfuelux.com/",
+    "description": "Fuel UX, a front-end library that extends Bootstrap with additional lightweight controls."
+  },
+  {
+    "name": "Spine",
+    "link": "http://spinejs.com/",
+    "description": "Spine - Build Awesome JavaScript MVC Applications"
+  },
+  {
+    "name": "Enyo",
+    "link": "http://enyojs.com/",
+    "description": "Enyo is a JavaScript app framework enabling developers build native-quality HTML5 apps that run everywhere — from phones and tablets to PCs and TVs."
+  },
+  {
+    "name": "Handlebars.js",
+    "link": "http://handlebarsjs.com/",
+    "description": "Minimal Templating on Steroids"
+  },
+  {
+    "name": "TideSDK",
+    "link": "http://www.tidesdk.org/",
+    "description": "Create multi-platform desktop apps with HTML5, CSS3 and JavaScript. TideSDK formerly known as Titanium Desktop is the best way to create beautiful, unique desktop apps using your web development skills."
+  },
+  {
+    "name": "Webix",
+    "link": "http://webix.com/",
+    "description": "Webix is a cross-browser JavaScript ui widgets library. Build fast mobile and desktop web applications that run on all touch devices with HTML5 framework."
+  },
+  {
+    "name": "Bootstrap中文网",
+    "link": "http://www.bootcss.com/",
+    "description": "Bootstrap是Twitter推出的一个用于前端开发的开源工具包。它由Twitter的设计师Mark Otto和Jacob Thornton合作开发，是一个CSS/HTML框架。目前，Bootstrap最新版本为3.0 。Bootstrap中文网致力于为广大国内开发者提供详尽的中文文档、代码实例等，助力开发者掌握并使用这一框架。"
+  }
+]

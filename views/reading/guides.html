@@ -1,0 +1,15 @@
+<div ng-controller="CtrlGuides">
+  <!--<div class="media" ng-repeat="guide in guides">-->
+    <!--<div class="media-body">-->
+      <!--<h4 class="media-heading"><a ng-href="{{guide.link}}" target="_blank">{{guide.title}}</a></h4>-->
+      <!--{{guide.description}}-->
+    <!--</div>-->
+  <!--</div>-->
+
+  <div ng-repeat="guide in guides | orderBy : 'title'">
+
+    <h3 class="md-display-2"><a style="color: #445A64;" ng-href="{{guide.link}}" target="_blank">{{guide.title}}</a></h3>
+    <p>{{guide.description}}</p>
+
+  </div>
+</div>

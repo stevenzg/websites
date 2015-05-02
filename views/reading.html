@@ -1,0 +1,26 @@
+<div ng-controller="CtrlReading">
+  <md-content class="md-padding">
+    <md-tabs md-dynamic-height md-border-bottom>
+      <md-tab label="Guides">
+        <md-content class="md-padding">
+          <div data-ng-include="'views/reading/guides.html'"></div>
+        </md-content>
+      </md-tab>
+      <md-tab label="Articles">
+        <md-content class="md-padding">
+          <div data-ng-include="'views/reading/articles.html'"></div>
+        </md-content>
+      </md-tab>
+      <md-tab label="Tutorials">
+        <md-content class="md-padding">
+          <div data-ng-include="'views/reading/tutorials.html'"></div>
+        </md-content>
+      </md-tab>
+      <md-tab label="News">
+        <md-content class="md-padding">
+          <div data-ng-include="'views/reading/news.html'"></div>
+        </md-content>
+      </md-tab>
+    </md-tabs>
+  </md-content>
+</div>

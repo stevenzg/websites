@@ -1,0 +1,122 @@
+[
+  {
+    "name": "WebStorm",
+    "link": "https://www.jetbrains.com/webstorm/",
+    "description": "The most intelligent JavaScript IDE: JavaScript + CSS + HTML Editor with refactorings, code completion and on-the-fly code analysis"
+  },
+  {
+    "name": "WebStorm Help",
+    "link": "https://www.jetbrains.com/webstorm/help/webstorm.html",
+    "description": "WebStorm is an Integrated Development Environment for the Web developers and coders, built on top of IntelliJ IDEA platform. WebStorm inherits all the web-related functionality of IntelliJ IDEA for editing HTML, CSS, JavaScript, XML, working with VCS, and the other tools specific to web development."
+  },
+  {
+    "name": "Javascript Beautifier and Formatter Online",
+    "link": "http://www.jspretty.com/",
+    "description": "Enter your compressed, minified, or obfuscated javascript and get clean, well-formatted code."
+  },
+  {
+    "name": "Atom",
+    "link": "https://atom.io/",
+    "description": "A hackable text editor for the 21st Century"
+  },
+  {
+    "name": "在线工具 —— 开源中国社区",
+    "link": "http://tool.oschina.net/",
+    "description": "开源中国在线工具,ostools为开发设计人员提供在线工具，提供jsbin在线 CSS、JS 调试，在线 Java API文档,在线 PHP API文档,在线 Node.js API文档,Less CSS编译器，MarkDown编译器等其他在线工具"
+  },
+  {
+    "name": "Sprite Cow",
+    "link": "http://www.spritecow.com/",
+    "description": "Generate CSS for sprite sheets"
+  },
+  {
+    "name": "Spritebox",
+    "link": "http://www.spritebox.net/",
+    "description": "Generate and Create CSS from Sprite Images"
+  },
+  {
+    "name": "Dash",
+    "link": "https://kapeli.com/dash",
+    "description": "API Documentation Browser, Snippet Manager. Dash is an API Documentation Browser and Code Snippet Manager. Dash searches offline documentation of 150+ APIs and stores snippets of code. You can also generate your own documentation sets."
+  },
+  {
+    "name": "Sketch中文网",
+    "link": "http://www.sketchcn.com/",
+    "description": "Sketch中文网是一个以中文内容介绍Sketch这款Mac设计工具的社区，在这里分享最新的Sketch中文手册，以及使用技巧。"
+  },
+  {
+    "name": "Trello",
+    "link": "https://trello.com/",
+    "description": "Organize anything, together. Trello is a collaboration tool that organizes your projects into boards. In one glance, know what's being worked on, who's working on what, and where something is in a process."
+  },
+  {
+    "name": "jsdo.it",
+    "link": "http://jsdo.it/",
+    "description": "jsdo.it - share JavaScript, HTML5 and CSS - jsdo.it是一项可以在你的浏览器中编写JavaScript，HTML5，CSS代码并分享的服务。你可以拷贝并修改他人的代码，也可以询问任何关于JavaScript，HTML5，CSS的问题。"
+  },
+  {
+    "name": "CodePen",
+    "link": "http://codepen.io/",
+    "description": "A front end web development playground."
+  },
+  {
+    "name": "JSFiddle",
+    "link": "http://jsfiddle.net/",
+    "description": "online javascript editor, testing javascript online, online ide, online code editor, html, css, coffeescript, scss online editor"
+  },
+  {
+    "name": "JS Bin",
+    "link": "http://jsbin.com",
+    "description": "A live pastebin for HTML, CSS & JavaScript and a range of processors, including SCSS, CoffeeScript, Jade and more..."
+  },
+  {
+    "name": "CSSDeck",
+    "link": "http://cssdeck.com/",
+    "description": "Collection of Awesome CSS and JS Creations to help out frontend developers and designers."
+  },
+  {
+    "name": "Plunker",
+    "link": "http://plnkr.co/",
+    "description": "Plunker is an online community for creating, collaborating on and sharing your web development ideas."
+  },
+  {
+    "name": "jsbeautifier.org",
+    "link": "http://jsbeautifier.org/",
+    "description": "Online JavaScript beautifier"
+  },
+  {
+    "name": "JSHint",
+    "link": "http://jshint.com/",
+    "description": "JSHint, a JavaScript Code Quality Tool"
+  },
+  {
+    "name": "JSLint",
+    "link": "http://jslint.com/",
+    "description": "The JavaScript Code Quality Tool"
+  },
+  {
+    "name": "FreeFormatter.com",
+    "link": "http://www.freeformatter.com/",
+    "description": "Online tools for developers, including formatters (JSON, XML, HTML, SQL, etc.), minifiers (JavaScript, CSS), validators, compactors and many more!"
+  },
+  {
+    "name": "CSS3 Properties 在线手册",
+    "link": "http://www.php100.com/manual/css3_0/index.html",
+    "description": "CSS就是一种叫做样式表（stylesheet）的技术。也有的人称之为层叠样式表（Cascading Stylesheet）。 在主页制作时采用CSS技术，可以有效地对页面的布局、字体、颜色、背景和其它效果实现更加精确的控制。 只要对相应的代码做一些简单的修改，就可以改变同一页面的不同部分，或者页数不同的网页的外观和格式。"
+  },
+  {
+    "name": "Color Hex - ColorHexa.com",
+    "link": "http://www.colorhexa.com/",
+    "description": "Color hex encyclopedia providing information about any color."
+  },
+  {
+    "name": "Cool Text",
+    "link": "http://cooltext.com/",
+    "description": "Logo and Graphics Generator"
+  },
+  {
+    "name": "Color Hex Color Codes",
+    "link": "http://www.color-hex.com/",
+    "description": "Color hex is a easy to use tool to get the color codes information including color models (RGB,HSL,HSV and CMYK), css and html color codes."
+  }
+]

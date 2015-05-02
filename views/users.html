@@ -1,0 +1,9 @@
+<div ng-controller="CtrlUsers" id="users-container" >
+  <ul class="polaroids">
+    <li ng-repeat="user in users | orderBy: 'name'">
+      <a ng-href="{{user.github}}" title="{{user.name}}" target="_blank">
+        <img alt="{{user.name}}" ng-src="/websites/img/avatar/{{user.avatar}}">
+      </a>
+    </li>
+  </ul>
+</div>

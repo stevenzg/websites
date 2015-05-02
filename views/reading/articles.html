@@ -1,0 +1,5 @@
+<div ng-controller="CtrlArticles">
+  <div ng-repeat="article in articles | orderBy : 'title'">
+    <h3 class="md-display-2"><a style="color: #445A64;" ng-href="{{article.link}}" target="_blank">{{article.title}}</a></h3>
+  </div>
+</div>

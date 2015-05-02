@@ -1,0 +1,183 @@
+[
+  {
+    "name": "GitHub",
+    "logo": "github.png",
+    "icon": "fa-github",
+    "link": "http://github.com/",
+    "description": "Build software better, together. GitHub is the best place to build software together. Over 4 million people use GitHub to share code."
+  },
+  {
+    "name": "Stack Overflow",
+    "logo": "stackoverflow.png",
+    "icon": "fa-stack-overflow",
+    "link": "http://stackoverflow.com/",
+    "description": "Q&A for professional and enthusiast programmers"
+  },
+  {
+    "name": "World Wide Web Consortium (W3C)",
+    "logo": "w3c.png",
+    "link": "http://www.w3.org",
+    "description": "The World Wide Web Consortium (W3C) is an international community where Member organizations, a full-time staff, and the public work together to develop Web standards."
+  },
+  {
+    "name": "StackShare",
+    "logo": "",
+    "link": "http://stackshare.io/",
+    "description": "StackShare helps developers find and decide on the best cloud services. Search and browse cloud infrasctructure services such as PaaS, IaaS, log management, exception monitoring, realtime backend APIs, and more. Find the right tools and services to build your next app."
+  },
+  {
+    "name": "Snipplr",
+    "logo": "",
+    "link": "http://snipplr.com/",
+    "description": "Snipplr lets your store and share all of your commonly used pieces of code and HTML with other programmers and designers."
+  },
+  {
+    "name": "知乎",
+    "logo": "",
+    "link": "http://www.zhihu.com/",
+    "description": "一个真实的网络问答社区，帮助你寻找答案，分享知识。"
+  },
+  {
+    "name": "DZone",
+    "logo": "",
+    "link": "http://www.dzone.com/",
+    "description": "fresh links for developers"
+  },
+  {
+    "name": "CodeProject",
+    "logo": "",
+    "link": "http://www.codeproject.com/",
+    "description": "Free source code and tutorials for Software developers and Architects."
+  },
+  {
+    "name": "Toptal",
+    "logo": "",
+    "link": "http://www.toptal.com/",
+    "description": "Toptal connects start-ups, businesses, and organizations to a growing network of the best custom software developers in the world. Our engineers are available full-time, part-time, or hourly and are able to seamlessly integrate into your team."
+  },
+  {
+    "name": "Koding",
+    "logo": "",
+    "link": "https://koding.com/",
+    "description": "Koding is a cloud-based development environment complete with free VMs, IDE &amp; sudo enabled terminal where you can learn Ruby, Go, Java, NodeJS, PHP, C, C&#43;&#43;, Perl, Python, etc."
+  },
+  {
+    "name": "V2EX",
+    "logo": "",
+    "link": "http://www.v2ex.com/",
+    "description": " V2EX = way to explore V2EX 是一个关于分享和探索的地方"
+  },
+  {
+    "name": "OurJS",
+    "logo": "",
+    "link": "http://ourjs.com/",
+    "description": " 爱我技术 我们的技术-IT文摘 JavaScript社区 Node.JS社区 前端社区 全端论坛 MongoDB html5 CSS3 开源社区"
+  },
+  {
+    "name": "开源中国",
+    "logo": "",
+    "link": "http://www.oschina.net/",
+    "description": " www.oschina.net 是目前中国最大的开源技术社区。我们传播开源的理念，推广开源项目，为 IT 开发者提供了一个发现、使用、并交流开源技术的平台。目前开源中国社区已收录超过两万款开源软件。"
+  },
+  {
+    "name": "GitCafe",
+    "logo": "",
+    "link": "https://gitcafe.com/",
+    "description": "GitCafe 是一个为您在线托管软件项目的服务平台。 这里是一个大家庭，您可以在 GitCafe 与他人快乐地进行项目分享与协作。 现在就加入 GitCafe，找到喜欢的项目与志同道合的程序员！"
+  },
+  {
+    "name": "前端乱炖",
+    "link": "http://www.html-js.com/",
+    "description": "前端乱炖，这里是最专业的前端知识平台，汇集国内大部分前端开发人员的前端花名册，最精彩的原创文章专栏，最专业的问答平台，最火热的话题频道，最丰富的线下线上活动。html,js,css,nodejs,前端开发,前端招聘,jquery,qianduan"
+  },
+  {
+    "name": "Java开源大全",
+    "link": "http://www.open-open.com/",
+    "description": "Java开源大全(www.open-open.com)收录最全，最新的Java开源软件，发布最新IT资讯，提供开发文档、技术经验在线分享平台。"
+  },
+  {
+    "name": "百度前端团队",
+    "link": "http://fex.baidu.com/",
+    "description": "_FEX_做最专业的前端_百度前端研发部_百度前端团队Blog"
+  },
+  {
+    "name": "Dribbble",
+    "link": "https://dribbble.com/",
+    "description": "Show and tell for designers"
+  },
+  {
+    "name": "topcoder",
+    "link": "https://www.topcoder.com/",
+    "description": "Improve your skills. Get paid."
+  },
+  {
+    "name": "腾讯AlloyTeam",
+    "link": "http://www.alloyteam.com/",
+    "description": "愿景: 成为地球卓越的Web团队！ | 腾讯全端 AlloyTeam 团队 Blog"
+  },
+  {
+    "name": "coderwall.com",
+    "link": "https://coderwall.com/",
+    "description": "establishing geek cred since 1305712800"
+  },
+  {
+    "name": "CNode：Node.js专业中文社区",
+    "link": "https://cnodejs.org/",
+    "description": "CNode：Node.js专业中文社区"
+  },
+  {
+    "name": "SegmentFault",
+    "link": "http://segmentfault.com/",
+    "description": "最前沿的技术问答，最纯粹的技术切磋。让你不知不觉中开拓眼界，提高技能。在巨人的肩膀上，成为一名优秀开发者。"
+  },
+  {
+    "name": "IBM developerWorks",
+    "link": "http://www.ibm.com/developerworks/",
+    "description": "IBM's official developer program. Access software trials and downloads, how-to information, and expert practitioners. Learn, develop, and connect."
+  },
+  {
+    "name": "MSDN - Microsoft Developer Network",
+    "link": "https://msdn.microsoft.com/",
+    "description": "在 Microsoft Developer Network 上查找开发人员可用的资源，比如工具、代码示例和更多其他资源。为 web、Windows Phone 和 Xbox 构建应用程序"
+  },
+  {
+    "name": "Mozilla Developer Network",
+    "link": "https://developer.mozilla.org",
+    "description": "The Mozilla Developer Network (MDN) provides information about Open Web technologies including HTML, CSS, and APIs for both Web sites and HTML5 Apps. It also documents Mozilla products, like Firefox OS."
+  },
+  {
+    "name": "视觉ME",
+    "link": "http://shijue.me",
+    "description": "视觉ME（Shijue.me）是中国领先的创意设计社区，为用户提供最新鲜的行业资讯、最新锐的创意灵感、最丰富的下吧素材以及最专业的原创设计作品分享交流平台。作为视觉中国集团旗下视觉设计社区，我们聚焦设计师的核心需求，提供最有价值的服务。"
+  },
+  {
+    "name": "一周一博",
+    "link": "http://www.1z1b.com/",
+    "description": "一周一博，每周写一篇自己的博客，记录你的生活、学习和工作思想，不管内容是什么都将是我们成长轨迹的一部分。"
+  },
+  {
+    "name": "Meetup",
+    "link": "http://www.meetup.com/",
+    "description": "Find Meetups and meet people in your local community who share your interests."
+  },
+  {
+    "name": "伯乐在线",
+    "link": "http://www.jobbole.com/",
+    "description": "伯乐在线是一个IT互联网职业社区。为IT互联网行业的企业和个人提供服务。网站目前包括：博客、伯乐头条、 资源/工具导航。"
+  },
+  {
+    "name": "DailyJS",
+    "link": "http://dailyjs.com/",
+    "description": "The JavaScript blog."
+  },
+  {
+    "name": "CSS Snippets",
+    "link": "http://css-snippets.com/",
+    "description": "CSS and HTML Snippets to cut and paste into websites. Video tutorials on CSS and other web development topics."
+  },
+  {
+    "name": "CSS Zen Garden",
+    "link": "http://www.csszengarden.com/",
+    "description": "A demonstration of what can be accomplished visually through CSS-based design."
+  }
+]

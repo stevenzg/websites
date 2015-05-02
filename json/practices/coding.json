@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Gulp",
+    "link": "http://gulpjs.com/",
+    "type": "Coding",
+    "description": "the streaming build system. Automate and enhance your workflow."
+  },
+  {
+    "name": "JSHint",
+    "description": "JSHint, a JavaScript Code Quality Tool",
+    "link": "http://jshint.com/",
+    "type": "Coding"
+  },
+  {
+    "name": "CSS3Gen",
+    "description": "CSS3Gen is a CSS3 Generator that allows you to generate CSS3 snippets for Box Shadow, Text Shadow, Border Radius and more.",
+    "link": "http://css3gen.com/",
+    "type": "Generator"
+  },
+  {
+    "name": "MobileTest.me",
+    "description": "MobileTest.me - Test your mobile sites and web applications right from your browser",
+    "link": "http://mobiletest.me/"
+  },
+  {
+    "name": "Git@OSC代码托管-开源中国社区",
+    "description": "不只是编码，我们更注重社会化协作！",
+    "link": "http://git.oschina.net/"
+  },
+  {
+    "name": "Can I use...",
+    "description": "Support tables for HTML5, CSS3, etc",
+    "link": "http://caniuse.com/"
+  },
+  {
+    "name": "EditorConfig",
+    "description": "EditorConfig is a file format and collection of text editor plugins for maintaining consistent coding styles between different editors and IDEs.",
+    "link": "http://editorconfig.org/"
+  },
+  {
+    "name": "Git",
+    "link": "http://git-scm.com/",
+    "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. "
+  },
+  {
+    "name": "Request Maker",
+    "link": "http://www.requestmaker.com/",
+    "description": "Request Maker: HTTP Requests made easy."
+  },
+  {
+    "name": "LiveReload",
+    "link": "http://livereload.com/",
+    "description": "The Web Developer Wonderland: a happy land where browsers don't need a Refresh button"
+  }
+]

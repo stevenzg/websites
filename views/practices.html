@@ -1,0 +1,77 @@
+<nav class="side-nav l-pinned-left l-layer-4 l-offset-nav"  ng-controller="CtrlPractices">
+  <header class="side-nav-search st-input-wrapper">
+    <button class="mobile-trigger button md-button md-default-theme" ng-transclude="" aria-label="View Docs Menu"
+            ng-click="toggleDocsMenu($event)" md-button="md-button" tabindex="0"><span
+      class="ng-scope">Guides </span>
+
+      <span style="  position: absolute;top: 3px;right: 15px;"><i class="fa fa-sort-desc"></i></span>
+      <!--<span class="icon icon-arrow-drop-down ng-scope"></span>-->
+
+      <div class="md-ripple-container"></div>
+    </button>
+  </header>
+
+  <ul ng-class="showDocsNav ? 'is-visible' : ''" class="side-nav-primary">
+    <li ng-class="{'is-selected': isActive('/practices/frameworks')}" class="">
+      <a class="md-button md-default-theme" ng-transclude="" href="#/practices/frameworks" md-button="">
+        <span class="side-nav-icon icon-home ng-scope"></span>
+        <span class="ng-scope"> Frameworks</span>
+        <div class="md-ripple-container"></div>
+      </a>
+    </li>
+    <li ng-class="{'is-selected': isActive('/practices/libs')}" class="">
+      <a class="md-button md-default-theme" ng-transclude="" href="#/practices/libs" md-button="">
+        <span class="side-nav-icon icon-home ng-scope"></span>
+        <span class="ng-scope"> Libs</span>
+        <div class="md-ripple-container"></div>
+      </a>
+    </li>
+    <li ng-class="{'is-selected': isActive('/practices/resource')}" class="">
+      <a class="md-button md-default-theme" ng-transclude="" href="#/practices/resource" md-button="">
+        <span class="side-nav-icon icon-home ng-scope"></span>
+        <span class="ng-scope"> Resource</span>
+        <div class="md-ripple-container"></div>
+      </a>
+    </li>
+    <li ng-class="{'is-selected': isActive('/practices/coding')}">
+      <a class="md-button md-default-theme" ng-transclude="" href="#/practices/coding" md-button="">
+        <span
+          class="side-nav-icon icon-query-builder ng-scope"></span>
+        <span class="ng-scope"> Coding</span>
+      </a>
+    </li>
+    <li ng-class="{'is-selected': isActive('/practices/tools')}">
+      <a class="md-button md-default-theme" ng-transclude="" href="#/practices/tools" md-button="">
+        <span
+          class="side-nav-icon icon-query-builder ng-scope"></span>
+        <span class="ng-scope"> Tools</span>
+      </a>
+    </li>
+    <li ng-class="{'is-selected': isActive('/practices/platforms')}">
+      <a class="md-button md-default-theme" ng-transclude="" href="#/practices/platforms" md-button="">
+        <span
+          class="side-nav-icon icon-query-builder ng-scope"></span>
+        <span class="ng-scope"> Platforms</span>
+      </a>
+    </li>
+    <li ng-class="{'is-selected': isActive('/practices/themes')}">
+      <a class="md-button md-default-theme" ng-transclude="" href="#/practices/themes" md-button="">
+        <span
+          class="side-nav-icon icon-query-builder ng-scope"></span>
+        <span class="ng-scope"> Themes</span>
+      </a>
+    </li>
+    <li ng-class="{'is-selected': isActive('/practices/jobs')}">
+      <a class="md-button md-default-theme" ng-transclude="" href="#/practices/jobs" md-button="">
+        <span
+          class="side-nav-icon icon-query-builder ng-scope"></span>
+        <span class="ng-scope"> Jobs</span>
+      </a>
+    </li>
+    <li ng-class="{'is-selected': isActive('/practices/services')}"><a class="md-button md-default-theme"
+                                                                      ng-transclude="" href="#/practices/services"
+                                                                      md-button=""><span
+      class="side-nav-icon icon-list ng-scope"></span><span class="ng-scope"> Service</span></a></li>
+  </ul>
+</nav>
+<div id="practices-content" ui-view></div>

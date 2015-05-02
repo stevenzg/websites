@@ -1,0 +1,11 @@
+<div ng-controller="CtrlCoding" style="margin: 0 30px;">
+  <div ng-repeat="coding in codings | orderBy : 'name'" style="margin-bottom: 30px;">
+    <h3 class="md-display-2">
+      <a style="color: #445A64;" ng-href="{{coding.link}}" target="_blank">{{coding.name}}</a>
+    </h3>
+
+    <p>{{coding.description}}</p>
+
+    <md-divider ng-if="!$last"></md-divider>
+  </div>
+</div>
