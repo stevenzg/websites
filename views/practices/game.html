@@ -1,0 +1,11 @@
+<div ng-controller="CtrlGame" style="margin: 0 30px;">
+  <div ng-repeat="game in games | orderBy : 'name'" style="margin-bottom: 30px;">
+    <h3 class="md-display-2">
+      <a style="color: #445A64;" ng-href="{{game.link}}" target="_blank">{{game.name}}</a>
+    </h3>
+
+    <p>{{game.description}}</p>
+
+    <md-divider ng-if="!$last"></md-divider>
+  </div>
+</div>

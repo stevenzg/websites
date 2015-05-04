@@ -59,6 +59,11 @@
           templateUrl: 'views/practices/frameworks.html',
           title: 'Frameworks'
         },
+        'practices.game': {
+          url: '/game',
+          templateUrl: 'views/practices/game.html',
+          title: 'Game'
+        },
         'practices.libs': {
           url: '/libs',
           templateUrl: 'views/practices/libs.html',

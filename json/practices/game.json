@@ -1,0 +1,32 @@
+[
+  {
+    "name": "HTML5 Game Engines",
+    "link": "https://html5gameengine.com/",
+    "description": "Find Which is Right For You. Compare and contrast the various HTML5 Game Engines to find which best suits your needs."
+  },
+  {
+    "name": "HTML5 Game Development",
+    "link": "http://www.html5gamedevelopment.com/",
+    "description": "Welcome to your one stop shop for information on HTML5 Game Development, news, tutorials, and information. We cover anything that helps you create dynamic, next-generation interactive Desktop and mobile HTML5 games and websites."
+  },
+  {
+    "name": "Clay Games - Play Free HTML5 Mobile Games",
+    "link": "https://clay.io/",
+    "description": "Play mobile games instantly on your phone for free. Clay has the best HTML5 games."
+  },
+  {
+    "name": "Play 248 HTML5 games",
+    "link": "http://www.gameshtml5.net/",
+    "description": "Play now for free 248 HTML5 games"
+  },
+  {
+    "name": "Slime-Volley",
+    "link": "https://github.com/claydotio/Slime-Volley",
+    "description": "A canvas port of the Slime Volleyball Java applet "
+  },
+  {
+    "name": "HTML5 Games - Play for free online",
+    "link": "http://html5games.com/",
+    "description": "Play the best HTML5 games for free. HTML5games.com offers worlds first affiliate program for publishers."
+  }
+]

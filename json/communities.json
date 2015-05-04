@@ -179,5 +179,15 @@
     "name": "CSS Zen Garden",
     "link": "http://www.csszengarden.com/",
     "description": "A demonstration of what can be accomplished visually through CSS-based design."
+  },
+  {
+    "name": "ZURB",
+    "link": "http://zurb.com/studios",
+    "description": "ZURB, creating unique customer and user experiences. We are brand engineers that provide companies with strategic marketing, design and branding solutions.  Work includes identity, branding, information design, web design, illustration, software design, icon design, and multimedia work."
+  },
+  {
+    "name": "Design Shack",
+    "link": "http://designshack.net/",
+    "description": "Inspiring web and print design in our gallery, in-depth articles, freebies, and community."
   }
 ]
