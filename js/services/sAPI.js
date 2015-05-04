@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  angular.module('websites').factory('SitesAPI', function ($http) {
+  angular.module('websites').factory('SitesAPI', ['$http', function ($http) {
     return {
       readJSON: function (strURL) {
         var promise = $http.get(strURL).then(
@@ -16,5 +16,5 @@
         return promise;
       }
     }
-  });
+  }]);
 }());

@@ -10,7 +10,9 @@ var gulp = require('gulp'),
   notify = require('gulp-notify'),
   cache = require('gulp-cache'),
   livereload = require('gulp-livereload'),
-  del = require('del');
+  del = require('del'),
+  htmlmin = require('gulp-htmlmin'),
+  usemin = require('gulp-usemin');
 
 //gulp.task('styles', function() {
 //  return gulp.src('src/styles/main.scss')
@@ -33,4 +35,24 @@ gulp.task('scripts', function() {
     .pipe(uglify())
     .pipe(gulp.dest('dist/assets/js'))
     .pipe(notify({ message: 'Scripts task complete' }));
+});
+
+
+gulp.task('minify', function() {
+  return gulp.src('dev.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(rename('index.html'))
+    .pipe(gulp.dest('../websites'))
+});
+
+gulp.task('usemin', function () {
+  return gulp.src('dev.html')
+    .pipe(htmlmin({collapseWhitespace: true}))
+    .pipe(rename('index.html'))
+    .pipe(usemin({
+      jsvendor: [uglify()],
+      jsmain: [uglify()]
+      // in this case css will be only concatenated (like css: ['concat']).
+    }))
+    .pipe(gulp.dest('../websites'));
 });
