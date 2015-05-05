@@ -1,0 +1,10 @@
+.home-container {
+  padding: 30px 30px
+}
+
+.hero-shadow {
+  width: 100%;
+  -webkit-box-shadow: -8px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    -8px 5px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         -8px 5px 5px 0px rgba(50, 50, 50, 0.75);
+}
