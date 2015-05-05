@@ -14,6 +14,9 @@ var gulp = require('gulp'),
   htmlmin = require('gulp-htmlmin'),
   usemin = require('gulp-usemin');
 
+//,
+//sourcemaps = require('gulp-sourcemaps')
+
 //gulp.task('styles', function() {
 //  return gulp.src('src/styles/main.scss')
 //    .pipe(sass({ style: 'expanded' }))
@@ -45,11 +48,26 @@ gulp.task('minify', function() {
     .pipe(gulp.dest('../websites'))
 });
 
+gulp.task('minify-css', function() {
+  return gulp.src('css/*.css')
+    .pipe(sourcemaps.init())
+    .pipe(minifycss())
+    .pipe(sourcemaps.write())
+    .pipe(gulp.dest('dist'));
+});
+
+
+
+//cssvendor: [minifycss()],
+//cssmain: [minifycss()],
+//.pipe(sourcemaps.init())
 gulp.task('usemin', function () {
   return gulp.src('dev.html')
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(rename('index.html'))
     .pipe(usemin({
+      cssvendor: [minifycss()],
+      cssmain: [minifycss()],
       jsvendor: [uglify()],
       jsmain: [uglify()]
       // in this case css will be only concatenated (like css: ['concat']).
