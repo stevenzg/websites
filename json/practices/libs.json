@@ -163,5 +163,20 @@
     "name": "gulp-htmlmin",
     "link": "https://github.com/jonschlinkert/gulp-htmlmin",
     "description": "gulp plugin to minify HTML."
+  },
+  {
+    "name": "gulp-angular-templatecache",
+    "link": "https://github.com/miickel/gulp-angular-templatecache",
+    "description": "Concatenates and registers AngularJS templates in the $templateCache. "
+  },
+  {
+    "name": "gulp-inject",
+    "link": "https://github.com/klei/gulp-inject",
+    "description": "A javascript, stylesheet and webcomponent injection plugin for Gulp"
+  },
+  {
+    "name": "gulp-rev",
+    "link": "https://github.com/sindresorhus/gulp-rev",
+    "description": "Static asset revisioning by appending content hash to filenames: unicorn.css → unicorn-098f6bcd.css"
   }
 ]

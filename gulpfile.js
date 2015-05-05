@@ -12,7 +12,11 @@ var gulp = require('gulp'),
   livereload = require('gulp-livereload'),
   del = require('del'),
   htmlmin = require('gulp-htmlmin'),
-  usemin = require('gulp-usemin');
+  usemin = require('gulp-usemin'),
+  templateCache = require('gulp-angular-templatecache'),
+  inject = require('gulp-inject'),
+  rev = require('gulp-rev');
+
 
 //,
 //sourcemaps = require('gulp-sourcemaps')
@@ -58,19 +62,44 @@ gulp.task('minify-css', function() {
 
 
 
+gulp.task('clean', function(cb) {
+  del(['dist', 'index.html'], cb);
+});
+
+gulp.task('templatecache', ['clean'], function () {
+  return gulp.src('views/**/*.html')
+    .pipe(templateCache({
+      module:'websites'
+      }))
+    .pipe(rev())
+    .pipe(gulp.dest('dist/templatecache'));
+});
+
 //cssvendor: [minifycss()],
 //cssmain: [minifycss()],
 //.pipe(sourcemaps.init())
-gulp.task('usemin', function () {
+gulp.task('usemin', ['templatecache'], function () {
   return gulp.src('dev.html')
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(rename('index.html'))
     .pipe(usemin({
-      cssvendor: [minifycss()],
-      cssmain: [minifycss()],
-      jsvendor: [uglify()],
-      jsmain: [uglify()]
+      cssvendor: [minifycss(), rev()],
+      cssmain: [minifycss(), rev()],
+      jsvendor: [uglify(), rev()],
+      jsmain: [uglify(), rev()]
       // in this case css will be only concatenated (like css: ['concat']).
     }))
     .pipe(gulp.dest('../websites'));
 });
+
+
+gulp.task('injecttemple', ['usemin'], function () {
+  var target = gulp.src('index.html');
+  // It's not necessary to read the files (will speed up things), we're only after their paths:
+  var sources = gulp.src(['./dist/templatecache/*.js'], {read: false});
+
+  return target.pipe(inject(sources, {relative: true}))
+    .pipe(gulp.dest('../websites'));
+});
+
+gulp.task('gyf1', ['templatecache', 'usemin', 'injecttemple']);
