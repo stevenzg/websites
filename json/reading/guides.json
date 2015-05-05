@@ -68,5 +68,10 @@
     "title": "前端收集",
     "link": "https://github.com/foru17/front-end-collect",
     "description": "分享前端开发相关的优秀网站、博客、以及活跃开发者"
+  },
+  {
+    "title": "getAwesomeness()",
+    "link": "http://getawesomeness.com/",
+    "description": "Use getAwesomeness() to retrieve all amazing awesomeness from Github."
   }
 ]

@@ -138,5 +138,30 @@
     "name": "jsdoc",
     "link": "https://github.com/jsdoc3/jsdoc",
     "description": "An API documentation generator for JavaScript."
+  },
+  {
+    "name": "gulp-minify-css",
+    "link": "https://github.com/jonathanepollack/gulp-minify-css",
+    "description": "A Gulp plugin that minifies css with clean-css"
+  },
+  {
+    "name": "gulp-sourcemaps",
+    "link": "https://github.com/floridoo/gulp-sourcemaps",
+    "description": "Source map support for Gulp.js"
+  },
+  {
+    "name": "gulp-usemin",
+    "link": "https://github.com/zont/gulp-usemin",
+    "description": "Replaces references to non-optimized scripts or stylesheets into a set of HTML files (or any templates/views)."
+  },
+  {
+    "name": "gulp-rename",
+    "link": "https://github.com/hparra/gulp-rename",
+    "description": "Rename files easily"
+  },
+  {
+    "name": "gulp-htmlmin",
+    "link": "https://github.com/jonschlinkert/gulp-htmlmin",
+    "description": "gulp plugin to minify HTML."
   }
 ]
