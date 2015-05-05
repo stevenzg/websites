@@ -69,6 +69,7 @@ gulp.task('clean', function(cb) {
 gulp.task('templatecache', ['clean'], function () {
   return gulp.src('views/**/*.html')
     .pipe(templateCache({
+      root: 'views/',
       module:'websites'
       }))
     .pipe(rev())
