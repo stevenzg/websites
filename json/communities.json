@@ -189,5 +189,10 @@
     "name": "Design Shack",
     "link": "http://designshack.net/",
     "description": "Inspiring web and print design in our gallery, in-depth articles, freebies, and community."
+  },
+  {
+    "name": "Quora",
+    "link": "https://www.quora.com/",
+    "description": "The best answer to any question."
   }
 ]

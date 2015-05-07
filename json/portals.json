@@ -88,5 +88,17 @@
     "logo": "",
     "title": "Line25 Web Design Blog",
     "description": "Line25 provides ideas and inspiration to web creatives, including roundups of cool website designs and tutorials to help you learn new skills."
+  },
+  {
+    "link": "http://www.frontendwebhelp.com/",
+    "logo": "",
+    "title": "Front End Web Help",
+    "description": "HTML, CSS, JavaScript, Accessibility, Cross-browser development"
+  },
+  {
+    "link": "http://www.lanrentuku.com/",
+    "logo": "",
+    "title": "懒人图库",
+    "description": "懒人图库专注于提供网页素材下载，其内容涵盖网页素材，矢量图素材，JS代码，psd素材，导航菜单，PNG图标等，让任何一个网页设计师都能轻松找到自己想要的素材！"
   }
 ]
