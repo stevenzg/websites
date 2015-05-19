@@ -1,10 +1,18 @@
 [
+
   {
     "name" : "Nicholas C. Zakas",
     "site" : "http://www.nczonline.net/",
     "avatar" : "nczonline.net.jpg",
     "github": "https://github.com/nzakas/",
     "description": "Nicholas C. Zakas is a front-end engineer, author, and speaker. He currently works at Box making the web application awesome. Prior to that, he worked at Yahoo! for almost five years, where he was front-end tech lead for the Yahoo! homepage and a contributor to the YUI library."
+  },
+  {
+    "name" : "Yan Qing",
+    "site" : "https://github.com/zensh",
+    "avatar" : "zensh.jpg",
+    "github": "https://github.com/zensh",
+    "description": ""
   },
   {
     "name" : "Douglas Crockford",
