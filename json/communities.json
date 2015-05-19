@@ -199,5 +199,10 @@
     "name": "AngularJS中文社区",
     "link": "http://angularjs.cn/",
     "description": "使用超动感HTML & JS开发WEB应用！"
+  },
+  {
+    "name": "F2E",
+    "link": "http://f2e.im/",
+    "description": "前端技术社区"
   }
 ]
