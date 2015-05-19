@@ -170,6 +170,11 @@
     "description": "Concatenates and registers AngularJS templates in the $templateCache. "
   },
   {
+    "name": "JSLite",
+    "link": "http://jslite.io/",
+    "description": "与jQuery有着类似的api，让web开发更迅速，下载执行更快、量级更轻，针对现代高级浏览器的JavaScript库。"
+  },
+  {
     "name": "gulp-inject",
     "link": "https://github.com/klei/gulp-inject",
     "description": "A javascript, stylesheet and webcomponent injection plugin for Gulp"
