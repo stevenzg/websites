@@ -55,11 +55,6 @@
     "description": "A framework for creating ambitious web applications."
   },
   {
-    "name": "Ember.js",
-    "link": "http://emberjs.com/",
-    "description": "A framework for creating ambitious web applications."
-  },
-  {
     "name": "Foundation",
     "link": "http://foundation.zurb.com/",
     "description": "The Most Advanced Responsive Front-end Framework from ZURB. Documentation and reference library for ZURB Foundation. JavaScript, CSS, components, grid and more."

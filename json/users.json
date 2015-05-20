@@ -188,5 +188,12 @@
     "avatar" : "necolas.jpg",
     "github": "https://github.com/necolas",
     "description": ""
+  },
+  {
+    "name" : "司徒正美",
+    "site" : "https://github.com/RubyLouvre",
+    "avatar" : "RubyLouvre.jpg",
+    "github": "https://github.com/RubyLouvre",
+    "description": ""
   }
 ]
