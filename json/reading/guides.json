@@ -73,5 +73,10 @@
     "title": "getAwesomeness()",
     "link": "http://getawesomeness.com/",
     "description": "Use getAwesomeness() to retrieve all amazing awesomeness from Github."
+  },
+  {
+    "title": "fks",
+    "link": "https://github.com/JacksonTian/fks",
+    "description": "前端技能汇总 Frontend Knowledge Structure"
   }
 ]
