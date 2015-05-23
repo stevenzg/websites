@@ -195,5 +195,12 @@
     "avatar" : "RubyLouvre.jpg",
     "github": "https://github.com/RubyLouvre",
     "description": ""
+  },
+  {
+    "name" : "Dafeng",
+    "site" : "https://github.com/dfguo",
+    "avatar" : "dfguo.jpg",
+    "github": "https://github.com/dfguo",
+    "description": ""
   }
 ]
