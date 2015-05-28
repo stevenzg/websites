@@ -202,5 +202,12 @@
     "avatar" : "dfguo.jpg",
     "github": "https://github.com/dfguo",
     "description": ""
+  },
+  {
+    "name" : "TJ Holowaychuk",
+    "site" : "https://github.com/tj",
+    "avatar" : "tj.jpg",
+    "github": "https://github.com/tj",
+    "description": ""
   }
 ]
