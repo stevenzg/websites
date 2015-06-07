@@ -209,5 +209,12 @@
     "avatar" : "tj.jpg",
     "github": "https://github.com/tj",
     "description": ""
+  },
+  {
+    "name" : "James Burke",
+    "site" : "http://jrburke.com/",
+    "avatar" : "jrburke.jpeg",
+    "github": "https://github.com/jrburke",
+    "description": ""
   }
 ]
