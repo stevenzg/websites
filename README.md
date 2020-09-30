@@ -8,7 +8,7 @@ There are already existed some awesome collections, like [js-the-right-way](http
 
 However, I want to do some stuff more like bookmarks for web developers.
 
-# Advanced using
+# Advanced Tools
 Firefox Addon
 
 If you want to install this bookmark to Firefox Addons.
