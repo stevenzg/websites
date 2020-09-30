@@ -1,6 +1,6 @@
 There are so many good developer sites, just like a sea.
 
-# Websites
+# Amazing Websites projects
 Collection of web sites that web developer should know. [Click Me](http://gyf1.com/websites)
 
 # Background
